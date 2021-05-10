@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.750.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>O. mykiss passages 2005-2020</shortName>
+    <title>O. mykiss passages at the Stanislaus River weir, 2005-2020</title>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Hellmair</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Matt</givenName>
+        <surName>Peterson</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>mattpeterson@fishbio.com</electronicMailAddress>
+      <role>researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Andrea</givenName>
+        <surName>Fuller</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
+      <role>principal investigator</role>
+    </associatedParty>
+    <pubDate>2021-05-10</pubDate>
+    <abstract>
+      <para>
+    The Central Valley Project Improvement Act (CVPIA) provides funds to
+    aid the San Joaquin Basin Steelhead Collaborative and initiate a
+    Steelhead Life-Cycle Monitoring Program. This dataset includes
+    observations of </para>
+      <para>
+        <emphasis>O. mykiss</emphasis>
+      </para>
+      <para> in the Stanislaus
+    River during the steelhead spawning migration period, September
+    through May. Fish are observed at an Alaskan-style weir outfitted
+    with a VAKI Riverwatcher fish counting device. The counting device
+    provides visual records of upstream passing individuals that are
+    later reviewed by an experienced biologist. During times when the
+    counting device is offline, a continuous video feed is reviewed to
+    provide counts and identifications of passing fish. The length of
+    passing fish is estimated using a known body depth to length ratio
+    derived from individuals trapped and measured at the weir. The weir
+    also has a trap box that, when closed, allows investogators to
+    physically capture fish for measurements, biological sample
+    collection, and injection of a PIT tag. There is also a PIT tag
+    antenna affixed to the weir allowing detection of PIT tagged fish.
+    There are three datasets currently associated with this project, 1)
+    passage data for all </para>
+      <para> from 2005
+    through 2020, 2) </para>
+      <para> that were captured
+    and processed from the trap, and 3) PIT tag detections from the PIT
+    antenna.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Stanislaus River</keyword>
+      <keyword>VAKI Riverwatcher</keyword>
+      <keyword>Alaskan-style weir</keyword>
+      <keyword>O. mykiss</keyword>
+      <keyword>Steelhead</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Stanislaus River approximately 53 km upstream of the San Joaquin River confluence</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.9718</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.9718</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.7473</northBoundingCoordinate>
+          <southBoundingCoordinate>37.7473</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-01-09</calendarDate>
+          </beginDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Teleostei</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Salmoniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Salmonidae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Oncorhynchus</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Oncorhynchus mykiss</taxonRankValue>
+                      <commonName>Steelhead Trout</commonName>
+                      <taxonId provider="https://itis.gov"/>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Hellmair</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Weir Methods</title>
+            <para>
+      Specific details regarding the Alaskan-style weir, VAKI
+      Riverwatcher, and counting device sources of error are provided in
+      the Stanislaus River Adult Steelhead Monitoring Plan submitted to
+      USBR by FISHBIO.
+    </para>
+            <para>
+      Data from the VAKI Riverwatcher are downloaded and reviewed daily
+      during the peak Chinook passage (1 Oct to 15 Dec) in order to
+      reduce possibility of missing steelhead passages.
+    </para>
+          </section>
+          <section>
+            <title>Biological Sample Collection</title>
+            <para>
+      Individual <emphasis>O. mykiss</emphasis> whether steelhead or
+      freshwater resident captured when operating the weir trap will be
+      processed according to details described in the monitoring plan.
+      All individuals will be scanned for a previous PIT tag, and if not
+      present, a tag will be implanted in the individuals. Biological
+      samples collected from all <emphasis>O. mykiss</emphasis> include
+      scales and a small amount of caudal fin tissue (&lt;1
+      cm<superscript>2</superscript>). Scales will be pulled from the
+      dorsum near the base of the caudal fin, placed on square piece of
+      plain white copy paper and placed in a labeled specimen envelope.
+      Caudal fin tissue will be placed in a sample tube with 95%
+      ethanol.
+    </para>
+          </section>
+          <section>
+            <title>PIT Tag detections</title>
+            <para>
+      The operational status of the PIT tag antenna will be checked
+      daily during regular weir checks. Data from the antenna will be
+      downloaded monthly and processed to remove indicator tag numbers.
+    </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>O. mykiss passages 2005-2020</title>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <surName>Hellmair</surName>
+        </individualName>
+        <organizationName>FISHBIO</organizationName>
+        <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
+        <role>Project Lead</role>
+      </personnel>
+      <award>
+        <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
+        <funderName>Tri Dam Project</funderName>
+        <funderName.1>United States Bureau of Reclamation</funderName.1>
+        <title>Lifecycle monitoring: Stanislaus River Weir</title>
+        <title.1>Monitoring Adult Anadromous O. mykiss in the Lower San Joaquin and Stanislaus River</title.1>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>FISHBIO_RBT_weir_passages.csv</entityName>
+      <entityDescription>FISHBIO Weir passages</entityDescription>
+      <physical>
+        <objectName>FISHBIO_RBT_weir_passages.csv</objectName>
+        <size unit="bytes">34310</size>
+        <authentication method="MD5">3a36f258bd6479897c88eeb851615332</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>PassageDate</attributeName>
+          <attributeDefinition>Date when individual was counted as passing</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">38361</minimum>
+                  <maximum exclusive="false">44196</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PassageTime</attributeName>
+          <attributeDefinition>Time when passing fish was recorded</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">NA</minimum>
+                  <maximum exclusive="false">NA</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>PassageDIrection</attributeName>
+          <attributeDefinition>The direction that a fish moved through the weir</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The direction that a fish moved through the weir</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Species</attributeName>
+          <attributeDefinition>Species of fish recorded passing the weir</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species of fish recorded passing the weir</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>BodyDepth</attributeName>
+          <attributeDefinition>Depth of the body measured at insertion of the dorsal fin</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LengthCoefficient</attributeName>
+          <attributeDefinition>Emperical coefficient used to estimate fish length</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TotalLength</attributeName>
+          <attributeDefinition>Estimated total length of fish passing through the weir</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">10000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LifeStage</attributeName>
+          <attributeDefinition>Degree of maturity of recoded fish</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Degree of maturity of recoded fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Count</attributeName>
+          <attributeDefinition>Count of fish passing through the weir</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>interger</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sex</attributeName>
+          <attributeDefinition>Sex of individual if applicable</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sex of individual if applicable</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>AdClip</attributeName>
+          <attributeDefinition>Whether or not the adipose fin has been clipped</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether or not the adipose fin has been clipped</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Condition</attributeName>
+          <attributeDefinition>Condition used to indicate health of passing individual</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Condition used to indicate health of passing individual</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>IDCertainty</attributeName>
+          <attributeDefinition>Level of certainty in species identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Level of certainty in species identification</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>SilhouetteQuality</attributeName>
+          <attributeDefinition>Indicator of quality of counting device silhouette based identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicator of quality of counting device silhouette based identification</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VideoQuality</attributeName>
+          <attributeDefinition>Indicator of quality of video image used for identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicator of quality of video image used for identification</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>VideoProblem</attributeName>
+          <attributeDefinition>Indicator of problems with video monitoring</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Indicator of problems with video monitoring</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Device</attributeName>
+          <attributeDefinition>Whether individual was counted using counting device, trap, or temporary video</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether individual was counted using counting device, trap, or temporary video</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Comments</attributeName>
+          <attributeDefinition>Any additional comments describing the passage record</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any additional comments describing the passage record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>470</numberOfRecords>
+    </dataTable>
+  </dataset>
+</eml:eml>
