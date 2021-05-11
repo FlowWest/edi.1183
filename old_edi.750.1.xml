@@ -41,11 +41,7 @@
     The Central Valley Project Improvement Act (CVPIA) provides funds to
     aid the San Joaquin Basin Steelhead Collaborative and initiate a
     Steelhead Life-Cycle Monitoring Program. This dataset includes
-    observations of </para>
-      <para>
-        <emphasis>O. mykiss</emphasis>
-      </para>
-      <para> in the Stanislaus
+    observations of <emphasis>O. mykiss</emphasis> in the Stanislaus
     River during the steelhead spawning migration period, September
     through May. Fish are observed at an Alaskan-style weir outfitted
     with a VAKI Riverwatcher fish counting device. The counting device
@@ -59,12 +55,11 @@
     physically capture fish for measurements, biological sample
     collection, and injection of a PIT tag. There is also a PIT tag
     antenna affixed to the weir allowing detection of PIT tagged fish.
-    There are three datasets currently associated with this project, 1)
-    passage data for all </para>
-      <para> from 2005
-    through 2020, 2) </para>
-      <para> that were captured
-    and processed from the trap, and 3) PIT tag detections from the PIT
+    There is currently one dataset associated with this project:
+    passage data for all <emphasis>O. mykiss</emphasis> from 2005
+    through 2020, two additional datasets will be added when collection is complete
+    1) <emphasis>O. mykiss</emphasis> that were captured
+    and processed from the trap, and 2) PIT tag detections from the PIT
     antenna.
   </para>
     </abstract>
@@ -165,31 +160,6 @@
       reduce possibility of missing steelhead passages.
     </para>
           </section>
-          <section>
-            <title>Biological Sample Collection</title>
-            <para>
-      Individual <emphasis>O. mykiss</emphasis> whether steelhead or
-      freshwater resident captured when operating the weir trap will be
-      processed according to details described in the monitoring plan.
-      All individuals will be scanned for a previous PIT tag, and if not
-      present, a tag will be implanted in the individuals. Biological
-      samples collected from all <emphasis>O. mykiss</emphasis> include
-      scales and a small amount of caudal fin tissue (&lt;1
-      cm<superscript>2</superscript>). Scales will be pulled from the
-      dorsum near the base of the caudal fin, placed on square piece of
-      plain white copy paper and placed in a labeled specimen envelope.
-      Caudal fin tissue will be placed in a sample tube with 95%
-      ethanol.
-    </para>
-          </section>
-          <section>
-            <title>PIT Tag detections</title>
-            <para>
-      The operational status of the PIT tag antenna will be checked
-      daily during regular weir checks. Data from the antenna will be
-      downloaded monthly and processed to remove indicator tag numbers.
-    </para>
-          </section>
         </description>
       </methodStep>
     </methods>
@@ -205,15 +175,13 @@
         <role>Project Lead</role>
       </personnel>
       <award>
-        <award>
-          <funderName>Tri Dam Project</funderName>
-          <title>Lifecycle monitoring: Stanislaus River Weir</title>
-        </award>
-        <award.1>
-          <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
-          <funderName>United States Bureau of Reclamation</funderName>
-          <title>Monitoring Adult Anadromous O. mykiss in the Lower San Joaquin and Stanislaus River</title>
-        </award.1>
+        <funderName>United States Bureau of Reclamation</funderName>
+        <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
+        <title>Monitoring Adult Anadromous O. mykiss in the Lower San Joaquin and Stanislaus River</title>
+      </award>
+      <award>
+        <funderName>Tri Dam Project</funderName>
+        <title>Lifecycle monitoring: Stanislaus River Weir</title>
       </award>
     </project>
     <dataTable>

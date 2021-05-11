@@ -101,7 +101,7 @@ award_information <- purrr::pmap(metadata$funding, add_funding) %>% flatten()
 
 project <- add_project(list(),
                        project_title = metadata$title$short_name,
-                       award_information,
+                       award_information = award_information,
                        project_personnel)
 
 ### Add Coverage: Geographic, Temporal, Taxonomic ------------------------------
