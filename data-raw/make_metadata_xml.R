@@ -103,6 +103,11 @@ project <- add_project(list(),
                        project_title = metadata$title$short_name,
                        award_information = award_information,
                        project_personnel)
+### HACKY FIX FOR MULTIPLE AWARDS
+## TODO come up with real fix
+project$project$award <- NULL
+award_information <- purrr::pmap(metadata$funding, add_funding)
+project$project$award <- award_information
 
 ### Add Coverage: Geographic, Temporal, Taxonomic ------------------------------
 taxonomic_coverage <- purrr::pmap(metadata$taxonomic_coverage, add_taxonomic_coverage)

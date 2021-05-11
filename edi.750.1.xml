@@ -205,15 +205,13 @@
         <role>Project Lead</role>
       </personnel>
       <award>
-        <award>
-          <funderName>Tri Dam Project</funderName>
-          <title>Lifecycle monitoring: Stanislaus River Weir</title>
-        </award>
-        <award.1>
-          <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
-          <funderName>United States Bureau of Reclamation</funderName>
-          <title>Monitoring Adult Anadromous O. mykiss in the Lower San Joaquin and Stanislaus River</title>
-        </award.1>
+        <funderName>Tri Dam Project</funderName>
+        <title>Lifecycle monitoring: Stanislaus River Weir</title>
+      </award>
+      <award>
+        <funderName>United States Bureau of Reclamation</funderName>
+        <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
+        <title>Monitoring Adult Anadromous O. mykiss in the Lower San Joaquin and Stanislaus River</title>
       </award>
     </project>
     <dataTable>
