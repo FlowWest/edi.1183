@@ -35,7 +35,7 @@
       <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
       <role>principal investigator</role>
     </associatedParty>
-    <pubDate>2021-05-11</pubDate>
+    <pubDate>2021-05-14</pubDate>
     <abstract>
       <para>
     The Central Valley Project Improvement Act (CVPIA) provides funds to
@@ -194,14 +194,13 @@
       </methodStep>
     </methods>
     <project>
-      <title>O. mykiss passages 2005-2020</title>
+      <title>O. mykiss passages at the Stanislaus River weir, 2005-2020</title>
       <personnel>
         <individualName>
           <givenName>Michael</givenName>
           <surName>Hellmair</surName>
         </individualName>
         <organizationName>FISHBIO</organizationName>
-        <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
         <role>Project Lead</role>
       </personnel>
       <award>
@@ -216,11 +215,11 @@
     </project>
     <dataTable>
       <entityName>FISHBIO_RBT_weir_passages.csv</entityName>
-      <entityDescription>FISHBIO Weir passages</entityDescription>
+      <entityDescription>Weir Passage Data</entityDescription>
       <physical>
         <objectName>FISHBIO_RBT_weir_passages.csv</objectName>
-        <size unit="bytes">34310</size>
-        <authentication method="MD5">3a36f258bd6479897c88eeb851615332</authentication>
+        <size unit="bytes">36278</size>
+        <authentication method="MD5">58146ee6e049632c3b2223d4397a878e</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>

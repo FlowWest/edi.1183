@@ -14,248 +14,35 @@ names(metadata) <- sheets
 
 abstract_docx <- "data-raw/FISHBIO submission/FISHBIO_abstract.docx"
 methods_docx <- "data-raw/FISHBIO submission/FISHBIO_methods.docx"
-dataset_file <- "data-raw/FISHBIO submission/FISHBIO_RBT_weir_passages.csv"
 
-dataset_file_name <- "FISHBIO_RBT_weir_passages.csv"
-# dO ALL DATASETS
-#   dataset_files <- dplyr::tibble(datatable =c("data/README.md",
-#                                               "data/enclosure-study-gut-contents-data.csv",
-#                                               "data/microhabitat-use-data-2018-2020.csv",
-#                                               "data/seining-weight-lengths-2018-2020.csv",
-#                                               "data/snorkel-index-data-2015-2020.csv"
-# ),
-# datatable_name = c("enclosure-study-growth-rate-data.csv",
-#                    "enclosure-study-gut-contents-data.csv",
-#                    "microhabitat-use-data-2018-2020.csv",
-#                    "seining-weight-lengths-2018-2020.csv",
-#                    "snorkel-index-data-2015-2020.csv"
-# ),
-# attribute_info = c("data-raw/mandy-salmanid-habitat-monitoring/Enclosure Study - Growth Rates/enclosure-study-growth-rates-metadata.xlsx",
-#                    "data-raw/mandy-salmanid-habitat-monitoring/Enclosure Study - Gut Contents/enclosure-study-gut-contents-metadata.xlsx",
-#                    "data-raw/mandy-salmanid-habitat-monitoring/Microhabitat Use Data/microhabitat-use-metadata.xlsx",
-#                    "data-raw/mandy-salmanid-habitat-monitoring/Seining Data/seining-weight-length-metadata.xlsx",
-#                    "data-raw/mandy-salmanid-habitat-monitoring/Snorkel Index Data/snorkel-index-metadata.xlsx"
-# ),
-# description = c("Growth Rates - Enclosure Study",
-#                 "Gut Contents - Enclosure Study",
-#                 "Microhabitat Data",
-#                 "Seining Weight Lengths Data",
-#                 "Snorkel Survey Data"
-# ),
-# github_url = c("https://raw.githubusercontent.com/FlowWest/CVPIA_Salmonid_Habitat_Monitoring/make-xml/data/enclosure-study-growth-rate-data.csv?token=AMGEQ7R4E5RMNKRMD57BBQTAOSW6W",
-#                "https://raw.githubusercontent.com/FlowWest/CVPIA_Salmonid_Habitat_Monitoring/make-xml/data/enclosure-study-gut-contents-data.csv?token=AMGEQ7VJADFEYARKPUM4AYTAOSXAQ",
-#                "https://raw.githubusercontent.com/FlowWest/CVPIA_Salmonid_Habitat_Monitoring/make-xml/data/microhabitat-use-data-2018-2020.csv?token=AMGEQ7WQ3NCY62J75HI3BULAOSXB6",
-#                "https://raw.githubusercontent.com/FlowWest/CVPIA_Salmonid_Habitat_Monitoring/make-xml/data/seining-weight-lengths-2018-2020.csv?token=AMGEQ7SOD4FLW2SOIZ373CDAOSXDQ",
-#                "https://raw.githubusercontent.com/FlowWest/CVPIA_Salmonid_Habitat_Monitoring/make-xml/data/snorkel-index-data-2015-2020.csv?token=AMGEQ7SOHIYOGP3MDE2AB4DAOSXFI")
-#
-# )
+datatable_metadata <- list(filepath =  "data/FISHBIO_RBT_weir_passages.csv",
+                           attribute_info = "data-raw/FISHBIO submission/FISHBIO_passage_metadata.xlsx",
+                           datatable_description = "Weir Passage Data")
 
 # EDI number -------------------------------------------------------------------
 edi_number = "edi.750.1"
 
 # Add Access -------------------------------------------------------------------
-access <- add_access()
+# Create dataset list and pipe on metadata elements
+dataset <- list() %>%
+  add_pub_date() %>%
+  add_title(metadata$title) %>%
+  add_personnel(metadata$personnel) %>%
+  add_keyword_set(metadata$keyword_set) %>%
+  add_abstract(abstract_docx) %>%
+  add_license(metadata$license) %>%
+  add_method(methods_docx) %>%
+  add_maintenance(metadata$maintenance) %>%
+  add_project(metadata$funding) %>%
+  add_coverage(metadata$coverage, metadata$taxonomic_coverage) %>%
+  add_datatable(datatable_metadata)
 
-### Add Publication Date -------------------------------------------------------
-pub_date <- add_pub_date(list())
-
-### Add Personnel: Creator, Contact, and Associated Parties.--------------------
-personnel <- list()
-adds_person <- function(first_name, last_name, email, role, organization, orcid) {
-  personnel <- add_personnel(personnel, first_name, last_name, email,
-                             role, organization, orcid)
-}
-personnel <- purrr::pmap(metadata$personnel, adds_person) %>% flatten()
-
-### Add Title and Short Name ---------------------------------------------------
-title <- add_title(list(), title = metadata$title$title,
-                   short_name = metadata$title$short_name)
-
-### Add Keyword Set ------------------------------------------------------------
-keywords <- add_keyword_set(list(), metadata$keyword_set[,1])
-
-### Add Abstract ---------------------------------------------------------------
-abstract <- add_abstract(list(), abstract = abstract_docx)
-
-### Add License and Intellectual Rights ----------------------------------------
-license <- add_license(list(), default_license = metadata$license$default_license)
-
-### Add Methods ----------------------------------------------------------------
-methods <- add_method(list(), methods_file = methods_docx)
-
-### Add Maintenance
-
-maintenance <- add_maintenance(list(), status = metadata$maintenance$status,
-                               update_frequency = metadata$maintenance$update_frequency)
-
-### Add Project:
-
-#### Add Project personnel -----------------------------------------------------
-project_personnel <- personnel$creator[1:3]
-
-
-#### Add Project funding -------------------------------------------------------
-award_information <- purrr::pmap(metadata$funding, add_funding) %>% flatten()
-
-#### Add Combining Project Elements --------------------------------------------
-
-project <- add_project(list(),
-                       project_title = metadata$title$short_name,
-                       award_information = award_information,
-                       project_personnel)
-### HACKY FIX FOR MULTIPLE AWARDS
-## TODO come up with real fix
-project$project$award <- NULL
-award_information <- purrr::pmap(metadata$funding, add_funding)
-project$project$award <- award_information
-
-### Add Coverage: Geographic, Temporal, Taxonomic ------------------------------
-taxonomic_coverage <- purrr::pmap(metadata$taxonomic_coverage, add_taxonomic_coverage)
-
-#### Add Combining Coverage Elements -------------------------------------------
-coverage <- add_coverage(list(),
-                         geographic_description = metadata$coverage$geographic_description,
-                         west_bounding_coordinate = metadata$coverage$west_bounding_coordinate,
-                         east_bounding_coordinate = metadata$coverage$east_bounding_coordinate,
-                         north_bounding_coordinate = metadata$coverage$north_bounding_coordinate,
-                         south_bounding_coordinate = metadata$coverage$south_bounding_coordinate,
-                         begin_date = metadata$coverage$begin_date,
-                         end_date = metadata$coverage$end_date,
-                         taxonomic_coverage = taxonomic_coverage)
-
-### Add DataTable or SpatialRaster or SpatialVector ----------------------------
-#### Add data tables -----------------------------------------------------------
-# Create helper function to add code definitions if domain is "enumerated"
-# adds_datatable <- function(datatable, datatable_name, description, attribute_info, github_url,
-#                            dataset_methods = NULL, additional_info = NULL){
-#   attribute_table <- readxl::read_xlsx(attribute_info, sheet = "attribute")
-#   codes <- readxl::read_xlsx(attribute_info, sheet = "code_definitions")
-#   attribute_list <- list()
-#   attribute_names <- unique(codes$attribute_name)
-#
-#   # Code helper function
-#   code_helper <- function(code, definitions) {
-#     codeDefinition <- list(code = code, definition = definitions)
-#   }
-#   # Attribute helper function to input into pmap
-#   attributes_and_codes <- function(attribute_name, attribute_definition, storage_type,
-#                                    measurement_scale, domain, type, units, unit_precision,
-#                                    number_type, date_time_format, date_time_precision, minimum, maximum,
-#                                    attribute_label){
-#     if (domain %in% "enumerated") {
-#       definition <- list()
-#       current_codes <- codes[codes$attribute_name == attribute_name, ]
-#       definition$codeDefinition <- purrr::pmap(current_codes %>% select(-attribute_name), code_helper)
-#     } else {
-#       definition = attribute_definition
-#     }
-#     new_attribute <- EMLaide::add_attribute(attribute_name = attribute_name, attribute_definition = attribute_definition,
-#                                             storage_type = storage_type, measurement_scale = measurement_scale,
-#                                             domain = domain, definition = definition, type = type, units = units,
-#                                             unit_precision = NULL, number_type = number_type,
-#                                             date_time_format = date_time_format, date_time_precision = date_time_precision,
-#                                             minimum = minimum, maximum = maximum, attribute_label = attribute_label)
-#   }
-#   attribute_list$attribute <- purrr::pmap(attribute_table, attributes_and_codes) %>% na.omit()
-#
-#   physical <- add_physical(file_path = datatable, data_url = github_url)
-#   dataTable <- list(entityName = datatable_name,
-#                     entityDescription = description,
-#                     physical = physical,
-#                     attributeList = attribute_list,
-#                     numberOfRecords = nrow(read_csv(datatable)))
-# }
-# data_tables <- purrr::pmap(dataset_files, adds_datatable)
-physical <- add_physical(file_path = dataset_file)
-
-# Create helper function to add code definitions if domain is "enumerated"
-code_helper <- function(code, definitions, attribute_name) {
-  codeDefinition <- list(code = code, definition = definitions)
-}
-
-attribute_list <- list()
-# Adds both enumerated and non enumerated attributes
-adds_attribute <- function(attribute_name, attribute_definition, storage_type,
-                           measurement_scale, domain, type, units,
-                           unit_precision, number_type, date_time_format,
-                           date_time_precision, minimum, maximum,
-                           attribute_label){
-  # If statement adds definition for enumerated attribute using code_helper()
-  if (domain %in% "enumerated") {
-    definition <- list()
-    codes <- metadata$code_definitions
-    current_codes <- codes[codes$attribute_name == attribute_name, ]
-    definition$codeDefinition <- purrr::pmap(current_codes, code_helper)
-    # Else statement adds definition for non-enumerated attribute
-  } else {
-    definition = attribute_definition
-  }
-  new_attribute <- add_attribute(attribute_name = attribute_name,
-                                 attribute_definition = attribute_definition,
-                                 storage_type = storage_type,
-                                 measurement_scale = measurement_scale,
-                                 domain = domain, definition = definition,
-                                 type = type, units = units,
-                                 unit_precision = unit_precision,
-                                 number_type = number_type,
-                                 date_time_format = date_time_format,
-                                 date_time_precision = date_time_precision,
-                                 minimum = minimum, maximum = maximum,
-                                 attribute_label = attribute_label)
-}
-# Maps through entire attribute sheet adding to attribute_list
-attribute_list$attribute <- purrr::pmap(metadata$attribute, adds_attribute)
-
-dataTable <- list(entityName = dataset_file_name,
-                  entityDescription = metadata$dataset$name,
-                  physical = physical,
-                  attributeList = attribute_list,
-                  numberOfRecords = nrow(read_csv(dataset_file)))
-# Adds shp zip folder as other entity ------------------------------------------
-# physical <- add_physical(file_path = shp_file, data_url = NULL)
-# otherEntity <- list(entityName = "20200115SacFishPositionShapefile.zip",
-#                     entityDescription = "A shp file containing the positons of fish studied in this dataset",
-#                     entityType = "shp file",
-#                     physical = physical)
-
-# Adding additional metadata with custom units ---------------------------------
-# TODO make a function to take care of cutom units
-# custom_units <- data.frame(id = c("fishPerEnclosure", "thermal unit", "day", "fishPerSchool"),
-#                            unitType = c("density", "temperature", "dimensionless", "density"),
-#                            parentSI = c(NA, NA, NA, NA),
-#                            multiplierToSI = c(NA, NA, NA, NA),
-#                            description = c("Fish density in the enclosure, number of fish in total enclosure space",
-#                                            "thermal unit of energy given off of fish",
-#                                            "count of number of days that go by",
-#                                            "Number of fish counted per school"))
-
-# unitList <- set_unitList(custom_units)
-
-# Appending all to dataset list
-
-dataset <- list(title = title$title,
-                shortName = title$shortName,
-                creator = personnel$creator,
-                contact = personnel$contact,
-                pubDate = pub_date,
-                abstract = abstract$abstract,
-                associatedParty = list(personnel[[3]], personnel[[4]]),
-                keywordSet = keywords$keywordSet,
-                coverage = coverage$coverage,
-                project = project$project,
-                intellectualRights = license$intellectualRights,
-                licensed = license$licensed,
-                methods = methods,
-                maintenance = maintenance$maintenance,
-                dataTable = dataTable)
-
-## Making the EML document -----------------------------------------------------
-eml <- list(packageId = edi_number,
+# Add dataset and additiobal elements of eml to eml list
+eml <- list(packageId = "edi.750.1",
             system = "EDI",
-            access = access,
+            access = add_access(),
             dataset = dataset)
 
-file_name <- paste(edi_number, "xml", sep = ".")
-EML::write_eml(eml, file_name)
-EML::eml_validate(file_name)
-
+# Write and validate EML
+EML::write_eml(eml, "edi.750.1.xml")
+EML::eml_validate("edi.750.1.xml")
