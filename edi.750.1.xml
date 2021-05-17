@@ -35,17 +35,13 @@
       <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
       <role>principal investigator</role>
     </associatedParty>
-    <pubDate>2021-05-14</pubDate>
+    <pubDate>2021-05-17</pubDate>
     <abstract>
       <para>
     The Central Valley Project Improvement Act (CVPIA) provides funds to
     aid the San Joaquin Basin Steelhead Collaborative and initiate a
     Steelhead Life-Cycle Monitoring Program. This dataset includes
-    observations of </para>
-      <para>
-        <emphasis>O. mykiss</emphasis>
-      </para>
-      <para> in the Stanislaus
+    observations of <emphasis>O. mykiss</emphasis> in the Stanislaus
     River during the steelhead spawning migration period, September
     through May. Fish are observed at an Alaskan-style weir outfitted
     with a VAKI Riverwatcher fish counting device. The counting device
@@ -59,12 +55,11 @@
     physically capture fish for measurements, biological sample
     collection, and injection of a PIT tag. There is also a PIT tag
     antenna affixed to the weir allowing detection of PIT tagged fish.
-    There are three datasets currently associated with this project, 1)
-    passage data for all </para>
-      <para> from 2005
-    through 2020, 2) </para>
-      <para> that were captured
-    and processed from the trap, and 3) PIT tag detections from the PIT
+    There is currently one dataset associated with this project,
+    passage data for all <emphasis>O. mykiss</emphasis> from 2005
+    through 2020. Two additional datasets will be added when collection is complete:
+    1) <emphasis>O. mykiss</emphasis> that were captured
+    and processed from the trap and 2) PIT tag detections from the PIT
     antenna.
   </para>
     </abstract>
@@ -74,6 +69,7 @@
       <keyword>Alaskan-style weir</keyword>
       <keyword>O. mykiss</keyword>
       <keyword>Steelhead</keyword>
+      <keyword>CVPIA</keyword>
     </keywordSet>
     <intellectualRights>
       <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
@@ -218,8 +214,8 @@
       <entityDescription>Weir Passage Data</entityDescription>
       <physical>
         <objectName>FISHBIO_RBT_weir_passages.csv</objectName>
-        <size unit="bytes">36278</size>
-        <authentication method="MD5">58146ee6e049632c3b2223d4397a878e</authentication>
+        <size unit="bytes">36215</size>
+        <authentication method="MD5">d24dadb8318d76e1ccaa3954c1a2283f</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -270,14 +266,21 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>PassageDIrection</attributeName>
+          <attributeName>PassageDirection</attributeName>
           <attributeDefinition>The direction that a fish moved through the weir</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>The direction that a fish moved through the weir</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>UP</code>
+                    <definition>Upstream passage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DOWN</code>
+                    <definition>Downstream passage</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -288,9 +291,16 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Species of fish recorded passing the weir</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>RBT</code>
+                    <definition>Rainbow trout/Steelhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NO FISH</code>
+                    <definition>Counting device was triggered by object that was not a fish</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -355,9 +365,24 @@
           <measurementScale>
             <ordinal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Degree of maturity of recoded fish</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>J</code>
+                    <definition>Juvenile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1+</code>
+                    <definition>Age 1+</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>A</code>
+                    <definition>Adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>K</code>
+                    <definition>Kelt</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </ordinal>
           </measurementScale>
@@ -386,9 +411,20 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Sex of individual if applicable</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>M</code>
+                    <definition>Male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>F</code>
+                    <definition>Female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNK</code>
+                    <definition>Sex undetermined</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -399,9 +435,20 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Whether or not the adipose fin has been clipped</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>N</code>
+                    <definition>Adipose fin present, not clipped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Y</code>
+                    <definition>Adipose fin clipped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UNK</code>
+                    <definition>Status of adipose fin unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -412,9 +459,12 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Condition used to indicate health of passing individual</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GOOD</code>
+                    <definition>Individual was in good condition upon passage or release</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -425,9 +475,20 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Level of certainty in species identification</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>P</code>
+                    <definition>Positive identification</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VL</code>
+                    <definition>Identification very likely</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>L</code>
+                    <definition>Identification likely</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -438,9 +499,24 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Indicator of quality of counting device silhouette based identification</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GOOD</code>
+                    <definition>Vaki sillouette clearly shows fish outline</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FAIR</code>
+                    <definition>Vaki sillouette partially shows fish outline</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOR</code>
+                    <definition>Vaki sillouette is very distorted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NONE</code>
+                    <definition>No Vaki sillouette available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -451,22 +527,68 @@
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Indicator of quality of video image used for identification</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GOOD</code>
+                    <definition>Video image clear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FAIR</code>
+                    <definition>Video image partially obscured or low light</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>POOR</code>
+                    <definition>Video image cloud and obscured or insufficient light</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NONE</code>
+                    <definition>No video image available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>VideoProblem</attributeName>
+          <attributeName>VideoProblems</attributeName>
           <attributeDefinition>Indicator of problems with video monitoring</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Indicator of problems with video monitoring</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DB</code>
+                    <definition>Debris obscuring the frame</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EM</code>
+                    <definition>Equipment malfunctioning</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MP</code>
+                    <definition>Multiple individuals passing at the same time</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>N/A</code>
+                    <definition>Not applicable, no problem</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NO</code>
+                    <definition>No passage in frame</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>OR</code>
+                    <definition>Orientation of frame is misaligned</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SS</code>
+                    <definition>Split screen problem</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TB</code>
+                    <definition>Turbidity obscuring the frame</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
