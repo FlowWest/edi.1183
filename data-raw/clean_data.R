@@ -2,18 +2,78 @@ library(tidyverse)
 library(readr)
 
 # save cleaned data to `data/`
-data_raw <- read_csv("data-raw/FISHBIO submission/FISHBIO_RBT_weir_passages.csv")
 
-view(data_raw)
+# weir passage data ------------------------------------------------------------
+weir_passage_2020 <- read_csv("data-raw/FISHBIO_submission/FISHBIO_RBT_weir_passages.csv") %>%
+  janitor::clean_names() %>%
+  rename(fish_condition = condition) %>%
+  glimpse
 
-data_raw$`Vaki/Trap`%>% unique()
+view(weir_passage_2020)
 
-cleaned_passage_data <- data_raw  %>%
-  mutate(PassageDate = as.Date(PassageDate, "%m/%d/%y")) %>%
-  mutate_if(is.character, toupper)
+weir_passage_2020$`vaki_trap`%>% unique()
 
-cleaned_passage_data$PassageDirection %>% unique()
+cleaned_passage_data_2020 <- weir_passage_2020  %>%
+  mutate(passage_date = as.Date(passage_date, "%m/%d/%y")) %>%
+  mutate_if(is.character, tolower)
 
-#write_csv(cleaned_passage_data, "data/FISHBIO_RBT_weir_passages.csv")
+cleaned_passage_data_2020$passage_direction %>% unique()
+cleaned_passage_data_2020$vaki_trap %>% unique()
 
+
+weir_passage_2022 <- read_csv("data-raw/FISHBIO_submission/FISHBIO_passage_2021-22.csv") %>%
+  janitor::clean_names() %>%
+  select(-entered_by, -qcd_by) %>%
+  glimpse
+
+cleaned_passage_data_2022 <- weir_passage_2022  %>%
+  mutate_if(is.character, tolower) %>%
+  mutate(passage_date = as.Date(passage_date, "%m/%d/%y"),
+         vaki_trap = ifelse(vaki_trap == "trapping", "trap", vaki_trap)) %>%
+  glimpse
+
+cleaned_passage_data_2022$passage_direction %>% unique()
+cleaned_passage_data_2022$vaki_trap %>% unique()
+
+# Combine Weir passage data
+
+weir_passage <- bind_rows(cleaned_passage_data_2020, cleaned_passage_data_2022) %>%
+  mutate(ad_clip = case_when(ad_clip %in% c("y", "yes") ~ "yes",
+                             ad_clip %in% c("n", "no") ~ "no"),
+         video_problems = ifelse(video_problems == "n/a", NA_character_, video_problems)) %>% glimpse
+
+
+weir_passage$passage_date %>% summary()
+weir_passage$passage_time %>% summary()
+weir_passage$passage_direction %>% table(useNA = "ifany")
+weir_passage$species %>% table(useNA = "ifany")
+weir_passage$body_depth %>% summary()
+weir_passage$length_coefficient %>% summary()
+weir_passage$total_length %>% summary()
+weir_passage$life_stage %>% table(useNA = "ifany")
+weir_passage$count %>% summary()
+weir_passage$sex %>% table(useNA = "ifany")
+weir_passage$ad_clip %>% table(useNA = "ifany")
+weir_passage$fish_condition %>% table(useNA = "ifany") #TODO ask about fish condition
+weir_passage$id_certainty %>% table(useNA = "ifany")
+weir_passage$video_quality %>% table(useNA = "ifany")
+weir_passage$video_problems %>% table(useNA = "ifany")
+weir_passage$vaki_trap %>% table(useNA = "ifany")
+
+
+# write_csv(weir_passage, "data/FISHBIO_RBT_weir_passages_2005_2022.csv")
+
+# Pit tag data -----------------------------------------------------------------
+raw_pit_tag <- read_csv("data-raw/FISHBIO_submission/FISHBIO_PIT Tag Detections_2021-22.csv") %>% glimpse
+
+clean_pit_tag <- raw_pit_tag %>%
+  janitor::clean_names() %>%
+  rename(pit_number = pit_num) %>%
+  mutate(date = as.Date(date, "%m/%d/%y"),
+         tag_date = as.Date(tag_date, "%m/%d/%y")) %>% glimpse
+
+# trapping
+
+# write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
+# Operations Logs
 
