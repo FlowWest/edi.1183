@@ -1,0 +1,25 @@
+Date,Operational Mode,Description
+9/9/21,Installed,
+9/17/21,Stpooed,Power issues
+9/21/21,Started,"Reinstalled firmware, running"
+9/27/21,stopped/started,Power issues
+9/29/21,stopped/started,
+9/30/21,stopped/started,
+10/1/21,stopped/started,
+10/2/21,stopped/started,
+10/3/21,stopped/started,
+10/4/21,Stopped,Reader error
+10/5/21,Stopped,Reader error
+10/6/21,Started at 1200,Reinstalled firmware
+10/15/21,stopped,"Error, power issues"
+10/19/21,Started at 1200,"Error, power issues, reinstalled firmware, now runnng"
+10/21/21,stopped 10:39,
+10/30/21,Started 10:11,"Error, unknow reason was not notified for 9 days that there was an issue. Updated firmwater with new version."
+11/23/21,,"Download, no detections. No marker tag, malfunctioned"
+2/14/22,,"Offload, no detections, reader shutting down and starting on nearly daily basis due to low power. Not marker tag, no detection but antenna shows that it is tuned."
+2/25/22,,"Tried tuning antenna, not working correctly, not sure why"
+3/21/22,,"Installed new antenna, but would not tune so had to bring it back to the shop with reader and tuner"
+3/24/22,,"Reinstalled new antenna, the reader was the issue, swapped with a different reader. Now tuned well and added a new marker tag."
+4/5/22,,"Checked on reader, functioning properly"
+5/6/22,,"Offload reader, working properly"
+5/23/22,,Antenna and weir removed
