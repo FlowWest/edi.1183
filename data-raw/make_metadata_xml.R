@@ -56,7 +56,7 @@ evaluate_edi_package(user_id = Sys.getenv("user_id"),
                      eml_file_path = "edi.921.1.xml",
                      environment = "staging")
 
-upload_edi_package(user_id = Sys.getenv("user_id"),
-                   password = Sys.getenv("password"),
-                   eml_file_path = "edi.921.1.xml",
-                   environment = "staging")
+# upload_edi_package(user_id = Sys.getenv("user_id"),
+#                    password = Sys.getenv("password"),
+#                    eml_file_path = "edi.921.1.xml",
+#                    environment = "staging")
