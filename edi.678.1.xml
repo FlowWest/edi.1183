@@ -35,13 +35,17 @@
       <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
       <role>principal investigator</role>
     </associatedParty>
-    <pubDate>2021-05-19</pubDate>
+    <pubDate>2022-06-28</pubDate>
     <abstract>
       <para>
     The Central Valley Project Improvement Act (CVPIA) provides funds to
     aid the San Joaquin Basin Steelhead Collaborative and initiate a
     Steelhead Life-Cycle Monitoring Program. This dataset includes
-    observations of <emphasis>O. mykiss</emphasis> in the Stanislaus
+    observations of </para>
+      <para>
+        <emphasis>O. mykiss</emphasis>
+      </para>
+      <para> in the Stanislaus
     River during the steelhead spawning migration period, September
     through May. Fish are observed at an Alaskan-style weir outfitted
     with a VAKI Riverwatcher fish counting device. The counting device
@@ -55,11 +59,12 @@
     physically capture fish for measurements, biological sample
     collection, and injection of a PIT tag. There is also a PIT tag
     antenna affixed to the weir allowing detection of PIT tagged fish.
-    There is currently one dataset associated with this project:
-    passage data for all <emphasis>O. mykiss</emphasis> from 2005
-    through 2020. Two additional datasets will be added when collection is complete:
-    1) <emphasis>O. mykiss</emphasis> that were captured
-    and processed from the trap and 2) PIT tag detections from the PIT
+    There are three datasets currently associated with this project, 1)
+    passage data for all </para>
+      <para> from 2005
+    through 2020, 2) </para>
+      <para> that were captured
+    and processed from the trap, and 3) PIT tag detections from the PIT
     antenna.
   </para>
     </abstract>
@@ -122,7 +127,7 @@
                       <taxonRankName>species</taxonRankName>
                       <taxonRankValue>Oncorhynchus mykiss</taxonRankValue>
                       <commonName>Steelhead Trout</commonName>
-                      <taxonId provider="https://itis.gov"/>
+                      <taxonId provider="https://itis.gov">161989</taxonId>
                     </taxonomicClassification>
                   </taxonomicClassification>
                 </taxonomicClassification>
@@ -197,6 +202,7 @@
           <surName>Hellmair</surName>
         </individualName>
         <organizationName>FISHBIO</organizationName>
+        <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
         <role>Project Lead</role>
       </personnel>
       <award>
@@ -210,16 +216,16 @@
       </award>
     </project>
     <dataTable>
-      <entityName>FISHBIO_RBT_weir_passages.csv</entityName>
+      <entityName>FISHBIO_RBT_weir_passages_2005_2022.csv</entityName>
       <entityDescription>Weir Passage Data</entityDescription>
       <physical>
-        <objectName>FISHBIO_RBT_weir_passages.csv</objectName>
-        <size unit="bytes">36215</size>
-        <authentication method="MD5">d24dadb8318d76e1ccaa3954c1a2283f</authentication>
+        <objectName>FISHBIO_RBT_weir_passages_2005_2022.csv</objectName>
+        <size unit="bytes">45486</size>
+        <authentication method="MD5">9118d14745d93ba7e17fa2e2fc386952</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
-            <recordDelimiter>\r\n</recordDelimiter>
+            <recordDelimiter>\n</recordDelimiter>
             <attributeOrientation>column</attributeOrientation>
             <simpleDelimited>
               <fieldDelimiter>,</fieldDelimiter>
@@ -228,13 +234,13 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download"/>
+            <url function="download">https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/FISHBIO_RBT_weir_passages_2005_2022.csv</url>
           </online>
         </distribution>
       </physical>
       <attributeList>
         <attribute>
-          <attributeName>PassageDate</attributeName>
+          <attributeName>passage_date</attributeName>
           <attributeDefinition>Date when individual was counted as passing</attributeDefinition>
           <measurementScale>
             <dateTime>
@@ -250,7 +256,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>PassageTime</attributeName>
+          <attributeName>passage_time</attributeName>
           <attributeDefinition>Time when passing fish was recorded</attributeDefinition>
           <measurementScale>
             <dateTime>
@@ -266,18 +272,18 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>PassageDirection</attributeName>
+          <attributeName>passage_direction</attributeName>
           <attributeDefinition>The direction that a fish moved through the weir</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>UP</code>
+                    <code>up</code>
                     <definition>Upstream passage</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>DOWN</code>
+                    <code>down</code>
                     <definition>Downstream passage</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -286,18 +292,18 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Species</attributeName>
+          <attributeName>species</attributeName>
           <attributeDefinition>Species of fish recorded passing the weir</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>RBT</code>
+                    <code>rbt</code>
                     <definition>Rainbow trout/Steelhead</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>NO FISH</code>
+                    <code>no fish</code>
                     <definition>Counting device was triggered by object that was not a fish</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -306,7 +312,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>BodyDepth</attributeName>
+          <attributeName>body_depth</attributeName>
           <attributeDefinition>Depth of the body measured at insertion of the dorsal fin</attributeDefinition>
           <measurementScale>
             <ratio>
@@ -324,7 +330,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>LengthCoefficient</attributeName>
+          <attributeName>length_coefficient</attributeName>
           <attributeDefinition>Emperical coefficient used to estimate fish length</attributeDefinition>
           <measurementScale>
             <ratio>
@@ -342,7 +348,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>TotalLength</attributeName>
+          <attributeName>total_length</attributeName>
           <attributeDefinition>Estimated total length of fish passing through the weir</attributeDefinition>
           <measurementScale>
             <ratio>
@@ -360,14 +366,14 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>LifeStage</attributeName>
+          <attributeName>life_stage</attributeName>
           <attributeDefinition>Degree of maturity of recoded fish</attributeDefinition>
           <measurementScale>
             <ordinal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>J</code>
+                    <code>j</code>
                     <definition>Juvenile</definition>
                   </codeDefinition>
                   <codeDefinition>
@@ -375,11 +381,11 @@
                     <definition>Age 1+</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>A</code>
+                    <code>a</code>
                     <definition>Adult</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>K</code>
+                    <code>k</code>
                     <definition>Kelt</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -388,7 +394,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Count</attributeName>
+          <attributeName>count</attributeName>
           <attributeDefinition>Count of fish passing through the weir</attributeDefinition>
           <measurementScale>
             <ratio>
@@ -406,22 +412,22 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Sex</attributeName>
+          <attributeName>sex</attributeName>
           <attributeDefinition>Sex of individual if applicable</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>M</code>
+                    <code>m</code>
                     <definition>Male</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>F</code>
+                    <code>f</code>
                     <definition>Female</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>UNK</code>
+                    <code>unk</code>
                     <definition>Sex undetermined</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -430,22 +436,22 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>AdClip</attributeName>
+          <attributeName>ad_clip</attributeName>
           <attributeDefinition>Whether or not the adipose fin has been clipped</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>N</code>
+                    <code>n</code>
                     <definition>Adipose fin present, not clipped</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>Y</code>
+                    <code>y</code>
                     <definition>Adipose fin clipped</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>UNK</code>
+                    <code>unk</code>
                     <definition>Status of adipose fin unknown</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -454,14 +460,14 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Condition</attributeName>
+          <attributeName>fish_condition</attributeName>
           <attributeDefinition>Condition used to indicate health of passing individual</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>GOOD</code>
+                    <code>good</code>
                     <definition>Individual was in good condition upon passage or release</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -470,22 +476,22 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>IDCertainty</attributeName>
+          <attributeName>id_certainty</attributeName>
           <attributeDefinition>Level of certainty in species identification</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>P</code>
+                    <code>p</code>
                     <definition>Positive identification</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>VL</code>
+                    <code>vl</code>
                     <definition>Identification very likely</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>L</code>
+                    <code>l</code>
                     <definition>Identification likely</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -494,26 +500,26 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>SilhouetteQuality</attributeName>
+          <attributeName>silhouette_quality</attributeName>
           <attributeDefinition>Indicator of quality of counting device silhouette based identification</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>GOOD</code>
+                    <code>good</code>
                     <definition>Vaki sillouette clearly shows fish outline</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>FAIR</code>
+                    <code>fair</code>
                     <definition>Vaki sillouette partially shows fish outline</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>POOR</code>
+                    <code>poor</code>
                     <definition>Vaki sillouette is very distorted</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>NONE</code>
+                    <code>none</code>
                     <definition>No Vaki sillouette available</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -522,26 +528,26 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>VideoQuality</attributeName>
+          <attributeName>video_quality</attributeName>
           <attributeDefinition>Indicator of quality of video image used for identification</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>GOOD</code>
+                    <code>good</code>
                     <definition>Video image clear</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>FAIR</code>
+                    <code>fair</code>
                     <definition>Video image partially obscured or low light</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>POOR</code>
+                    <code>poor</code>
                     <definition>Video image cloud and obscured or insufficient light</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>NONE</code>
+                    <code>none</code>
                     <definition>No video image available</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -550,42 +556,42 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>VideoProblems</attributeName>
+          <attributeName>video_problems</attributeName>
           <attributeDefinition>Indicator of problems with video monitoring</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
                 <enumeratedDomain>
                   <codeDefinition>
-                    <code>DB</code>
+                    <code>db</code>
                     <definition>Debris obscuring the frame</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>EM</code>
+                    <code>em</code>
                     <definition>Equipment malfunctioning</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>MP</code>
+                    <code>mp</code>
                     <definition>Multiple individuals passing at the same time</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>N/A</code>
+                    <code>n/a</code>
                     <definition>Not applicable, no problem</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>NO</code>
+                    <code>no</code>
                     <definition>No passage in frame</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>OR</code>
+                    <code>or</code>
                     <definition>Orientation of frame is misaligned</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>SS</code>
+                    <code>ss</code>
                     <definition>Split screen problem</definition>
                   </codeDefinition>
                   <codeDefinition>
-                    <code>TB</code>
+                    <code>tb</code>
                     <definition>Turbidity obscuring the frame</definition>
                   </codeDefinition>
                 </enumeratedDomain>
@@ -594,7 +600,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Device</attributeName>
+          <attributeName>device</attributeName>
           <attributeDefinition>Whether individual was counted using counting device, trap, or temporary video</attributeDefinition>
           <measurementScale>
             <nominal>
@@ -607,7 +613,7 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>Comments</attributeName>
+          <attributeName>comments</attributeName>
           <attributeDefinition>Any additional comments describing the passage record</attributeDefinition>
           <measurementScale>
             <nominal>
@@ -620,7 +626,7 @@
           </measurementScale>
         </attribute>
       </attributeList>
-      <numberOfRecords>470</numberOfRecords>
+      <numberOfRecords>576</numberOfRecords>
     </dataTable>
   </dataset>
 </eml:eml>

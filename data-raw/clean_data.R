@@ -72,8 +72,26 @@ clean_pit_tag <- raw_pit_tag %>%
   mutate(date = as.Date(date, "%m/%d/%y"),
          tag_date = as.Date(tag_date, "%m/%d/%y")) %>% glimpse
 
-# trapping
+# TODO clean dataset, make columns snakecase,  and save as csv to data/
+# TODO confirm that added rows in metadata attribute tab are accurate
 
 # write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
-# Operations Logs
 
+
+# trapping ---------------------------------------------------------------------
+
+raw_tapping_data <- read_csv("data-raw/FISHBIO_submission/FISHBIO_trapping_2021-22.csv") %>% glimpse
+
+# TODO clean dataset, make columns snakecase,  and save as csv to data/
+# TODO update metadata file to show all fields
+
+# Operations Logs
+# Weir operations log -----------------------------------------------------------
+weir_operations_log <- read_csv("data-raw/FISHBIO_submission/FISHBIO_Weir operations log_2021-22.csv") %>% glimpse
+
+# TODO clean dataset, make columns snakecase,  and save as csv to data/
+
+# PIT operations log ------------------------------------------------------------
+pit_operations_log <- read_csv("data-raw/FISHBIO_submission/FISHBIO_PIT Operations Log 2021-22.csv") %>% glimpse()
+
+# TODO clean dataset, make columns snakecase, and save as csv to data/
