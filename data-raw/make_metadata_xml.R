@@ -20,6 +20,11 @@ datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_20
                                                   c("FISHBIO_RBT_weir_passages_2005_2022.csv")))
 
 #TODO reserve new EDI number
+# reserve_edi_id(user_id = Sys.getenv("user_id"),
+#                password = Sys.getenv("password"),
+#                environment = "staging") # when ready to post change to production
+
+edi_number <- "edi.921.1"
 
 # Create dataset list and pipe on metadata elements ----------------------------
 dataset <- list() %>%
@@ -36,11 +41,22 @@ dataset <- list() %>%
   add_datatable(datatable_metadata)
 
 # Add dataset and additional elements of eml to eml list -----------------------
-eml <- list(packageId = "edi.678.1",
+eml <- list(packageId = edi_number,
             system = "EDI",
             access = add_access(),
             dataset = dataset)
 
+edi_number
 # Write and validate EML
-EML::write_eml(eml, "edi.678.1.xml")
-EML::eml_validate("edi.678.1.xml")
+EML::write_eml(eml, "edi.921.1.xml")
+EML::eml_validate("edi.921.1.xml")
+
+evaluate_edi_package(user_id = Sys.getenv("user_id"),
+                     password = Sys.getenv("password"),
+                     eml_file_path = "edi.921.1.xml",
+                     environment = "staging")
+
+upload_edi_package(user_id = Sys.getenv("user_id"),
+                   password = Sys.getenv("password"),
+                   eml_file_path = "edi.921.1.xml",
+                   environment = "staging")
