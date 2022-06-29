@@ -13,11 +13,27 @@ names(metadata) <- sheets
 abstract_docx <- "data-raw/FISHBIO_submission/FISHBIO_abstract.docx"
 methods_docx <- "data-raw/FISHBIO_submission/FISHBIO_methods.docx"
 
-datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_2022.csv"),
-                           attribute_info = c("data-raw/FISHBIO_submission/FISHBIO_passage_metadata.xlsx"),
-                           datatable_description = c("Weir Passage Data"),
+datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_2022.csv",
+                                         "data/FISHBIO_PIT_tag_detections_2021_2022.csv",
+                                         "data/FISHBIO_trapping_2021.csv",
+                                         "data/FISHBIO_Weir_operations_log_2021_2022.csv",
+                                         "data/FISHBIO_Pit_operations_log_2021_2022.csv"),
+                           attribute_info = c("data-raw/FISHBIO_submission/FISHBIO_passage_metadata.xlsx",
+                                              "data-raw/FISHBIO_submission/FISHBIO_PIT_detection_metadata.xlsx",
+                                              "data-raw/FISHBIO_submission/FISHBIO_trapping_metadata.xlsx",
+                                              "data-raw/FISHBIO_submission/FISHBIO_Weir_Operations_metadata.xlsx",
+                                              "data-raw/FISHBIO_submission/FISHBIO_PIT_Operations_metadata.xlsx"),
+                           datatable_description = c("Weir Passage Data",
+                                                     "Pit Tag Detections",
+                                                     "Fish Trapping Info",
+                                                     "Weir Operations",
+                                                     "Pit Operations"),
                            datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/",
-                                                  c("FISHBIO_RBT_weir_passages_2005_2022.csv")))
+                                                  c("FISHBIO_RBT_weir_passages_2005_2022.csv",
+                                                    "FISHBIO_PIT_tag_detections_2021_2022.csv",
+                                                    "FISHBIO_trapping_2021.csv",
+                                                    "FISHBIO_Weir_operations_log_2021_2022.csv",
+                                                    "FISHBIO_Pit_operations_log_2021_2022.csv")))
 
 #TODO reserve new EDI number
 # reserve_edi_id(user_id = Sys.getenv("user_id"),

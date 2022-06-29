@@ -72,26 +72,51 @@ clean_pit_tag <- raw_pit_tag %>%
   mutate(date = as.Date(date, "%m/%d/%y"),
          tag_date = as.Date(tag_date, "%m/%d/%y")) %>% glimpse
 
-# TODO clean dataset, make columns snakecase,  and save as csv to data/
-# TODO confirm that added rows in metadata attribute tab are accurate
+# TODO clean dataset, make columns snakecase,  and save as csv to data/ - MR
+# TODO confirm that added rows in metadata attribute tab are accurate - MR
 
 # write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
 
 
 # trapping ---------------------------------------------------------------------
 
-raw_tapping_data <- read_csv("data-raw/FISHBIO_submission/FISHBIO_trapping_2021-22.csv") %>% glimpse
+raw_trapping_data <- read_csv("data-raw/FISHBIO_submission/FISHBIO_trapping_2021-22.csv") %>% glimpse
 
-# TODO clean dataset, make columns snakecase,  and save as csv to data/
-# TODO update metadata file to show all fields
+clean_trap <- raw_trapping_data %>%
+  janitor::clean_names() %>%
+  rename(fork_length = forklength) %>% glimpse()
+
+clean_trap$fish_condition %>% table(useNA = "ifany") #TODO ask about fish condition
+
+# write_csv(clean_trap, "data/FISHBIO_trapping_2021.csv")
+
+
+# TODO clean dataset, make columns snakecase,  and save as csv to data/ - MR
+# TODO update metadata file to show all fields - MR
 
 # Operations Logs
 # Weir operations log -----------------------------------------------------------
 weir_operations_log <- read_csv("data-raw/FISHBIO_submission/FISHBIO_Weir operations log_2021-22.csv") %>% glimpse
 
-# TODO clean dataset, make columns snakecase,  and save as csv to data/
+clean_weir_operations <- weir_operations_log %>%
+  janitor::clean_names() %>%
+  mutate(sample_date = as.Date(sample_date, "%m/%d/%y")) %>% glimpse()
+
+#write_csv(clean_weir_operations, "data/FISHBIO_Weir_operations_log_2021_2022.csv")
+# TODO clean dataset, make columns snakecase,  and save as csv to data/ - MR
 
 # PIT operations log ------------------------------------------------------------
 pit_operations_log <- read_csv("data-raw/FISHBIO_submission/FISHBIO_PIT Operations Log 2021-22.csv") %>% glimpse()
 
+clean_pit_tag_operations <- pit_operations_log %>% janitor::clean_names() %>%
+  mutate(date = as.Date(date, "%m/%d/%y"),
+         operational_mode = case_when(operational_mode == "Stpooed" ~ "Stopped",
+                                      TRUE ~ as.character(operational_mode)),
+         operational_mode = tolower(operational_mode)) %>%
+  glimpse
+
+unique(clean_pit_tag_operations$operational_mode)
+unique(clean_pit_tag_operations$description)
+
 # TODO clean dataset, make columns snakecase, and save as csv to data/
+
