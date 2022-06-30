@@ -118,5 +118,6 @@ clean_pit_tag_operations <- pit_operations_log %>% janitor::clean_names() %>%
 unique(clean_pit_tag_operations$operational_mode)
 unique(clean_pit_tag_operations$description)
 
+#write_csv(clean_pit_tag_operations, "data/FISHBIO_Pit_operations_log_2021_2022.csv")
 # TODO clean dataset, make columns snakecase, and save as csv to data/
 
