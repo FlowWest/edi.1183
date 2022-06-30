@@ -558,14 +558,14 @@ passage_date,passage_time,passage_direction,species,body_depth,length_coefficien
 2022-03-22,08:15:00,up,rbt,45,4.6,207,j,1,unk,no,n/a,p,poor,good,no,vaki,not found in trap - escaped
 2022-03-26,09:53:00,up,rbt,47,4.6,216.2,j,1,unk,no,n/a,p,poor,good,no,vaki,not found in trap - escaped
 2022-03-30,15:21:00,up,rbt,47,4.6,216.2,j,1,unk,no,n/a,p,poor,fair,no,vaki,not found in trap - escaped
-2022-04-05,14:01:00,up,rbt,52,4.6,239.2,j,1,unk,no,n/a,p,poor,good,no,vaki,"trap opened at 1:30 pm, unable to remove first fyke panel"
+2022-04-05,14:01:00,up,rbt,52,4.6,239.2,j,1,unk,no,n/a,p,poor,good,no,vaki,trap opened at 1:30 pm; unable to remove first fyke panel
 2022-04-11,11:43:00,up,rbt,72,4.6,331.2,a,1,unk,no,n/a,p,good,good,no,vaki,NA
 2022-04-12,09:00:00,up,rbt,67,4.6,308.2,a,1,unk,no,n/a,p,good,good,no,vaki,NA
 2022-04-13,19:44:00,up,rbt,67,4.6,308.2,a,1,unk,no,n/a,p,fair,good,no,vaki,NA
 2022-04-13,19:46:00,down,rbt,55,4.6,253,j,-1,unk,no,n/a,vl,fair,n/a,NA,vaki,NA
 2022-04-14,09:23:00,up,rbt,45,4.6,207,j,1,unk,no,n/a,p,poor,good,no,vaki,NA
 2022-04-14,10:02:00,down,rbt,45,4.6,207,j,-1,unk,no,n/a,p,poor,n/a,NA,vaki,NA
-2022-04-15,06:40:00,up,rbt,56,4.6,257.6,j,1,unk,no,ab,p,poor,good,no,vaki,"scales missing, caudal fin erosion"
+2022-04-15,06:40:00,up,rbt,56,4.6,257.6,j,1,unk,no,ab,p,poor,good,no,vaki,scales missing; caudal fin erosion
 2022-04-15,07:41:00,down,rbt,47,4.6,216.2,j,-1,unk,no,n/a,p,poor,n/a,NA,vaki,NA
 2022-04-17,12:40:00,up,rbt,62,4.6,285.2,j,1,unk,no,n/a,p,fair,good,no,vaki,NA
 2022-04-17,12:41:00,down,rbt,62,4.6,285.2,j,-1,unk,no,n/a,p,fair,n/a,NA,vaki,NA

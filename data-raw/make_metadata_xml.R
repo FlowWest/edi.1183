@@ -1,3 +1,5 @@
+# remotes::install_github('CVPIA-OSC/EMLaide', force = TRUE)
+
 library(EMLaide)
 library(tidyverse)
 library(EDIutils)
@@ -15,25 +17,30 @@ methods_docx <- "data-raw/FISHBIO_submission/FISHBIO_methods.docx"
 
 datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_2022.csv",
                                          "data/FISHBIO_PIT_tag_detections_2021_2022.csv",
-                                         "data/FISHBIO_trapping_2021.csv",
-                                         "data/FISHBIO_Weir_operations_log_2021_2022.csv",
-                                         "data/FISHBIO_Pit_operations_log_2021_2022.csv"),
+                                          "data/FISHBIO_trapping_2021.csv",
+                                          "data/FISHBIO_Weir_operations_log_2021_2022.csv",
+                                         "data/FISHBIO_Pit_operations_log_2021_2022.csv"
+                                         ),
                            attribute_info = c("data-raw/FISHBIO_submission/FISHBIO_passage_metadata.xlsx",
                                               "data-raw/FISHBIO_submission/FISHBIO_PIT_detection_metadata.xlsx",
-                                              "data-raw/FISHBIO_submission/FISHBIO_trapping_metadata.xlsx",
-                                              "data-raw/FISHBIO_submission/FISHBIO_Weir_Operations_metadata.xlsx",
-                                              "data-raw/FISHBIO_submission/FISHBIO_PIT_Operations_metadata.xlsx"),
+                                               "data-raw/FISHBIO_submission/FISHBIO_trapping_metadata.xlsx",
+                                               "data-raw/FISHBIO_submission/FISHBIO_Weir_Operations_metadata.xlsx",
+                                              "data-raw/FISHBIO_submission/FISHBIO_PIT_Operations_metadata.xlsx"
+                                              ),
                            datatable_description = c("Weir Passage Data",
                                                      "Pit Tag Detections",
-                                                     "Fish Trapping Info",
+                                                      "Fish Trapping Info",
                                                      "Weir Operations",
-                                                     "Pit Operations"),
+                                                     "Pit Operations"
+                                                     ),
                            datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/",
                                                   c("FISHBIO_RBT_weir_passages_2005_2022.csv",
                                                     "FISHBIO_PIT_tag_detections_2021_2022.csv",
                                                     "FISHBIO_trapping_2021.csv",
                                                     "FISHBIO_Weir_operations_log_2021_2022.csv",
-                                                    "FISHBIO_Pit_operations_log_2021_2022.csv")))
+                                                     "FISHBIO_Pit_operations_log_2021_2022.csv"
+                                                    )))
+
 
 #TODO reserve new EDI number
 # reserve_edi_id(user_id = Sys.getenv("user_id"),
@@ -56,11 +63,26 @@ dataset <- list() %>%
   add_coverage(metadata$coverage, metadata$taxonomic_coverage) %>%
   add_datatable(datatable_metadata)
 
+custom_units <- data.frame(id = c("panels", "NTU", "microsiemensPerCentimeter", "TODO"),
+                           unitType = c("dimensionless", "dimensionless", "density", "dimensionless"),
+                           parentSI = c(NA, NA, NA, NA),
+                           multiplierToSI = c(NA, NA, NA, NA),
+                           description = c("number of panels",
+                                           "Nephlometric Turbidity Unit",
+                                           "Unit of electric conductivity",
+                                           "TODO weight of fish"))
+
+unitList <- EML::set_unitList(custom_units)
+
+#TODO: add custom unit for weight in FISHBIO_trapping_metadata.xlsx
+# microsiemensPerCentimeter
+
 # Add dataset and additional elements of eml to eml list -----------------------
 eml <- list(packageId = edi_number,
             system = "EDI",
             access = add_access(),
-            dataset = dataset)
+            dataset = dataset,
+            additionalMetadata = list(metadata = list(unitList = unitList)))
 
 edi_number
 # Write and validate EML

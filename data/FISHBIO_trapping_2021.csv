@@ -1,3 +1,3 @@
-station,date,time,species,count,dead,sex,fork_length,total_length,depth,ratio,lifestage,ad_clip,scales,genetic,recapture,conditon,sample_number,fish_condition,life_history,comments
-ST031U,12/13/21,21:30:00,RBT,1,N,F,470,480,120,4,A,Y,Y,Y,N,GOOD,WEIR-2021-5,NA,NA,"PIT tag #982091062594309.  FLOY tag #001, weight 2.66 lbs"
-ST031U,12/20/21,08:15:00,RBT,1,N,M,480,495,105,4.7,A,Y,Y,Y,N,GOOD,WEIR-2021-6,NA,NA,PIT tag #982091062594274.  FLOY tag #002.   Weight: 2.5lb
+station,date,time,species,count,dead,sex,fork_length,total_length,depth,ratio,lifestage,ad_clip,scales,genetic,recapture,fish_condition,sample_number,life_history,pit_tag,weight,floy_tag
+ST031U,12/13/21,21:30:00,RBT,1,N,F,470,480,120,4,A,Y,Y,Y,N,GOOD,WEIR-2021-5,NA,pit tag #982091062594309,2.5,floy tag #001
+ST031U,12/20/21,08:15:00,RBT,1,N,M,480,495,105,4.7,A,Y,Y,Y,N,GOOD,WEIR-2021-6,NA,pit tag #982091062594274,2.6,floy tag #002

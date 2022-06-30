@@ -1,7 +1,7 @@
 date,operational_mode,description
 2021-09-09,installed,NA
 2021-09-17,stopped,Power issues
-2021-09-21,started,"Reinstalled firmware, running"
+2021-09-21,started,Reinstalled firmware; running
 2021-09-27,stopped/started,Power issues
 2021-09-29,stopped/started,NA
 2021-09-30,stopped/started,NA
@@ -11,15 +11,15 @@ date,operational_mode,description
 2021-10-04,stopped,Reader error
 2021-10-05,stopped,Reader error
 2021-10-06,started at 1200,Reinstalled firmware
-2021-10-15,stopped,"Error, power issues"
-2021-10-19,started at 1200,"Error, power issues, reinstalled firmware, now runnng"
+2021-10-15,stopped,Error; power issues
+2021-10-19,started at 1200,Error; power issues; reinstalled firmware; now runnng
 2021-10-21,stopped 10:39,NA
-2021-10-30,started 10:11,"Error, unknow reason was not notified for 9 days that there was an issue. Updated firmwater with new version."
-2021-11-23,NA,"Download, no detections. No marker tag, malfunctioned"
-2022-02-14,NA,"Offload, no detections, reader shutting down and starting on nearly daily basis due to low power. Not marker tag, no detection but antenna shows that it is tuned."
-2022-02-25,NA,"Tried tuning antenna, not working correctly, not sure why"
-2022-03-21,NA,"Installed new antenna, but would not tune so had to bring it back to the shop with reader and tuner"
-2022-03-24,NA,"Reinstalled new antenna, the reader was the issue, swapped with a different reader. Now tuned well and added a new marker tag."
-2022-04-05,NA,"Checked on reader, functioning properly"
-2022-05-06,NA,"Offload reader, working properly"
+2021-10-30,started 10:11,Error; unknow reason was not notified for 9 days that there was an issue. Updated firmwater with new version.
+2021-11-23,NA,Download; no detections. No marker tag; malfunctioned
+2022-02-14,NA,Offload; no detections; reader shutting down and starting on nearly daily basis due to low power. Not marker tag; no detection but antenna shows that it is tuned.
+2022-02-25,NA,Tried tuning antenna; not working correctly; not sure why
+2022-03-21,NA,Installed new antenna; but would not tune so had to bring it back to the shop with reader and tuner
+2022-03-24,NA,Reinstalled new antenna; the reader was the issue; swapped with a different reader. Now tuned well and added a new marker tag.
+2022-04-05,NA,Checked on reader; functioning properly
+2022-05-06,NA,Offload reader; working properly
 2022-05-23,NA,Antenna and weir removed
