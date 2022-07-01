@@ -9,7 +9,7 @@ weir_passage_2020 <- read_csv("data-raw/FISHBIO_submission/FISHBIO_RBT_weir_pass
   rename(fish_condition = condition) %>%
   glimpse
 
-view(weir_passage_2020)
+#view(weir_passage_2020)
 
 weir_passage_2020$`vaki_trap`%>% unique()
 
@@ -60,8 +60,6 @@ weir_passage$video_quality %>% table(useNA = "ifany")
 weir_passage$video_problems %>% table(useNA = "ifany")
 weir_passage$vaki_trap %>% table(useNA = "ifany")
 
-# TODO: replace commas in comments field with semicolons
-
 weir_passage$comments %>% table(useNA = "ifany")
 
 clean_weir_passage <- weir_passage %>%
@@ -78,10 +76,9 @@ clean_pit_tag <- raw_pit_tag %>%
   janitor::clean_names() %>%
   rename(pit_number = pit_num) %>%
   mutate(date = as.Date(date, "%m/%d/%y"),
-         tag_date = as.Date(tag_date, "%m/%d/%y")) %>% glimpse
-
-# TODO clean dataset, make columns snakecase,  and save as csv to data/ - MR
-# TODO confirm that added rows in metadata attribute tab are accurate - MR
+         tag_date = as.Date(tag_date, "%m/%d/%y")) %>%
+  mutate_if(is.character, tolower) %>%
+  glimpse
 
 # write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
 
@@ -95,13 +92,18 @@ clean_trap <- raw_trapping_data %>%
   rename(fork_length = forklength) %>%
   select(-fish_condition) %>%
   rename(fish_condition = conditon) %>%
+  mutate_if(is.character, tolower) %>%
   mutate(pit_tag = c("pit tag #982091062594309", "pit tag #982091062594274"),
          weight = c(2.5, 2.6),
-         floy_tag = c("floy tag #001", "floy tag #002")) %>%
+         floy_tag = c("floy tag #001", "floy tag #002"),
+         ad_clip = ifelse(ad_clip == "y", "yes", "no"),
+         scales = ifelse(scales == "y", "yes", "no"),
+         genetic = ifelse(genetic == "y", "yes", "no"),
+         recapture = ifelse(ad_clip == "y", "yes", "no")) %>%
   select(-comments) %>%
   glimpse()
 
-clean_trap$fish_condition %>% table(useNA = "ifany") #TODO ask about fish condition
+clean_trap$fish_condition %>% table(useNA = "ifany")
 
 # write_csv(clean_trap, "data/FISHBIO_trapping_2021.csv")
 
@@ -113,6 +115,7 @@ clean_weir_operations <- weir_operations_log %>%
   janitor::clean_names() %>%
   mutate(sample_date = as.Date(sample_date, "%m/%d/%y"),
          comments1 = gsub(",", ";", comments1)) %>%
+  mutate_if(is.character, tolower) %>%
   rename(downstream_livebox_installed = downstream_livebox_installed_y_n,
          vaki = vaki_y_n,
          barrels = barrels_y_n) %>%
@@ -133,7 +136,8 @@ clean_pit_tag_operations <- pit_operations_log %>% janitor::clean_names() %>%
          operational_mode = case_when(operational_mode == "Stpooed" ~ "Stopped",
                                       TRUE ~ as.character(operational_mode)),
          operational_mode = tolower(operational_mode),
-         description = gsub(",", ";", description)) %>%
+         description = gsub(",", ";", description),
+         description = tolower(description)) %>%
   glimpse
 
 unique(clean_pit_tag_operations$operational_mode)

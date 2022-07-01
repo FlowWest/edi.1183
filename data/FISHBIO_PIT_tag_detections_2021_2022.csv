@@ -1,4 +1,4 @@
 date,time,pit_number,detected_on_multiple_days,tag_source,species,tag_date,fish_code,length_when_tagged,comments
-2022-03-30,01:22:00,B982091062594274,Yes,Stan Weir Trapping,RBT,2021-12-20,WEIR-2021-6,480,NA
-2022-04-01,31:01:00,B982091062594274,Yes,Stan Weir Trapping,RBT,2021-12-20,WEIR-2021-6,480,NA
-2022-04-05,13:43:00,B982091062594274,Yes,Stan Weir Trapping,RBT,2021-12-20,WEIR-2021-6,480,NA
+2022-03-30,01:22:00,b982091062594274,yes,stan weir trapping,rbt,2021-12-20,weir-2021-6,480,NA
+2022-04-01,31:01:00,b982091062594274,yes,stan weir trapping,rbt,2021-12-20,weir-2021-6,480,NA
+2022-04-05,13:43:00,b982091062594274,yes,stan weir trapping,rbt,2021-12-20,weir-2021-6,480,NA

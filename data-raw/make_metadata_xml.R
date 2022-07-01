@@ -63,7 +63,7 @@ dataset <- list() %>%
   add_coverage(metadata$coverage, metadata$taxonomic_coverage) %>%
   add_datatable(datatable_metadata)
 
-custom_units <- data.frame(id = c("panels", "NTU", "microsiemensPerCentimeter", "TODO"),
+custom_units <- data.frame(id = c("panels", "NTU", "microsiemensPerCentimeter", "millimeter"),
                            unitType = c("dimensionless", "dimensionless", "density", "dimensionless"),
                            parentSI = c(NA, NA, NA, NA),
                            multiplierToSI = c(NA, NA, NA, NA),
