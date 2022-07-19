@@ -35,7 +35,7 @@
       <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
       <role>principal investigator</role>
     </associatedParty>
-    <pubDate>2022-07-01</pubDate>
+    <pubDate>2022-07-19</pubDate>
     <abstract>
       <para>
     The Central Valley Project Improvement Act (CVPIA) provides funds to
@@ -638,7 +638,7 @@
       <physical>
         <objectName>FISHBIO_PIT_tag_detections_2021_2022.csv</objectName>
         <size unit="bytes">395</size>
-        <authentication method="MD5">16e195c7a4926a349f9e9aeac618016d</authentication>
+        <authentication method="MD5">f262dfa93f0457975c9658f916313695</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -822,8 +822,8 @@
       <entityDescription>Fish Trapping Info</entityDescription>
       <physical>
         <objectName>FISHBIO_trapping_2021.csv</objectName>
-        <size unit="bytes">433</size>
-        <authentication method="MD5">489b6a39578bb80334d0d57cc212dfe8</authentication>
+        <size unit="bytes">447</size>
+        <authentication method="MD5">edcf1fbcaff76b6f6118beaa5ee1a0ce</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -1233,7 +1233,7 @@
       <physical>
         <objectName>FISHBIO_Weir_operations_log_2021_2022.csv</objectName>
         <size unit="bytes">56366</size>
-        <authentication method="MD5">f7e9998e8c0c00fcf08750671ee03dfa</authentication>
+        <authentication method="MD5">de9ce1237ed0f34720ab4d5a23d918e1</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -1698,7 +1698,7 @@
       <physical>
         <objectName>FISHBIO_Pit_operations_log_2021_2022.csv</objectName>
         <size unit="bytes">1436</size>
-        <authentication method="MD5">4dd2e0baf6ab36670df4c33851a914f2</authentication>
+        <authentication method="MD5">7b870118826a1400e5074cabcf5f2cd4</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>

@@ -74,8 +74,6 @@ custom_units <- data.frame(id = c("panels", "NTU", "microsiemensPerCentimeter", 
 
 unitList <- EML::set_unitList(custom_units)
 
-#TODO: add custom unit for weight in FISHBIO_trapping_metadata.xlsx
-# microsiemensPerCentimeter
 
 # Add dataset and additional elements of eml to eml list -----------------------
 eml <- list(packageId = edi_number,

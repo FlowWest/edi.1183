@@ -80,6 +80,8 @@ clean_pit_tag <- raw_pit_tag %>%
   mutate_if(is.character, tolower) %>%
   glimpse
 
+# TODO: figure out time of 31 hours...
+
 # write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
 
 
@@ -114,7 +116,8 @@ weir_operations_log <- read_csv("data-raw/FISHBIO_submission/FISHBIO_Weir operat
 clean_weir_operations <- weir_operations_log %>%
   janitor::clean_names() %>%
   mutate(sample_date = as.Date(sample_date, "%m/%d/%y"),
-         comments1 = gsub(",", ";", comments1)) %>%
+         comments1 = gsub(",", ";", comments1),
+         crew_initials = gsub(",", ";", crew_initials)) %>%
   mutate_if(is.character, tolower) %>%
   rename(downstream_livebox_installed = downstream_livebox_installed_y_n,
          vaki = vaki_y_n,
