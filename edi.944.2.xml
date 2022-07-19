@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.921.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.944.2" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>public</principal>
@@ -41,31 +41,24 @@
     The Central Valley Project Improvement Act (CVPIA) provides funds to
     aid the San Joaquin Basin Steelhead Collaborative and initiate a
     Steelhead Life-Cycle Monitoring Program. This dataset includes
-    observations of </para>
-      <para>
-        <emphasis>O. mykiss</emphasis>
-      </para>
-      <para> in the Stanislaus
-    River during the steelhead spawning migration period, September
-    through May. Fish are observed at an Alaskan-style weir outfitted
-    with a VAKI Riverwatcher fish counting device. The counting device
-    provides visual records of upstream passing individuals that are
-    later reviewed by an experienced biologist. During times when the
-    counting device is offline, a continuous video feed is reviewed to
-    provide counts and identifications of passing fish. The length of
-    passing fish is estimated using a known body depth to length ratio
-    derived from individuals trapped and measured at the weir. The weir
-    also has a trap box that, when closed, allows investogators to
-    physically capture fish for measurements, biological sample
-    collection, and injection of a PIT tag. There is also a PIT tag
-    antenna affixed to the weir allowing detection of PIT tagged fish.
-    There are three datasets currently associated with this project, 1)
-    passage data for all </para>
-      <para> from 2005
-    through 2020, 2) </para>
-      <para> that were captured
-    and processed from the trap, and 3) PIT tag detections from the PIT
-    antenna.
+    observations of O. mykiss in the Stanislaus River during the
+    steelhead spawning migration period, September through May. Fish are
+    observed at an Alaskan-style weir outfitted with a VAKI Riverwatcher
+    fish counting device. The counting device provides visual records of
+    upstream passing individuals that are later reviewed by an
+    experienced biologist. During times when the counting device is
+    offline, a continuous video feed is reviewed to provide counts and
+    identifications of passing fish. The length of passing fish is
+    estimated using a known body depth to length ratio derived from
+    individuals trapped and measured at the weir. The weir also has a
+    trap box that, when closed, allows investigators to physically
+    capture fish for measurements, biological sample collection, and
+    injection of a PIT tag. There is also a PIT tag antenna affixed to
+    the weir allowing detection of PIT tagged fish. There are three
+    datasets currently associated with this project, 1) passage data for
+    all O. mykiss from 2005 through 2020, 2) O. mykiss that were
+    captured and processed from the trap, and 3) PIT tag detections from
+    the PIT antenna.
   </para>
     </abstract>
     <keywordSet>
