@@ -101,7 +101,8 @@ clean_trap <- raw_trapping_data %>%
          ad_clip = ifelse(ad_clip == "y", "yes", "no"),
          scales = ifelse(scales == "y", "yes", "no"),
          genetic = ifelse(genetic == "y", "yes", "no"),
-         recapture = ifelse(ad_clip == "y", "yes", "no")) %>%
+         recapture = ifelse(ad_clip == "y", "yes", "no"),
+         date = lubridate::as_date(date, format = "%m/%d/%y")) %>%
   select(-comments) %>%
   glimpse()
 
