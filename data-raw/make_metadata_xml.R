@@ -47,7 +47,7 @@ datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_20
 #                password = Sys.getenv("password"),
 #                environment = "staging") # when ready to post change to production
 
-edi_number <- "edi.944.1"
+edi_number <- "edi.944.3"
 
 # Create dataset list and pipe on metadata elements ----------------------------
 dataset <- list() %>%
@@ -74,7 +74,7 @@ custom_units <- data.frame(id = c("panels", "NTU", "microsiemensPerCentimeter", 
 
 unitList <- EML::set_unitList(custom_units)
 
-edi_number <- 'edi.944.2'
+edi_number
 
 # Add dataset and additional elements of eml to eml list -----------------------
 eml <- list(packageId = edi_number,
@@ -85,16 +85,16 @@ eml <- list(packageId = edi_number,
 
 edi_number
 # Write and validate EML
-EML::write_eml(eml, "edi.944.2.xml")
-EML::eml_validate("edi.944.2.xml")
+EML::write_eml(eml, "edi.944.3.xml")
+EML::eml_validate("edi.944.3.xml")
 
 evaluate_edi_package(user_id = Sys.getenv("user_id"),
                      password = Sys.getenv("password"),
-                     eml_file_path = "edi.944.2.xml",
+                     eml_file_path = "edi.944.3.xml",
                      environment = "staging")
 
 update_edi_package(user_id = Sys.getenv("user_id"),
                    password = Sys.getenv("password"),
-                   eml_file_path = "edi.944.2.xml",
+                   eml_file_path = "edi.944.3.xml",
                    environment = "staging",
-                   existing_package_identifier = "edi.944.1")
+                   existing_package_identifier = "edi.944.2")
