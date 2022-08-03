@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.944.2" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1183.1" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
   <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
     <allow>
       <principal>public</principal>
       <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>cvpia</principal>
+      <permission>write</permission>
     </allow>
   </access>
   <dataset>
@@ -35,7 +39,7 @@
       <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
       <role>principal investigator</role>
     </associatedParty>
-    <pubDate>2022-07-19</pubDate>
+    <pubDate>2022-08-03</pubDate>
     <abstract>
       <para>
     The Central Valley Project Improvement Act (CVPIA) provides funds to
@@ -227,7 +231,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/FISHBIO_RBT_weir_passages_2005_2022.csv</url>
+            <url function="download"/>
           </online>
         </distribution>
       </physical>
@@ -631,7 +635,7 @@
       <physical>
         <objectName>FISHBIO_PIT_tag_detections_2021_2022.csv</objectName>
         <size unit="bytes">395</size>
-        <authentication method="MD5">f262dfa93f0457975c9658f916313695</authentication>
+        <authentication method="MD5">5758016a9fb295a0fd9565d34f7d8b60</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -644,7 +648,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/FISHBIO_PIT_tag_detections_2021_2022.csv</url>
+            <url function="download"/>
           </online>
         </distribution>
       </physical>
@@ -815,8 +819,8 @@
       <entityDescription>Fish Trapping Info</entityDescription>
       <physical>
         <objectName>FISHBIO_trapping_2021.csv</objectName>
-        <size unit="bytes">447</size>
-        <authentication method="MD5">edcf1fbcaff76b6f6118beaa5ee1a0ce</authentication>
+        <size unit="bytes">451</size>
+        <authentication method="MD5">14fc5e1504cc42b2a73e14fdb933099a</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -829,7 +833,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/FISHBIO_trapping_2021.csv</url>
+            <url function="download"/>
           </online>
         </distribution>
       </physical>
@@ -893,14 +897,59 @@
           </measurementScale>
         </attribute>
         <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>Count of individuals</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
           <attributeName>dead</attributeName>
           <attributeDefinition>Whether or not the fish is dead</attributeDefinition>
           <measurementScale>
             <nominal>
               <nonNumericDomain>
-                <textDomain>
-                  <definition>Whether or not the fish is dead</definition>
-                </textDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>Whether a fish is dead</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeDefinition>Sex of individual if applicable</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>m</code>
+                    <definition>Male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>Female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>unk</code>
+                    <definition>Sex undetermined</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
           </measurementScale>
@@ -942,6 +991,42 @@
           </measurementScale>
         </attribute>
         <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Body depth as measured by a biologist or technician (which may be used to define the custom length coefficient to estimate fish length from the body depth measurement collected by the VAKI infrared scanner)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ratio</attributeName>
+          <attributeDefinition>Total length to body depth ratio</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
           <attributeName>lifestage</attributeName>
           <attributeDefinition>Degree of maturity of captured fish</attributeDefinition>
           <measurementScale>
@@ -970,50 +1055,6 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>sex</attributeName>
-          <attributeDefinition>Sex of individual if applicable</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <enumeratedDomain>
-                  <codeDefinition>
-                    <code>m</code>
-                    <definition>Male</definition>
-                  </codeDefinition>
-                  <codeDefinition>
-                    <code>f</code>
-                    <definition>Female</definition>
-                  </codeDefinition>
-                  <codeDefinition>
-                    <code>unk</code>
-                    <definition>Sex undetermined</definition>
-                  </codeDefinition>
-                </enumeratedDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>recapture</attributeName>
-          <attributeDefinition>Indicator of whether or not individual was already tagged</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <enumeratedDomain>
-                  <codeDefinition>
-                    <code>yes</code>
-                    <definition>Individual already possess a PIT tag</definition>
-                  </codeDefinition>
-                  <codeDefinition>
-                    <code>no</code>
-                    <definition>Individual did not already possess a PIT tag</definition>
-                  </codeDefinition>
-                </enumeratedDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
           <attributeName>ad_clip</attributeName>
           <attributeDefinition>Whether or not the adipose fin has been clipped</attributeDefinition>
           <measurementScale>
@@ -1035,40 +1076,6 @@
                 </enumeratedDomain>
               </nonNumericDomain>
             </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>fish_condition</attributeName>
-          <attributeDefinition>Condition used to indicate health of individual on release</attributeDefinition>
-          <measurementScale>
-            <nominal>
-              <nonNumericDomain>
-                <enumeratedDomain>
-                  <codeDefinition>
-                    <code>good</code>
-                    <definition>Individual was in good condition upon passage or release</definition>
-                  </codeDefinition>
-                </enumeratedDomain>
-              </nonNumericDomain>
-            </nominal>
-          </measurementScale>
-        </attribute>
-        <attribute>
-          <attributeName>count</attributeName>
-          <attributeDefinition>Count of individuals</attributeDefinition>
-          <measurementScale>
-            <ratio>
-              <unit>
-                <standardUnit>dimensionless</standardUnit>
-              </unit>
-              <numericDomain>
-                <numberType>integer</numberType>
-                <bounds>
-                  <minimum exclusive="false">1</minimum>
-                  <maximum exclusive="false">1</maximum>
-                </bounds>
-              </numericDomain>
-            </ratio>
           </measurementScale>
         </attribute>
         <attribute>
@@ -1112,39 +1119,39 @@
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>depth</attributeName>
-          <attributeDefinition>Body depth as measured by a biologist or technician (which may be used to define the custom length coefficient to estimate fish length from the body depth measurement collected by the VAKI infrared scanner)</attributeDefinition>
+          <attributeName>recapture</attributeName>
+          <attributeDefinition>Indicator of whether or not individual was already tagged</attributeDefinition>
           <measurementScale>
-            <ratio>
-              <unit>
-                <standardUnit>millimeter</standardUnit>
-              </unit>
-              <numericDomain>
-                <numberType>natural</numberType>
-                <bounds>
-                  <minimum exclusive="false">0</minimum>
-                  <maximum exclusive="false">1000</maximum>
-                </bounds>
-              </numericDomain>
-            </ratio>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Individual already possess a PIT tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Individual did not already possess a PIT tag</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
           </measurementScale>
         </attribute>
         <attribute>
-          <attributeName>ratio</attributeName>
-          <attributeDefinition>Total length to body depth ratio</attributeDefinition>
+          <attributeName>fish_condition</attributeName>
+          <attributeDefinition>Condition used to indicate health of individual on release</attributeDefinition>
           <measurementScale>
-            <ratio>
-              <unit>
-                <standardUnit>dimensionless</standardUnit>
-              </unit>
-              <numericDomain>
-                <numberType>integer</numberType>
-                <bounds>
-                  <minimum exclusive="false">0</minimum>
-                  <maximum exclusive="false">1000</maximum>
-                </bounds>
-              </numericDomain>
-            </ratio>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>good</code>
+                    <definition>Individual was in good condition upon passage or release</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
           </measurementScale>
         </attribute>
         <attribute>
@@ -1225,8 +1232,8 @@
       <entityDescription>Weir Operations</entityDescription>
       <physical>
         <objectName>FISHBIO_Weir_operations_log_2021_2022.csv</objectName>
-        <size unit="bytes">54304</size>
-        <authentication method="MD5">e662362d63a167c6c0ae9dc5547f5cd1</authentication>
+        <size unit="bytes">55620</size>
+        <authentication method="MD5">13dbd86b795d376ee2cd322505b7782a</authentication>
         <dataFormat>
           <textFormat>
             <numHeaderLines>1</numHeaderLines>
@@ -1239,7 +1246,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/FISHBIO_Weir_operations_log_2021_2022.csv</url>
+            <url function="download"/>
           </online>
         </distribution>
       </physical>
@@ -1704,7 +1711,7 @@
         </dataFormat>
         <distribution>
           <online>
-            <url function="download">https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/FISHBIO_Pit_operations_log_2021_2022.csv</url>
+            <url function="download"/>
           </online>
         </distribution>
       </physical>

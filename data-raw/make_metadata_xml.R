@@ -2,7 +2,6 @@
 
 library(EMLaide)
 library(tidyverse)
-library(EDIutils)
 library(readxl)
 library(EML)
 
@@ -32,22 +31,23 @@ datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_20
                                                       "Fish Trapping Info",
                                                      "Weir Operations",
                                                      "Pit Operations"
-                                                     ),
-                           datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/",
-                                                  c("FISHBIO_RBT_weir_passages_2005_2022.csv",
-                                                    "FISHBIO_PIT_tag_detections_2021_2022.csv",
-                                                    "FISHBIO_trapping_2021.csv",
-                                                    "FISHBIO_Weir_operations_log_2021_2022.csv",
-                                                     "FISHBIO_Pit_operations_log_2021_2022.csv"
-                                                    )))
+                                                     )
+                           # datatable_url = paste0("https://raw.githubusercontent.com/FlowWest/fishbio-stanislaus-o.mykiss/main/data/",
+                           #                        c("FISHBIO_RBT_weir_passages_2005_2022.csv",
+                           #                          "FISHBIO_PIT_tag_detections_2021_2022.csv",
+                           #                          "FISHBIO_trapping_2021.csv",
+                           #                          "FISHBIO_Weir_operations_log_2021_2022.csv",
+                           #                           "FISHBIO_Pit_operations_log_2021_2022.csv"
+                           #                          ))
+                           )
 
 
 #TODO reserve new EDI number
-# reserve_edi_id(user_id = Sys.getenv("user_id"),
-#                password = Sys.getenv("password"),
-#                environment = "staging") # when ready to post change to production
+# reserve_edi_id(user_id = Sys.getenv("edi_user_id"),
+#                password = Sys.getenv("edi_password"),
+#                environment = "production") # when ready to post change to production
 
-edi_number <- "edi.944.3"
+edi_number <- "edi.1183.1"
 
 # Create dataset list and pipe on metadata elements ----------------------------
 dataset <- list() %>%
@@ -85,16 +85,16 @@ eml <- list(packageId = edi_number,
 
 edi_number
 # Write and validate EML
-EML::write_eml(eml, "edi.944.3.xml")
-EML::eml_validate("edi.944.3.xml")
+EML::write_eml(eml, "edi.1183.1.xml")
+EML::eml_validate("edi.1183.1.xml")
 
-evaluate_edi_package(user_id = Sys.getenv("user_id"),
-                     password = Sys.getenv("password"),
-                     eml_file_path = "edi.944.3.xml",
+evaluate_edi_package(user_id = Sys.getenv("edi_user_id"),
+                     password = Sys.getenv("edi_password"),
+                     eml_file_path = "edi.1183.1.xml",
                      environment = "staging")
 
-update_edi_package(user_id = Sys.getenv("user_id"),
-                   password = Sys.getenv("password"),
-                   eml_file_path = "edi.944.3.xml",
+update_edi_package(user_id = Sys.getenv("edi_user_id"),
+                   password = Sys.getenv("edi_password"),
+                   eml_file_path = "edi.1183.1.xml",
                    environment = "staging",
                    existing_package_identifier = "edi.944.2")

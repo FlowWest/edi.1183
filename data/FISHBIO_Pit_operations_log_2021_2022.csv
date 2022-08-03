@@ -1,25 +1,25 @@
-﻿date,operational_mode,description
-9/9/2021,installed,NA
-9/17/2021,stopped,power issues
-9/21/2021,started,reinstalled firmware; running
-9/27/2021,stopped/started,power issues
-9/29/2021,stopped/started,NA
-9/30/2021,stopped/started,NA
-10/1/2021,stopped/started,NA
-10/2/2021,stopped/started,NA
-10/3/2021,stopped/started,NA
-10/4/2021,stopped,reader error
-10/5/2021,stopped,reader error
-10/6/2021,started at 1200,reinstalled firmware
-10/15/2021,stopped,error; power issues
-10/19/2021,started at 1200,error; power issues; reinstalled firmware; now runnng
-10/21/2021,stopped 10:39,NA
-10/30/2021,started 10:11,error; unknow reason was not notified for 9 days that there was an issue. updated firmwater with new version.
-11/23/2021,NA,download; no detections. no marker tag; malfunctioned
-2/14/2022,NA,offload; no detections; reader shutting down and starting on nearly daily basis due to low power. not marker tag; no detection but antenna shows that it is tuned.
-2/25/2022,NA,tried tuning antenna; not working correctly; not sure why
-3/21/2022,NA,installed new antenna; but would not tune so had to bring it back to the shop with reader and tuner
-3/24/2022,NA,reinstalled new antenna; the reader was the issue; swapped with a different reader. now tuned well and added a new marker tag.
-4/5/2022,NA,checked on reader; functioning properly
-5/6/2022,NA,offload reader; working properly
-5/23/2022,NA,antenna and weir removed
+date,operational_mode,description
+2021-09-09,installed,NA
+2021-09-17,stopped,power issues
+2021-09-21,started,reinstalled firmware; running
+2021-09-27,stopped/started,power issues
+2021-09-29,stopped/started,NA
+2021-09-30,stopped/started,NA
+2021-10-01,stopped/started,NA
+2021-10-02,stopped/started,NA
+2021-10-03,stopped/started,NA
+2021-10-04,stopped,reader error
+2021-10-05,stopped,reader error
+2021-10-06,started at 1200,reinstalled firmware
+2021-10-15,stopped,error; power issues
+2021-10-19,started at 1200,error; power issues; reinstalled firmware; now runnng
+2021-10-21,stopped 10:39,NA
+2021-10-30,started 10:11,error; unknow reason was not notified for 9 days that there was an issue. updated firmwater with new version.
+2021-11-23,NA,download; no detections. no marker tag; malfunctioned
+2022-02-14,NA,offload; no detections; reader shutting down and starting on nearly daily basis due to low power. not marker tag; no detection but antenna shows that it is tuned.
+2022-02-25,NA,tried tuning antenna; not working correctly; not sure why
+2022-03-21,NA,installed new antenna; but would not tune so had to bring it back to the shop with reader and tuner
+2022-03-24,NA,reinstalled new antenna; the reader was the issue; swapped with a different reader. now tuned well and added a new marker tag.
+2022-04-05,NA,checked on reader; functioning properly
+2022-05-06,NA,offload reader; working properly
+2022-05-23,NA,antenna and weir removed

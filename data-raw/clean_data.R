@@ -67,7 +67,7 @@ clean_weir_passage <- weir_passage %>%
 
 clean_weir_passage$comments %>% table(useNA = "ifany")
 
-# write_csv(clean_weir_passage, "data/FISHBIO_RBT_weir_passages_2005_2022.csv")
+write_csv(clean_weir_passage, "data/FISHBIO_RBT_weir_passages_2005_2022.csv")
 
 # Pit tag data -----------------------------------------------------------------
 raw_pit_tag <- read_csv("data-raw/FISHBIO_submission/FISHBIO_PIT Tag Detections_2021-22.csv") %>% glimpse
@@ -80,9 +80,7 @@ clean_pit_tag <- raw_pit_tag %>%
   mutate_if(is.character, tolower) %>%
   glimpse
 
-# TODO: figure out time of 31 hours...
-
-# write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
+write_csv(clean_pit_tag, "data/FISHBIO_PIT_tag_detections_2021_2022.csv")
 
 
 # trapping ---------------------------------------------------------------------
@@ -108,7 +106,7 @@ clean_trap <- raw_trapping_data %>%
 
 clean_trap$fish_condition %>% table(useNA = "ifany")
 
-# write_csv(clean_trap, "data/FISHBIO_trapping_2021.csv")
+write_csv(clean_trap, "data/FISHBIO_trapping_2021.csv")
 
 # Operations Logs
 # Weir operations log -----------------------------------------------------------
@@ -130,7 +128,7 @@ clean_weir_operations <- weir_operations_log %>%
   select(-condition_code) %>%
   glimpse()
 
-#write_csv(clean_weir_operations, "data/FISHBIO_Weir_operations_log_2021_2022.csv")
+write_csv(clean_weir_operations, "data/FISHBIO_Weir_operations_log_2021_2022.csv")
 
 # PIT operations log ------------------------------------------------------------
 pit_operations_log <- read_csv("data-raw/FISHBIO_submission/FISHBIO_PIT Operations Log 2021-22.csv") %>% glimpse()
@@ -147,5 +145,5 @@ clean_pit_tag_operations <- pit_operations_log %>% janitor::clean_names() %>%
 unique(clean_pit_tag_operations$operational_mode)
 unique(clean_pit_tag_operations$description)
 
-#write_csv(clean_pit_tag_operations, "data/FISHBIO_Pit_operations_log_2021_2022.csv")
+write_csv(clean_pit_tag_operations, "data/FISHBIO_Pit_operations_log_2021_2022.csv")
 
