@@ -1,0 +1,794 @@
+station,sample_date,sample_time,water_temperature,number_of_submerged_panels,reset_restart_comp,weather,stream_gauge,turbidity,battery_voltage,dissolved_oxygen,velocity_upstream,velocity_downstream,conductivity,solar_voltage,fyke_closed,fyke_open,downstream_livebox_installed,vaki,barrels,crew_initials,comments1,trap_closed,trap_open,trapping
+st031x,2021-09-08,NA,NA,0,08:15:00,clr,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,gj; mk,weir installed,NA,NA,no
+st031x,2021-09-09,09:00:00,64.8,0,09:15:00,clr,2.1,1.71,NA,8.89,3.2,1.3,53,NA,09:05:00,09:15:00,yes,yes,no,rb; mi,NA,NA,NA,no
+st031x,2021-09-10,09:30:00,64.3,0,09:45:00,cld,2.14,1.75,NA,9.02,3.4,1.3,52.3,NA,09:30:00,09:45:00,yes,yes,no,rb; mi,NA,NA,NA,no
+st031x,2021-09-13,08:45:00,62.9,2,10:02:00,clr,2.14,1.73,NA,8.59,4.5,0.4,55.5,NA,08:48:00,08:55:00,yes,yes,no,tl; mi,added 1 barrel at corner of weir. backup cameras ok. two turtles in downstream trap.,NA,NA,no
+st031x,2021-09-15,09:00:00,63.8,0,NA,clr,2.06,1.78,NA,8.75,3.5,1.7,53.8,NA,08:53:00,09:45:00,yes,no,no,bs; ch,could not connect vaki. low panel near fish passage might need a barrel.,NA,NA,no
+st031x,2021-09-17,09:00:00,62.1,2,08:57:00,clr,2.08,2.31,NA,8.64,2.3,0.4,58.4,NA,08:51:00,09:00:00,yes,yes,no,tl; ch,NA,NA,NA,no
+st031x,2021-09-20,10:15:00,64.2,0,10:23:00,clr,2.05,1.5,NA,NA,2.3,1.5,58.3,NA,10:18:00,10:24:00,yes,yes,no,gj; bs,boat passage needs replaced. do meter not working,NA,NA,no
+st031x,2021-09-22,09:00:00,63.2,0,09:27:00,clr,1.97,4.32,28.05,9.05,2.7,1.1,61.4,7.7,08:51:00,09:28:00,yes,yes,no,bs; ih,NA,NA,NA,no
+st031x,2021-09-24,08:45:00,64.4,0,08:55:00,clr,2,2,26.37,8.59,2.7,1.3,62.1,4.9,08:50:00,08:56:00,yes,yes,no,bs; ih,pit tag ok; back up ok.,NA,NA,no
+st031x,2021-09-27,09:00:00,62.1,1,08:57:00,clr,1.92,0.88,26/11.6,8.75,3.1,0.4,62.7,4.6/1.8,08:50:00,09:00:00,yes,yes,no,tl; ch,added 1 barrel where spilling. back up cameras ok. pit tag readers- charge light reset.,NA,NA,no
+st031x,2021-09-29,08:30:00,60.3,1,08:43:00,clr,1.88,1.53,25.4/11.5,8.78,2.1,0.6,62.2,2.5/1.5,08:38:00,08:45:00,yes,yes,no,tl; ch,added 3rd barrel where spilling. adjusted camera placement. back up cameras ok; upstream pit tag - charge error; reset,NA,NA,no
+st031x,2021-10-01,08:45:00,60.2,0,08:51:00,clr,1.84,3.75,25.8/11.8,8.93,2.1,0.3,58.4,4.5/1.7,08:42:00,08:55:00,yes,yes,no,tl; ch; sd,pit tag readers off- battery dead; back up computer off on arrival- turned on.,NA,NA,no
+st031x,2021-10-02,08:45:00,61,0,08:53:00,clr,1.84,2.66,26.4,8.92,2.3,0.5,59.8,5.2,08:45:00,08:54:00,yes,yes,no,ih; mi,NA,NA,NA,no
+st031x,2021-10-03,10:00:00,61.3,0,10:20:00,cld,1.82,3.47,27.34,9.7,2.7,0.4,63.6,7.2,10:19:00,10:22:00,yes,yes,no,ih; mi,NA,NA,NA,no
+st031x,2021-10-04,10:15:00,59.5,0,10:25:00,cld,1.88,1.64,28.12,9.4,2.5,0.6,60.2,6.7,10:23:00,10:27:00,yes,yes,no,mi; ch; nd,NA,NA,NA,no
+st031x,2021-10-05,08:30:00,59.5,0,08:45:00,clr,1.82,0.87,25.96/11.69,9.32,2.8,0.6,56.6,3.1/6.4,08:39:00,08:46:00,yes,yes,no,mi; ch,NA,NA,NA,no
+st031x,2021-10-06,09:00:00,60.2,0,09:17:00,cld,1.86,0.98,25.49/12.34,9.23,2.7,0.6,59.4,1.8/2.5,09:08:00,09:18:00,yes,yes,no,mi; ch,NA,NA,NA,no
+st031x,2021-10-07,09:30:00,60,0,09:44:00,cld,1.88,4.71,26.67/12.43,9.73,2.6,0.6,61.3,3.0/4.4,09:39:00,09:46:00,yes,yes,no,mi; ih,NA,NA,NA,no
+st031x,2021-10-08,09:30:00,59.2,0,09:45:00,clr,1.82,1.17,12.7,9.49,2.7,1.1,62.2,7.1,09:45:00,09:50:00,yes,yes,no,ef; rb,NA,NA,NA,no
+st031x,2021-10-09,08:15:00,58.3,0,08:27:00,clr,1.82,1.75,22.5,9.04,2.4,0.6,67.3,1.6,08:21:00,08:31:00,yes,yes,no,sc; ch,NA,NA,NA,no
+st031x,2021-10-10,08:15:00,57.4,0,08:31:00,clr,1.8,3.24,22.6,9.28,2.5,0.4,66.1,1,08:28:00,08:34:00,yes,yes,yes,sc; ch,3 barrels northside,NA,NA,no
+st031x,2021-10-11,08:30:00,57.2,0,08:57:00,clr,1.8,2.08,12.8,9.49,2.5,0.7,57.2,2.8,08:45:00,09:00:00,yes,yes,no,rb; ch,NA,NA,NA,no
+st031x,2021-10-11,18:00:00,58.5,2,NA,nit,1.84,2.79,NA,11.23,NA,NA,72.4,NA,NA,NA,yes,yes,no,ih; mi,NA,NA,NA,no
+st031x,2021-10-12,09:45:00,54.6,0,10:00:00,clr,1.85,3.17,13.18,9.99,3.4,1.1,56.9,6.2,09:53:00,10:00:00,yes,yes,no,rb; mi,NA,NA,NA,no
+st031x,2021-10-13,09:15:00,53.9,0,09:40:00,cld,1.9,1.21,13.37,10.12,3.3,1,55.7,7.4,09:25:00,09:40:00,yes,yes,no,rb; mi,NA,NA,NA,no
+st031x,2021-10-14,09:00:00,54.5,0,09:17:00,clr,1.82,2.89,27.48,10.28,2.8,0.8,62.2,8.3,09:12:00,09:19:00,yes,yes,no,ih; ch,vaki & pit reader on at arrival. backup camera not on at arrival,NA,NA,no
+st031x,2021-10-15,09:00:00,54.5,0,08:40:00,clr,0.8,1.75,26.97/12.78,9.99,2.4,0.9,63.2,5.8/1.4,08:35:00,08:50:00,yes,NA,NA,gj; ef; mk,camera was frozen on arrival,NA,NA,no
+st031x,2021-10-16,08:30:00,55,0,08:34:00,clr,1.8,2.92,25.38/12.57,9.88,2.9,NA,60.1,2.1/1.1,08:28:00,08:35:00,no,yes,yes,bs; mi,small solar panel removed; four barrels installed on boat passage,NA,NA,no
+st031x,2021-10-16,18:00:00,NA,0,NA,clr,1.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-10-16,23:00:00,53.8,0,NA,nit,2.35,4.92,NA,9.96,NA,NA,57.7,NA,NA,NA,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-10-17,08:30:00,56,0,08:39:00,cld,3.63,5.81,26.9/12.71,9.81,1.9,NA,53.6,2.4/3.4,08:34:00,08:40:00,no,yes,yes,bs; mi,backup camera ok; weir check 0330 and 0730,NA,NA,no
+st031x,2021-10-17,16:30:00,NA,0,NA,cld,3.85,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-10-17,22:00:00,57.3,0,NA,nit,3.6,2.62,NA,10.06,NA,NA,49.9,NA,NA,NA,no,yes,yes,ih; rb,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-18,07:30:00,55.6,0,07:45:00,cld,3.6,6.36,25.13/12.45,9.97,1.7,NA,49.8,0.2/0.5,07:38:00,07:46:00,no,yes,yes,bs; mi,NA,NA,NA,no
+st031x,2021-10-18,17:30:00,56.7,0,NA,nit,3.44,4.07,25.46,10.61,1.9,NA,59.8,NA,NA,NA,no,yes,yes,sc; rb,NA,NA,NA,no
+st031x,2021-10-19,09:45:00,54.4,0,10:10:00,clr,2.35,2.07,13.64,10.07,2.7,NA,57.7,5.2,10:00:00,10:10:00,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-10-19,19:30:00,56.2,0,NA,nit,2.4,3.11,NA,10.93,NA,NA,60.7,NA,NA,NA,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-10-20,09:00:00,56.2,0,09:28:00,cld,3.15,2.05,25.95,9.97,2,NA,55.9,2.9,09:18:00,09:28:00,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-10-20,20:00:00,57.8,0,NA,nit,3.09,2.04,NA,10.47,NA,NA,60.8,NA,NA,NA,no,yes,yes,rb; ih,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-21,09:00:00,57.2,0,10:40:00,cld,2.9,1.37,12.54,9.73,1.1,NA,67.7,2.4,09:05:00,09:15:00,no,yes,yes,rf; ef,NA,NA,NA,no
+st031x,2021-10-21,17:30:00,59.6,0,NA,nit,2.94,3.3,26.2,10.59,1.8,NA,58.3,NA,NA,NA,no,yes,no,sc; bs,NA,NA,NA,no
+st031x,2021-10-22,08:00:00,57.5,0,08:13:00,ran,3.76,2.89,25.11/12.46,9.76,2.9,NA,53.2,0.0/0.2,08:04:00,08:14:00,no,yes,yes,ih; mi,NA,NA,NA,no
+st031x,2021-10-22,19:00:00,57.5,0,NA,nit,3.88,2.95,25.5,10.33,3.88,NA,57.8,0,NA,NA,no,yes,yes,mk; gj,monitor weir 16:00-24:00,NA,NA,no
+st031x,2021-10-23,07:30:00,57,0,07:45:00,cld,4.6,2.4,25.07,10.15,4.2,NA,66.8,0.1,07:38:00,07:46:00,no,yes,yes,ih; mi,monitor weir 00:00-12:00; cleaned at 08:00 and 10:30,NA,NA,no
+st031x,2021-10-23,17:30:00,57.5,0,NA,nit,4.55,2.54,25.07,10.71,NA,NA,57.1,0,NA,NA,no,yes,yes,mk; gj,monitor weir 12:00-20:00,NA,NA,no
+st031x,2021-10-24,08:00:00,56.9,0,08:02:00,ran,4.34,3.2,25.1/15.6,9.68,2.1,NA,55.9,0,07:55:00,08:04:00,no,yes,yes,mi; bs,backup camera ok,NA,NA,no
+st031x,2021-10-24,17:00:00,NA,0,NA,nit,4.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,yes,yes,rb; ih,pit tag reader disconnected. monitor from 12:00-00:30,NA,NA,no
+st031x,2021-10-25,06:30:00,57.6,0,06:36:00,nit,5.6,12.47,24.96/12.29,9.67,NA,NA,78.8,0,06:26:00,06:36:00,no,yes,yes,bs; mi,flow over box; backup camera ok,NA,NA,no
+st031x,2021-10-26,12:45:00,56.6,28,12:45:00,cld,2.75,16.38,29.68,9.69,2,NA,75.5,6.5,12:45:00,12:50:00,no,no,yes,rb; ih,weir floating again at 10:30. vaki reconnected after process. pit tag reader reconnected. downstream red buoys missing,NA,NA,no
+st031x,2021-10-27,09:00:00,55.7,0,09:10:00,clr,2.7,6.99,26.66,9.7,2,NA,67.9,5.6,09:05:00,09:10:00,no,yes,yes,rb; mi,NA,NA,NA,no
+st031x,2021-10-27,19:00:00,58.4,0,NA,nit,2.8,1.85,25.5,10.46,NA,NA,65.8,1.3,NA,NA,no,yes,yes,ih; mi,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-28,09:30:00,56.7,0,09:56:00,cld,3.35,3.61,26.21,9.92,2,NA,69.1,2.8,09:47:00,09:56:00,no,yes,yes,rb; ih,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-19,08:30:00,56.5,0,08:45:00,cld,2.92,2.03,25.51/12.55,9.77,2,NA,63.4,4.3/1.4,08:30:00,08:45:00,no,yes,yes,ih; bs,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-29,08:30:00,56.5,0,08:45:00,cld,2.9,20.3,25.61/12.55,9.77,2,NA,63.4,4.3/1.4,08:30:00,08:45:00,no,yes,yes,ih; bs,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-29,23:00:00,57.8,0,NA,nit,3.58,4.15,25.37,10.12,NA,NA,63.8,0,NA,NA,no,yes,yes,ih; mi,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-10-30,08:55:00,56.8,0,09:00:00,clr,3.82,1.72,26.68,9.85,1.7,NA,58.8,1.2,08:45:00,09:00:00,no,yes,yes,gj; bs,NA,NA,NA,no
+st031x,2021-10-30,20:00:00,57.3,0,NA,nit,4.34,4.74,25.35,10.14,NA,NA,72.1,0,NA,NA,no,yes,yes,mi; ih,monitor from 19:00-01:00; checked at 00:00. pit tag reader and backup camera connected.,NA,NA,no
+st031x,2021-10-31,08:30:00,55.9,0,08:35:00,cld,4.35,3.53,25.59,9.99,3.1,NA,64.5,2.9,08:30:00,08:40:00,no,yes,yes,rb; mk,NA,NA,NA,no
+st031x,2021-11-01,09:45:00,56.1,2,10:04:00,cld,3.6,2.3,26.61,10.02,1.5,NA,60.1,1.8,09:54:00,10:05:00,no,yes,yes,rb; ef,NA,NA,NA,no
+st031x,2021-11-02,12:00:00,NA,NA,12:15:00,cld,2.55,1.51,29.3,NA,2.1,NA,66.5,4.5,12:05:00,12:15:00,no,yes,yes,rb; ih,NA,NA,NA,no
+st031x,2021-11-03,08:30:00,56.9,0,08:39:00,clr,3.06,2.2,25.63/12.51,9.8,1.8,NA,60.7,2.7/1.0,08:35:00,08:40:00,no,yes,yes,mi; bs,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-11-04,08:30:00,57,0,08:43:00,cld,2.38,0.99,25.5,9.54,1.2,NA,64.2,1.5,08:38:00,08:45:00,no,yes,yes,tl; ih,pit tag reader connected; backup camera connected. vaki may be going on/off,09:10:00,NA,yes
+st031x,2021-11-04,12:00:00,58.3,0,NA,cld,2.32,2.5,27.7,10.33,NA,NA,62.2,6,NA,NA,no,yes,yes,tl; ih; bs,checked trap and removed barrels under boat passage,NA,NA,yes
+st031x,2021-11-04,15:45:00,59.2,0,NA,clr,2.3,1.22,NA,11.12,NA,NA,61.1,NA,NA,NA,no,yes,yes,tl; ih; bs,checked & opened trap; no fish,NA,15:40:00,yes
+st031x,2021-11-05,08:45:00,56.2,0,08:53:00,clr,1.97,1.04,26.6,8.77,1.9,NA,54.1,5,08:48:00,08:54:00,no,yes,yes,tl; sd,set trap. pit tag reader connected; backup camera connected,09:00:00,NA,yes
+st031x,2021-11-05,13:00:00,58.8,0,NA,clr,1.87,1.32,NA,9.58,NA,NA,54.9,NA,NA,NA,no,yes,yes,tl; sd,trap check,NA,NA,yes
+st031x,2021-11-05,16:00:00,59,0,NA,cld,1.85,1.44,NA,10.02,NA,NA,54.5,NA,NA,NA,no,yes,yes,tl; sd,trap opened at 1600; checked- no fish,NA,16:00:00,yes
+st031x,2021-11-06,08:15:00,56,0,08:24:00,cld,1.86,1.42,25.39/12.53,8.93,3,NA,51.1,1.3/1.2,08:18:00,08:25:00,no,yes,yes,mi; sd,NA,NA,NA,no
+st031x,2021-11-07,08:15:00,56,0,08:25:00,clr,1.86,1.98,27.37/13.08,9.19,3.1,NA,52.3,7.9/2.0,08:18:00,08:26:00,no,yes,yes,mi; nd,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-11-08,04:15:00,54.5,0,NA,nit,1.88,1.24,NA,9.28,NA,NA,65.8,NA,NA,NA,no,yes,yes,tl; ih,set trap,04:15:00,NA,yes
+st031x,2021-11-08,08:00:00,53.5,0,07:30:00,clr,1.82,1.17,25.6/12.5/12.5,9.46,1.2,NA,59.3,1.0/1.0/1.1,07:15:00,07:34:00,no,yes,yes,tl; ih,backup camera ok; pit tag reader ok. checked trap at 8:00- no fish; escaped ds; narrowed fyke trap to 10.5 cm,NA,NA,yes
+st031x,2021-11-08,09:30:00,53.4,0,NA,clr,1.8,1.48,NA,10.33,NA,NA,58.6,NA,NA,NA,no,yes,yes,tl; ih,checked trap- no fish,NA,NA,yes
+st031x,2021-11-08,13:15:00,56.4,0,NA,clr,1.8,1.16,NA,11.3,NA,NA,64.8,NA,NA,NA,yes,yes,yes,bs; sd; mi; ld,trap check; downstream livebox installed,NA,NA,yes
+st031x,2021-11-08,16:30:00,NA,0,NA,cld,1.8,1.06,NA,NA,2.1,0.4,NA,NA,NA,NA,yes,yes,yes,jp; rb,no fish in trap,NA,NA,yes
+st031x,2021-11-08,20:30:00,NA,0,NA,nit,1.8,NA,NA,NA,2.1,NA,NA,NA,NA,NA,yes,yes,yes,jp; rb,no fish in trap; installed 2nd fyke at 21:50 upstream of scanner plates,NA,NA,yes
+st031x,2021-11-09,02:15:00,NA,0,NA,nit,1.8,1.06,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,jp; rb,NA,NA,NA,yes
+st031x,2021-11-09,04:00:00,NA,0,NA,nit,1.8,NA,NA,NA,2.1,NA,NA,NA,NA,NA,yes,yes,yes,jp; rb,removed 2nd test fyke at 04:30,NA,NA,yes
+st031x,2021-11-09,07:30:00,54.9,0,08:09:00,cld,1.81,2.22,25.4/12.5/12.5,9.72,1.7,0,62.9,1.7/2.1/1.6,08:02:00,08:10:00,yes,yes,yes,tl; ih,4 chn escaped trap upstream; 1 released due to condition. pulled trap to fix edges. processed fish at 6:30,NA,NA,yes
+st031x,2021-11-09,09:30:00,54.6,0,NA,ran,1.82,1.87,NA,10.8,NA,NA,69.8,NA,NA,NA,yes,yes,yes,tl; ih,NA,NA,NA,yes
+st031x,2021-11-09,13:00:00,55.7,0,NA,cld,1.82,1.52,27.3,11.3,NA,NA,63.2,4.9,NA,NA,yes,yes,yes,tl; ih,processed fish as they entered trap; passed upstream,NA,NA,yes
+st031x,2021-11-09,17:00:00,55.8,0,NA,clr,1.85,0.72,NA,12.08,1.7,0.4,64.2,NA,NA,NA,yes,yes,yes,jp; rb,NA,NA,NA,yes
+st031x,2021-11-09,20:00:00,NA,0,NA,nit,1.85,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,jp; rb,NA,NA,NA,yes
+st031x,2021-11-09,23:30:00,NA,0,NA,nit,1.85,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,jp; rb,vaki numbers seem off; red line on scanner,NA,23:40:00,yes
+st031x,2021-11-10,10:45:00,55.2,0,10:53:00,cld,1.81,1.66,27.4/13.9/13.9,10.88,2,0,73.3,3.8/4.6/3.4,10:45:00,10:56:00,yes,yes,yes,tl; bs,pit tag reader connected; backup camera connected. removed fyke passage at 11:00 to fix netting.,NA,NA,no
+st031x,2021-11-11,04:30:00,55.1,0,NA,nit,1.82,NA,NA,9.83,NA,NA,66,NA,NA,NA,yes,yes,yes,tl; ih,set trap,04:40:00,NA,yes
+st031x,2021-11-11,07:30:00,55.2,0,07:42:00,fog,1.82,NA,25.2/12.5/12.5,9.75,1.9,0,66.8,0.6/0.9/0.8,07:34:00,07:43:00,yes,yes,yes,tl; ih,backup camera ok; pit tag reader ok. lost turbidity sample,NA,NA,yes
+st031x,2021-11-11,10:00:00,55.1,0,NA,cld,1.81,NA,NA,10.36,NA,NA,63.3,NA,NA,NA,yes,yes,yes,tl; ih,checked trap- no fish,NA,NA,yes
+st031x,2021-11-11,13:30:00,56.6,0,NA,clr,1.8,NA,NA,12.05,NA,NA,61.2,NA,13:15:00,13:45:00,yes,yes,yes,mk; jm,NA,NA,NA,yes
+st031x,2021-11-11,17:15:00,56.3,0,NA,clr,1.8,1.38,NA,12.39,1.5,0.4,66.6,NA,NA,NA,yes,yes,yes,rb; ld,NA,17:30:00,17:40:00,yes
+st031x,2021-11-11,21:00:00,NA,NA,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-11-12,01:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-11-12,04:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,04:00:00,04:15:00,yes
+st031x,2021-11-12,07:00:00,54.8,0,09:20:00,fog,1.8,1.81,25.35,9.73,1.3,0,65.8,1.1,08:10:00,09:22:00,yes,yes,yes,ih; sd,female chinook escaped downstream through gap in bulkhead and panel. pit tag reader connected; backup camera connected. repaired the gap in the bulkhead and panel.,NA,NA,yes
+st031x,2021-11-12,13:00:00,55.4,0,NA,cld,1.8,1.84,27.6/13.29,11.87,NA,NA,64.8,5.3/6.5,NA,NA,yes,yes,yes,bs; nd,no passages. nothing in trap. backup camera ok; pit tag reader ok.,NA,NA,yes
+st031x,2021-11-12,17:15:00,56.1,0,NA,cld,1.8,1.15,NA,12.53,2.1,0.4,63.1,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-11-12,21:15:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-11-12,23:45:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,removed trap,NA,23:55:00,yes
+st031x,2021-11-13,08:30:00,55.4,0,08:47:00,cld,1.8,1.34,25.38,9.81,2.5,0,63.3,1.7,08:35:00,08:50:00,yes,yes,yes,ih; sd,pit tag reader connected; backup camera connected,NA,NA,no
+st031x,2021-11-14,08:15:00,55.9,0,08:25:00,cld,1.8,2.03,25.14/12.45,9.6,2.7,0.2,61.5,0.8/1.2,08:16:00,08:26:00,yes,yes,yes,mi; nd,backup camera ok,NA,NA,no
+st031x,2021-11-15,10:00:00,56.6,0,10:05:00,cld,1.81,0.87,25.99,9.9,2.9,0.8,71.9,2.21,09:55:00,10:10:00,yes,yes,yes,mk; gj,NA,NA,NA,no
+st031x,2021-11-16,04:30:00,56.2,0,NA,nit,1.82,NA,NA,9.68,NA,NA,66.8,0,NA,NA,yes,yes,yes,tl; jp,installed trap with 2nd fyke,04:30:00,NA,yes
+st031x,2021-11-16,07:15:00,56,0,07:26:00,cld,1.79,2.21,25.55,9.49,1.9,0,66.5,0,NA,NA,yes,yes,yes,tl; jp,NA,NA,NA,yes
+st031x,2021-11-16,10:00:00,NA,0,NA,cld,1.81,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,tl; jp,checked trap- no fish,NA,NA,yes
+st031x,2021-11-16,13:30:00,56.3,0,NA,cld,1.8,1.22,NA,10.87,1.5,0.1,68.8,NA,NA,NA,yes,yes,yes,ld; ih,checked trap- no fish,NA,NA,yes
+st031x,2021-11-16,17:30:00,56,0,NA,nit,1.8,1.45,NA,11.06,2.1,0.4,64.4,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-16,21:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-17,00:15:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-17,04:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-17,08:30:00,54.4,0,08:51:00,cld,1.81,2.7,25.7/12.3/12.3,9.97,NA,0,67.3,2.3/2.9/2.3,08:30:00,08:44:00,yes,yes,yes,tl; jp,NA,NA,NA,yes
+st031x,2021-11-17,12:30:00,56,0,NA,cld,1.78,NA,NA,11.84,NA,NA,70.5,NA,NA,NA,yes,yes,yes,tl; jp,checked trap- no fish,NA,NA,yes
+st031x,2021-11-17,17:00:00,55.9,0,NA,nit,1.8,1.24,NA,12.33,2.1,0.4,61.2,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-17,21:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-18,00:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,checked and removed trap,NA,00:00:00,yes
+st031x,2021-11-18,08:00:00,54,0,08:35:00,cld,1.78,1.26,25.81,9.81,2.4,0.1,66.2,1.5,08:20:00,08:37:00,yes,yes,yes,sc; ef,installed downstream passage to trap,NA,NA,no
+st031x,2021-11-19,04:30:00,54.5,0,NA,nit,1.8,NA,NA,10.07,2.4,0,65.2,NA,NA,NA,yes,yes,yes,jp; tl,installed trap with 2nd fyke,04:15:00,NA,yes
+st031x,2021-11-19,07:30:00,54,0,08:12:00,cld,1.8,1.61,25.8,10.02,2.4,0,67,2.6,08:03:00,08:13:00,yes,yes,yes,jp; tl,pit tag reader connected; backup cameras connected. checked trap at 7:15- 1 m;y escaped upstream? checked trap at 09:00- no fish,NA,NA,yes
+st031x,2021-11-19,13:00:00,56.4,0,NA,clr,1.8,1.1,30.13/13.82,11.92,NA,NA,65.5,1.1/0.7,NA,NA,yes,yes,yes,bs; sd,checked trap - no fish; zero passages. vaki connected,NA,NA,yes
+st031x,2021-11-19,17:00:00,56.9,0,NA,nit,1.8,0.88,NA,12.26,2.1,0.4,61.3,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-19,21:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-20,01:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-20,04:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-20,07:00:00,55.6,0,07:06:00,cld,1.8,1.26,25.3,9.47,1.7,0,65.1,0.1,06:50:00,07:07:00,yes,yes,yes,tl; ch,backup camera & pit tag reader ok. monitored trap from 6:30-13:00; temps ok,NA,NA,yes
+st031x,2021-11-20,17:15:00,56.6,0,NA,nit,1.86,1.08,25.61/12.69,11.9,2.1,0.4,60.9,0,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-20,21:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-21,00:00:00,NA,NA,NA,nit,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; mi,NA,NA,NA,yes
+st031x,2021-11-21,08:00:00,53,0,07:56:00,cld,1.8,2.32,"25.54, 12.43",10.05,3.1,0.2,77.6,"2.0, 1.3",07:50:00,07:57:00,yes,yes,yes,bs; nd,pit tag reader ok; backup cameras ok,NA,NA,yes
+st031x,2021-11-22,04:15:00,53,0,NA,nit,1.8,NA,NA,10.11,NA,NA,69.6,NA,NA,NA,yes,yes,yes,tl; jp,installed trap with second fyke,04:15:00,NA,yes
+st031x,2021-11-22,08:15:00,51.7,0,08:23:00,cld,1.8,1.17,25.7,10.56,2.4,0,66.8,2.1,08:13:00,08:26:00,yes,yes,yes,tl; jp,backup camera & pit tag reader ok. monitored trap until 10:00 - no fish,NA,NA,yes
+st031x,2021-11-22,13:00:00,54.1,0,NA,clr,1.82,2,29.28,12.44,NA,NA,86.7,4.8,NA,NA,yes,yes,yes,ih;nd,pit tag reader ok; backup cameras ok,NA,NA,yes
+st031x,2021-11-22,17:30:00,54,0,NA,nit,1.82,1.13,25.63/12.80,12.45,2.1,0,76.6,0,NA,NA,yes,yes,yes,jp; mi,NA,NA,NA,yes
+st031x,2021-11-22,19:30:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,jp; mi,NA,NA,NA,yes
+st031x,2021-11-22,23:30:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,23:30:00,23:45:00,yes,yes,yes,jp; ld,NA,NA,NA,yes
+st031x,2021-11-23,03:30:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,NA,03:30:00,03:45:00,yes,yes,yes,jp; ld,NA,NA,NA,yes
+st031x,2021-11-23,07:30:00,51.5,0,07:43:00,fog,1.8,1.89,25.3,10.42,NA,0,78.6,0.8,07:40:00,07:45:00,yes,yes,yes,tl; ih,pit tag reader ok; backup cameras ok. monitored trap until 10:00.,NA,NA,yes
+st031x,2021-11-23,13:00:00,NA,0,NA,clr,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ef; ch,checked trap- no fish,NA,NA,yes
+st031x,2021-11-23,16:30:00,53.4,0,NA,clr,1.82,0.72,25.68,12.65,1.4,NA,78.5,3.6,NA,NA,yes,yes,yes,jp; ld,checked trap- no fish,NA,NA,yes
+st031x,2021-11-23,23:30:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,11:30:00,11:45:00,yes,yes,yes,jp; ld,NA,NA,NA,yes
+st031x,2021-11-23,20:15:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,20:15:00,20:30:00,yes,yes,yes,jp; ld,NA,NA,23:45:00,yes
+st031x,2021-11-24,10:15:00,51.3,0,10:20:00,clr,1.82,1.23,29.7,11.59,2.2,0,80.8,9,10:15:00,10:18:00,yes,yes,yes,tl; ch,pit tag readers ok; backup cameras ok,NA,NA,no
+st031x,2021-11-25,10:30:00,50.5,0,11:30:00,clr,1.84,1.79,29.72,12.21,2.9,0.1,81.2,7.7,11:20:00,11:32:00,yes,yes,yes,ih; sd,backup camera & pit tag reader ok,NA,NA,no
+st031x,2021-11-26,11:00:00,50.9,0,11:11:00,clr,1.8,2.95,29.59,12.6,2.9,0.1,77.4,6.1,11:09:00,11:13:00,yes,yes,yes,ih; nd,backup camera & pit tag reader ok,NA,NA,no
+st031x,2021-11-27,08:15:00,49.8,0,NA,clr,1.82,1.29,NA,11.07,3.4,0,62.8,4.7,08:34:00,08:47:00,yes,yes,yes,jp; ch,12 volt system: solar amp 2.7; voltage 12.89,NA,NA,no
+st031x,2021-11-28,08:15:00,50.1,0,08:30:00,clr,1.8,1.4,25.82,10.86,2.8,0,73.8,2,08:18:00,08:32:00,yes,yes,yes,jp; ld,12v system #1 12.72 volts 1.8 amps. 12v system #2 12.72 volts 7.0 amps,NA,NA,no
+st031x,2021-11-29,04:30:00,52,0,NA,nit,1.8,NA,NA,10.37,NA,NA,73.2,0,NA,NA,yes,yes,yes,tl; sd,set trap with 2nd fyke,04:15:00,NA,yes
+st031x,2021-11-29,08:00:00,48.8,0,08:00:00,fog,1.8,1.17,25.6,11.1,2.1,0,68.5,1.7,07:53:00,08:03:00,yes,yes,yes,tl; sd,pit tag readers ok; backup camera ok; downstream camera not connected. checked trap at 6 and 10,NA,NA,yes
+st031x,2021-11-29,13:00:00,52.4,0,NA,clr,1.8,1.34,NA,11.98,NA,0,75.3,NA,NA,NA,yes,yes,yes,jp; ef,no fish in trap,NA,NA,yes
+st031x,2021-11-29,17:30:00,52.5,0,NA,clr,1.82,1.35,NA,12.44,2,NA,69.8,25.64,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-11-29,21:15:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-11-30,01:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-11-30,04:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-11-30,08:15:00,51.1,0,08:22:00,clr,1.81,NA,25.8,10.57,2.6,0,64.2,2,08:16:00,08:23:00,yes,yes,yes,tl; ch,pit tag readers ok; backup camera ok. checked trap at 6 and 10,NA,NA,yes
+st031x,2021-11-30,13:00:00,53,0,NA,clr,1.8,2.4,NA,11.84,1.5,NA,68.3,NA,NA,NA,yes,yes,yes,ch; ef,NA,NA,NA,yes
+st031x,2021-11-30,17:00:00,52.5,0,NA,clr,1.82,1.25,NA,NA,2.3,NA,71.2,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-11-30,21:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-11-30,23:30:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-12-01,10:30:00,53.1,0,10:22:00,clr,1.81,1.09,29.7,11.38,NA,NA,65.3,10.5,10:18:00,10:23:00,yes,yes,yes,tl; sd,pit tag readers ok; backup camera ok,NA,NA,yes
+st031x,2021-12-02,08:00:00,51.7,0,08:04:00,fog,1.8,1.14,25.4,10.35,1.7,0,67.3,1.5,08:00:00,08:06:00,yes,yes,yes,tl; nd,pit tag readers ok; backup camera ok. monitored trap 4-10:00,04:15:00,NA,yes
+st031x,2021-12-02,17:00:00,52.9,0,NA,cld,1.82,1.23,29,12.63,2.1,0.4,75,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-12-02,21:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-12-03,01:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-12-03,04:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,rb; ld,NA,NA,NA,yes
+st031x,2021-12-03,07:30:00,51.1,0,07:32:00,fog,1.8,0.59,25.2,10.4,2.9,0,68.6,0.3,07:23:00,07:33:00,yes,yes,yes,tl; nd,vaki videos not recording on arrrival; fixed after restarting computer,NA,NA,yes
+st031x,2021-12-03,17:00:00,52.3,0,NA,fog,1.84,0.8,27.5,12.7,2.2,0.4,69.9,0,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-12-03,21:00:00,NA,0,NA,nit,1.84,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,NA,yes
+st031x,2021-12-04,00:00:00,NA,0,NA,nit,1.84,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,ld; rb,NA,NA,00:00:00,yes
+st031x,2021-12-04,08:00:00,52.2,0,NA,cld,1.82,0.87,25.66,10.36,1.9,0,75.6,1.3,08:02:00,08:09:00,yes,yes,yes,sc; ch,NA,NA,NA,no
+st031x,2021-12-05,08:00:00,52.6,0,08:08:00,cld,1.8,1.3,25.31,10.19,2.4,0,73.6,0.04,08:00:00,08:10:00,yes,yes,yes,sc; ch,NA,NA,NA,no
+st031x,2021-12-05,19:30:00,54.1,0,NA,nit,1.86,0.83,25.62,11.57,1.9,0.6,67.8,0,NA,NA,yes,yes,yes,jp; ld,NA,19:40:00,NA,yes
+st031x,2021-12-06,03:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,tl; sd,NA,NA,NA,yes
+st031x,2021-12-06,08:00:00,52,0,07:50:00,cld,1.82,1.33,27.1,10.44,2.2,0,70.7,0.2,07:48:00,07:53:00,yes,yes,yes,tl; sd,NA,NA,NA,yes
+st031x,2021-12-06,20:30:00,52.2,0,NA,nit,1.78,1.14,25.04,11.03,1.9,0,70.3,0,NA,NA,yes,yes,yes,sc; ld,NA,NA,NA,yes
+st031x,2021-12-07,02:45:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,tl; sd,NA,NA,NA,yes
+st031x,2021-12-07,05:00:00,NA,0,NA,nit,1.82,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,tl; sd,NA,NA,NA,yes
+st031x,2021-12-07,09:15:00,53.3,0,09:06:00,cld,1.82,1.4,25.1,9.93,2.8,0,72.2,0.9,09:03:00,09:09:00,yes,yes,yes,tl; sd,backup camera off on arrival - cleared disk and fixed. pit tag readers off on arrival - low batteries; not able to turn on,NA,09:30:00,yes
+st031x,2021-12-08,10:30:00,52.1,0,10:24:00,cld,1.82,1.58,26.3,11.29,2.1,0,72.6,3,10:16:00,10:26:00,yes,yes,yes,tl; ch,pit tag readers off - low voltage. backup camera ok. lights in vaki not working.,NA,NA,no
+st031x,2021-12-08,19:15:00,52.5,0,NA,nit,1.8,2.72,25.27,11.53,2.3,0,73.2,0,NA,NA,yes,yes,yes,sc; ld,set trap,19:25:00,NA,yes
+st031x,2021-12-09,05:00:00,NA,0,NA,ran,1.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,tl; nd,NA,NA,NA,yes
+st031x,2021-12-09,09:30:00,52.6,0,09:30:00,ran,1.82,1.43,24.9,10.44,2.7,0,70.5,0.1,09:26:00,09:33:00,yes,yes,yes,tl; nd,three chn jumped weir back downstream. pit tag readers off; backup camera off on arrival - fixed,NA,NA,yes
+st031x,2021-12-09,20:15:00,52.4,0,NA,nit,1.84,1.51,25.65,11.37,NA,0,71.6,0,NA,NA,yes,yes,yes,sc; ld,NA,NA,NA,yes
+st031x,2021-12-10,04:30:00,NA,0,NA,nit,1.83,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,tl; nd,NA,NA,NA,yes
+st031x,2021-12-10,07:30:00,50.6,0,07:11:00,clr,1.86,1.16,25.1,10.15,2.8,0.4,63,0,07:09:00,07:15:00,yes,yes,yes,tl; nd,pit tag readers off. backup camera ok,NA,09:45:00,yes
+st031x,2021-12-11,08:30:00,47.3,0,08:32:00,clr,1.82,0.85,26,11.5,2.3,0.1,57.3,2.5,08:31:00,08:33:00,yes,yes,yes,mi; ih,pit tag readers off. backup camera ok,NA,NA,no
+st031x,2021-12-12,09:30:00,48.8,0,09:37:00,cld,1.84,1.13,26.56/12.02,11.55,2.2,0.1,60.5,1.8/2.5,NA,NA,yes,yes,yes,mi; ih,vaki and computer off; not connected on arrival. vaki reconnected; need to download backup data. backup camera ok,NA,NA,no
+st031x,2021-12-12,20:00:00,50.4,0,NA,nit,1.94,3.69,25.41,11.51,NA,NA,68.5,0,NA,NA,yes,yes,yes,mi; ih,pit tag readers off. backup camera and computer ok,20:15:00,NA,yes
+st031x,2021-12-13,05:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,bs; ch,NA,NA,NA,yes
+st031x,2021-12-13,08:30:00,50.5,0,08:41:00,ran,1.92,2.63,25.25/11.82,10.42,2.5,0.6,71.9,0.9/1.3,08:30:00,NA,yes,yes,yes,bs; ch,downstream camera down; pit tag reader down,NA,NA,yes
+st031x,2021-12-13,21:30:00,51.1,0,NA,ran,2.2,11.58,25.29/13.37,10.44,NA,NA,83.5,0.0/0.0,NA,NA,yes,yes,yes,mi; ih,all systems connected,NA,NA,yes
+st031x,2021-12-14,06:30:00,NA,NA,NA,nit,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,bs; ch,weir spilling over upon arrival,NA,NA,yes
+st031x,2021-12-14,08:00:00,49.5,NA,07:55:00,cld,2.54,105,25.32/12.59,11,1.2,0.6,149.6,0.0/0.3,07:52:00,07:56:00,yes,yes,yes,bs; ch,water too turbid to see through. barrels added,NA,10:00:00,yes
+st031x,2021-12-15,00:30:00,48.3,0,NA,nit,2.62,45.1,25.48/12.48,11.34,NA,NA,163.5,0,NA,NA,yes,yes,yes,ih; mi,NA,00:45:00,NA,yes
+st031x,2021-12-15,07:00:00,48,0,NA,cld,2.3,53.7,NA,10.57,1.9,NA,155.7,NA,NA,NA,yes,yes,yes,bs; ch,NA,NA,NA,yes
+st031x,2021-12-15,08:00:00,48,0,NA,clr,2.3,53.7,26.17/12.57,10.57,1.9,1,155.7,3.1/1.2/6.5,08:00:00,08:10:00,yes,yes,yes,bs; ch,no recorded passages - water too turbid. no download; no downstream backup. backup camera and pit tag readers ok.,NA,NA,yes
+st031x,2021-12-15,18:30:00,49.3,0,NA,nit,2.12,27.8,25.68/12.68,10.7,NA,NA,130.2,0.0/0.0,NA,NA,yes,yes,yes,ih; mi,pit tag connected; backup camera connected,NA,NA,yes
+st031x,2021-12-15,22:15:00,NA,0,NA,nit,2.08,NA,25.52/12.53,NA,NA,NA,NA,0.0/0.0,NA,NA,yes,yes,yes,mi; ih,NA,NA,NA,yes
+st031x,2021-12-16,05:30:00,49.3,NA,NA,nit,2.37,17.1,NA,10.03,1.5,NA,100.8,NA,05:30:00,05:45:00,yes,yes,yes,bs; ch,NA,NA,NA,yes
+st031x,2021-12-16,08:00:00,49.3,NA,08:10:00,ran,2.37,17.1,"25.3,12.29",10.03,1.5,1.3,100.8,"0.1,0.4",07:58:00,08:12:00,yes,yes,yes,bs; ch,NA,NA,NA,yes
+st031x,2021-12-16,10:00:00,49.3,NA,NA,cld,2.37,17.1,NA,10.03,1.5,NA,100.8,NA,09:55:00,10:10:00,yes,yes,yes,bs; ch,NA,NA,10:10:00,yes
+st031x,2021-12-17,08:30:00,49.5,NA,08:39:00,cld,2.5,7.78,25.37/12.25,10.37,2.3,2.1,85.2,0.9/1.2,08:35:00,08:40:00,yes,yes,yes,bs; ch,NA,NA,NA,no
+st031x,2021-12-17,13:45:00,50.7,0,NA,cld,2.46,6.96,29.6,11.47,2.3,2.1,85.7,6.5,NA,NA,yes,yes,yes,ld; rb,NA,13:53:00,NA,yes
+st031x,2021-12-17,20:30:00,49.8,0,NA,nit,2.4,7.47,25.57/12.51,11.08,NA,NA,83.5,0.0/0.0,NA,NA,yes,yes,yes,ih; mi,pit tag connected; backup camera connected,NA,NA,yes
+st031x,2021-12-18,05:15:00,49.1,0,NA,nit,2.4,6.85,25.22/12.19,10.73,NA,NA,89.5,0.0/0.0,NA,NA,yes,yes,yes,mi; ih,NA,NA,NA,yes
+st031x,2021-12-18,10:15:00,49,0,NA,cld,2.4,5.07,26.40/12.36,10.99,NA,NA,82.3,2.6/1.7,NA,NA,yes,yes,yes,ih; mi,pit tag connected; backup camera connected,NA,NA,yes
+st031x,2021-12-18,21:00:00,50.6,0,NA,nit,2.36,3.89,25.36/12.11,11.05,NA,NA,73.1,0.0/0.0,NA,NA,yes,yes,yes,ih; mi,pit tag connected; backup camera connected,NA,NA,yes
+st031x,2021-12-19,08:30:00,NA,0,NA,cld,2.38,NA,25.23/12.04,NA,NA,NA,NA,0.6/0.9,NA,NA,yes,yes,yes,ih; mi,NA,NA,NA,yes
+st031x,2021-12-19,21:00:00,49.4,0,NA,nit,2.36,6.37,25.15/11.93,11.11,NA,NA,79.6,0.0/0.0,NA,NA,yes,yes,yes,ih; mi,pit tag connected; backup camera connected,NA,NA,yes
+st031x,2021-12-20,05:00:00,NA,0,NA,nit,2.35,NA,25.12/11.9,NA,NA,NA,NA,0.0/0.0,NA,NA,yes,yes,yes,ld; bs,NA,NA,NA,yes
+st031x,2021-12-20,08:15:00,50.3,0,08:51:00,cld,2.34,2.29,25.23,10.54,1.9,1.7,80.3,0.8,08:16:00,08:52:00,yes,yes,yes,ld; bs,trap check at 10:00 - no fish in trap,NA,NA,yes
+st031x,2021-12-20,21:00:00,49.8,0,NA,nit,2.26,2.94,25.10/11.85,11.02,NA,NA,78.7,0.0/0.0,NA,NA,yes,yes,yes,mi; ih,pit tag readers off; backup camera ok,NA,NA,yes
+st031x,2021-12-21,08:45:00,48.8,0,08:31:00,cld,1.9,2.6,25.2/11.84,10.61,1.8,0.4,84.8,1.0/1.3,08:11:00,08:33:00,yes,yes,yes,bs; sd,pit tag readers off,NA,NA,yes
+st031x,2021-12-21,21:00:00,49.5,0,NA,nit,1.86,9.64,25.53/11.96,11.38,NA,NA,83.2,0.0/0.0,NA,NA,yes,yes,yes,ih; mi,NA,NA,NA,yes
+st031x,2021-12-22,08:30:00,48.9,0,08:31:00,cld,1.85,2.32,25.07/11.74,10.76,0.8,0.4,85.8,0.4/0.6,08:10:00,08:34:00,yes,yes,yes,bs; nd,backup camera ok; pit tag reader off; downstream backup off,NA,NA,yes
+st031x,2021-12-22,20:45:00,49.4,0,NA,nit,1.88,2.78,25.57/11.93,10.94,NA,NA,87.4,0.0/0.0,NA,NA,yes,yes,yes,mi; ih,NA,NA,NA,yes
+st031x,2021-12-23,08:30:00,50.6,0,08:50:00,ran,1.9,1.88,25.0/11.7,10.27,1.5,0.4,89.8,0.2/0.0,08:24:00,08:45:00,yes,yes,yes,bs; sd,NA,NA,08:45:00,yes
+st031x,2021-12-24,08:15:00,51.6,0,08:20:00,cld,2.88,33,24.98,10.21,1.4,0.8,138.5,1.3,08:12:00,08:21:00,yes,yes,yes,bs; sd; nd,NA,NA,NA,no
+st031x,2021-12-27,08:45:00,48.7,0,08:57:00,ran,2.7,22.8,25.27,10.35,3.4,2.5,128.8,0.9,08:50:00,08:59:00,yes,yes,yes,rb; ld,NA,NA,NA,no
+st031x,2021-12-28,10:10:00,47.9,8,10:00:00,cld,3.24,27.8,26.5/12.4,10.9,1.2,1.9,137.3,3.7/4.2,10:07:00,10:11:00,yes,no,yes,bs; ih,vaki changing between connected and not connected,NA,NA,no
+st031x,2021-12-28,17:00:00,NA,0,NA,nit,2.95,NA,NA,NA,NA,NA,NA,NA,NA,NA,yes,yes,yes,bs; sd,set trap,17:26:00,NA,yes
+st031x,2021-12-29,08:45:00,48.9,0,08:57:00,ran,3.57,10.99,25.43,10.81,1.8,1.6,118.1,0.9,08:50:00,08:59:00,yes,yes,yes,ld; rb,removed trap,NA,08:59:00,yes
+st031x,2021-12-29,20:30:00,50,0,NA,nit,3.62,11.54,NA,11.05,NA,NA,97.5,NA,NA,NA,yes,NA,yes,mi; ih,NA,NA,NA,no
+st031x,2021-12-30,08:15:00,49.9,0,08:35:00,cld,3.7,9.48,25.39,10.35,2.6,NA,97.8,0.7,08:30:00,08:45:00,yes,yes,yes,mk; bg,NA,NA,NA,no
+st031x,2021-12-30,18:45:00,51.2,3,NA,nit,3.7,6.29,NA,10.81,NA,NA,92.8,NA,NA,NA,yes,yes,yes,mi; ih,NA,NA,NA,no
+st031x,2021-12-31,15:00:00,51.9,0,15:10:00,cld,3.56,5.96,27.68/12.36,10.71,2.9,3.2,93.6,1.2/2.2,15:06:00,15:11:00,yes,yes,yes,mi; ih,NA,NA,NA,no
+st031x,2022-01-01,13:00:00,48.8,0,13:34:00,clr,3.08,3.92,27.45/13.27,11.25,2.4,2.6,101.1,2.5/21.1,13:30:00,13:35:00,yes,yes,yes,mi; ih,backup camera ok,NA,NA,no
+st031x,2022-01-02,09:45:00,46.5,0,09:46:00,clr,2.16,3.74,30.11/12.65,11.09,2,2.2,96.4,10.5/6.2,09:38:00,09:47:00,yes,yes,yes,ih; mi,NA,NA,NA,no
+st031x,2022-01-02,18:00:00,47.5,0,NA,nit,2,3.43,25.65/12.26,11.63,NA,NA,99.3,0.0/0.0,NA,NA,yes,yes,yes,ih; mi,trap set at 18:40. backup camera and pit tag reader connected,18:40:00,NA,yes
+st031x,2022-01-03,08:15:00,45,0,08:39:00,clr,2,3.69,25.40/11.97,11.45,1.6,1.8,100.7,1.3/0.7,08:23:00,08:41:00,yes,yes,yes,mi; nd; sd,backup camera ok,08:23:00,08:41:00,yes
+st031x,2022-01-03,19:45:00,47.7,0,NA,nit,1.9,3.27,NA,11.9,NA,NA,102.2,NA,NA,NA,yes,yes,yes,jp; sd,NA,NA,NA,yes
+st031x,2022-01-04,08:10:00,47.3,0,08:23:00,cld,1.9,3.74,25.33/11.90,11.21,2.7,0.1,103.3,0.7/1.1,08:15:00,08:26:00,yes,yes,yes,bs; ch,NA,NA,NA,yes
+st031x,2022-01-04,19:30:00,49.5,0,NA,nit,1.88,3.26,NA,11.94,NA,NA,95.8,NA,NA,NA,yes,yes,yes,jp; nd,pit tag reader down - low on power,NA,NA,yes
+st031x,2022-01-05,08:00:00,49.4,0,08:12:00,clr,1.9,3.28,25.78/11.92,10.85,2.7,0.1,97.6,2.7/1.6,08:05:00,08:16:00,yes,yes,yes,bs; ch,NA,NA,NA,yes
+st031x,2022-01-05,19:15:00,51.6,0,NA,nit,1.88,2.62,NA,11.65,NA,NA,93.5,NA,NA,NA,yes,yes,yes,jp; sd,NA,NA,NA,yes
+st031x,2022-01-06,08:30:00,51.2,0,NA,cld,1.9,2.8,25.3/12.06,10.12,2.9,0.1,104.4,0.5/0.8,NA,NA,yes,yes,yes,bs; ch,no download-no passages,NA,NA,yes
+st031x,2022-01-07,09:00:00,51.2,0,09:07:00,cld,1.9,2.88,25.44,10.36,1.9,0.4,93.2,1.1,09:00:00,09:15:00,yes,yes,yes,ef; jp,NA,NA,NA,yes
+st031x,2022-01-08,08:00:00,49.7,0,08:10:00,cld,1.92,2.77,25.77/11.61,10.4,1.8,0.2,94.3,0.3/0.5,08:06:00,08:11:00,yes,yes,yes,mi; ch,backup camera and pit tag reader ok. no fish in trap,NA,NA,yes
+st031x,2022-01-09,09:00:00,49,0,NA,clr,1.9,3.03,26.87/12.19,10.5,1.4,0.1,101.3,5.4/2.3/7.4,NA,NA,yes,yes,yes,ch; mi,opened trap @ 9:13am; pit tag reader off,NA,09:13:00,no
+st031x,2022-01-12,08:45:00,47.3,0,08:58:00,clr,1.92,2.37,26.93/12.32,11.58,1.6,0.2,98.2,4.9/2.2,08:52:00,08:59:00,yes,yes,yes,mi; ih,trap set at 9:01am,09:01:00,NA,yes
+st031x,2022-01-13,08:45:00,48.3,0,08:44:00,clr,1.9,3.31,25.54/12.08,11.23,1.6,0.2,100.5,1.4/1.1,08:40:00,08:45:00,yes,yes,yes,ih; mi,NA,NA,NA,yes
+st031x,2022-01-14,09:15:00,48.4,0,09:22:00,fog,1.92,2.42,25.74/12.04,11.21,1.6,0.2,99.6,2.0/2.5,09:18:00,09:23:00,yes,yes,yes,ih; mi,backup camera and pit tag reader ok. no fish in trap,NA,NA,yes
+st031x,2022-01-15,08:00:00,48.3,0,08:06:00,cld,1.88,2.57,25.26,11.03,1.7,0,98.2,0.4,08:00:00,08:10:00,yes,yes,yes,ld; jp,trap is closed and fishing; no fish during trap check.,NA,NA,yes
+st031x,2022-01-16,08:00:00,48.6,0,08:03:00,cld,1.88,1.83,25.3,11.19,1.4,0,95.3,0.7,08:00:00,08:05:00,yes,yes,yes,jp; ld,only 1 downstream passage; trap is fishing,NA,NA,yes
+st031x,2022-01-17,09:30:00,49.1,0,09:58:00,cld,1.87,3.16,27.13/12.36,11.62,0.4,0.1,89.9,4,09:47:00,09:59:00,yes,yes,yes,bs; nd,no passages recorded - no download,NA,NA,yes
+st031x,2022-01-18,11:00:00,50.2,0,11:16:00,clr,1.82,1.83,29.55,12.62,0.8,0.1,91.5,6.7,11:03:00,11:17:00,yes,yes,yes,nd; sd,backup camera and pit tag reader ok. no fish in trap,NA,NA,yes
+st031x,2022-01-19,10:15:00,49,0,10:28:00,clr,1.85,2.08,29.74,12.4,1.1,0.1,89.2,11.5,10:22:00,10:29:00,yes,yes,yes,nd; sd,no fish in trap,NA,NA,yes
+st031x,2022-01-20,10:30:00,48.3,0,10:39:00,clr,1.85,2.35,29.7/13.2,12.5,1.6,0.2,90.3,9.1/10.0,10:25:00,10:40:00,yes,yes,yes,bs; sd,no fish in trap,NA,NA,yes
+st031x,2022-01-21,10:00:00,48.2,0,10:23:00,clr,1.87,2.23,29.76,12.46,0.8,0.1,97.8,10.3,10:21:00,10:24:00,yes,yes,yes,bs; nd,no passages - no download. sandbags added,NA,NA,yes
+st031x,2022-01-22,09:00:00,48,0,09:20:00,clr,1.84,1.74,27.09/12.41,11.66,1.9,0.4,98.7,3.2/2.5,09:10:00,09:30:00,yes,yes,yes,ih; rv,backup camera and pit tag reader ok. upstream fyke opened one inch. panel repaired.,NA,NA,yes
+st031x,2022-01-23,09:00:00,47.5,0,09:27:00,cld,1.88,2.39,27.1/12.5,12.09,2.4,0.6,97.7,3.1/3.7,09:15:00,09:28:00,yes,yes,yes,ih; rv,backup camera and pit tag reader ok. boat passage reattached.,NA,NA,yes
+st031x,2022-01-24,09:15:00,46.8,0,09:28:00,clr,1.88,1.97,28.18,12.31,1,0.3,96.8,9.7,09:17:00,09:30:00,yes,yes,yes,ld; bs,no passages.,09:17:00,09:30:00,yes
+st031x,2022-01-25,09:00:00,46.6,0,09:10:00,fog,1.82,1.52,26.95/12.44,12.06,0.4,0.2,86.7,3.0/3.2,09:05:00,09:11:00,yes,yes,yes,mi; bs,no passages - no download,NA,NA,yes
+st031x,2022-01-26,09:15:00,46.7,0,09:30:00,clr,1.82,1.8,28.32,12.53,0.8,0.2,96.2,10.2,09:23:00,09:32:00,yes,yes,yes,ld; bs,no fish in trap,09:23:00,09:32:00,yes
+st031x,2022-01-27,09:00:00,47.1,0,09:08:00,clr,1.9,2.16,27.94/12.90,11.67,1.2,0.2,78.9,7.7/2.8,09:06:00,09:10:00,yes,yes,yes,mi; ld,backup camera ok. no passages.,NA,NA,yes
+st031x,2022-01-28,08:15:00,46.5,0,08:37:00,clr,1.85,3.57,27.67,11.62,1.2,0.4,104.5,3.77,08:30:00,08:39:00,yes,yes,yes,ef; ld,trap opened at 8:39am,NA,08:39:00,yes
+st031x,2022-01-31,10:30:00,47.9,0,10:41:00,clr,1.92,2.01,29.76,11.59,3.4,NA,83.9,8.2,10:36:00,NA,yes,yes,yes,jp; ld; rb; rv,removed downstream livebox and passage panel. disconnected power from downtream pit tag antenna,NA,NA,no
+st031x,2022-02-01,08:00:00,49.8,0,NA,clr,2.5,2.04,28.1,NA,NA,NA,96.2,8.2,NA,NA,no,yes,yes,rb; rv,monitored weir from 0730 to 2000,NA,NA,no
+st031x,2022-02-01,19:00:00,52.5,0,NA,nit,4.7,4.54,NA,NA,NA,NA,89.2,NA,NA,NA,no,yes,yes,rb; rv,NA,NA,NA,no
+st031x,2022-02-02,10:00:00,NA,30,NA,clr,4.95,NA,29.92,NA,NA,NA,NA,5.8,NA,NA,no,yes,yes,rb; ld; rv,NA,NA,NA,no
+st031x,2022-02-02,18:45:00,49.1,20,NA,nit,5.15,3.19,NA,11.87,NA,NA,89.7,NA,NA,NA,no,yes,yes,rb; rv,NA,NA,NA,no
+st031x,2022-02-03,10:00:00,49.2,NA,11:20:00,clr,5.1,2.81,14.78,11.43,NA,NA,82.2,19.7,NA,NA,no,yes,yes,mk; ld,usb not working; downloaded to backup file,NA,NA,no
+st031x,2022-02-04,07:00:00,49.2,4,07:15:00,cld,5.15,2.36,25.71,NA,NA,NA,94.6,0.1,07:10:00,07:15:00,no,yes,yes,rb; ld,NA,NA,NA,no
+st031x,2022-02-05,06:30:00,48.4,0,06:40:00,clr,5.13,2.27,25.25,11.66,NA,NA,82.2,0,06:35:00,06:41:00,no,yes,yes,bs; rv,cleaned weir at 1000,NA,NA,no
+st031x,2022-02-06,06:45:00,48.4,1,06:47:00,clr,5.12,1.82,25.25,11.9,NA,NA,91.2,0,06:44:00,06:48:00,no,yes,yes,ld; jp,NA,NA,NA,no
+st031x,2022-02-07,11:00:00,NA,6,11:03:00,clr,5.15,2.79,29.56,NA,NA,NA,NA,5.2,11:00:00,11:03:00,no,yes,yes,rb; jp,NA,NA,NA,no
+st031x,2022-02-03,16:00:00,NA,2,NA,clr,5.1,NA,25.83/12.77,NA,NA,NA,NA,.01/.2,NA,NA,no,yes,yes,ih; mi,finished cleaning weir @ 1700; pit tag; back up camera ok,NA,NA,no
+st031x,2022-02-03,22:00:00,NA,1,NA,nit,5.1,NA,25.55/12.57,NA,NA,NA,NA,0,NA,NA,no,yes,yes,ih; mi,pit tag; backup camera ok,NA,NA,no
+st031x,2022-02-04,16:00:00,NA,0,NA,clr,5.16,NA,26.49/13.05,NA,NA,NA,NA,.3/1.7,NA,NA,no,yes,yes,ih; mi,pit tag; backup camera ok,NA,NA,no
+st031x,2022-02-04,22:00:00,NA,0,NA,nit,5.16,NA,25.57/12.59,NA,NA,NA,NA,0,NA,NA,no,yes,yes,ih; mi,pit tag; backup camera ok,NA,NA,no
+st031x,2022-02-05,16:00:00,NA,0,NA,clr,5.18,NA,27.19/13.82,NA,NA,NA,NA,2.1/4,NA,NA,no,no,yes,ih; mi,computer off upon arrival; computer reconnected when powered on. pit tag/backup camera ok,NA,NA,no
+st031x,2022-02-05,22:00:00,NA,0,NA,nit,5.2,NA,25.55/12.58,NA,NA,NA,NA,0,NA,NA,no,yes,yes,ih; mi,backup camera and pit tag reader connected,NA,NA,no
+st031x,2022-02-06,14:00:00,NA,0,NA,clr,5.18,NA,26.92/14.48,NA,NA,NA,NA,1.3/.5,NA,NA,no,yes,yes,ih; mi,backup camera connected,NA,NA,no
+st031x,2022-02-06,22:00:00,NA,0,NA,nit,5.2,NA,25.58/12.60,NA,NA,NA,NA,0,NA,NA,no,yes,yes,ih; mi,backup camera connected. pit tag antenna tied to top of passage box; will replace into position when flows permit,NA,NA,no
+st031x,2022-02-07,19:30:00,49.8,2,NA,nit,5.16,0.86,25.66,11.66,NA,NA,84,0,NA,NA,no,yes,yes,ld; mi,NA,NA,NA,no
+st031x,2022-02-08,10:00:00,NA,0,NA,clr,5.15,1.4,29.01,NA,NA,NA,NA,10.6,NA,NA,no,yes,yes,rb; jp,23 up; 20 down,NA,NA,no
+st031x,2022-02-08,19:30:00,52,0,NA,nit,5.2,0.76,25.64,11.3,NA,NA,80.2,0,NA,NA,no,yes,yes,ld; mi,NA,NA,NA,no
+st031x,2022-02-09,08:45:00,49.8,11,08:50:00,clr,5.2,1.71,27.4,11.2,NA,NA,91.2,8.1,08:43:00,08:51:00,no,yes,yes,bs; rv,NA,NA,NA,no
+st031x,2022-02-09,19:30:00,51.8,0,NA,nit,5.2,1.32,25.66,11.76,NA,NA,79.3,0,NA,NA,no,yes,yes,ld; mi,backup camera ok; pit tag ok,NA,NA,no
+st031x,2022-02-10,07:45:00,50.7,11,07:56:00,clr,5.3,0.75,25.47,10.98,NA,NA,78.3,1.8,07:45:00,07:57:00,no,yes,yes,bs; rv,NA,NA,NA,no
+st031x,2022-02-10,19:30:00,52.5,0,NA,nit,5.2,0.71,25.67,11.42,NA,NA,78.8,0,NA,NA,no,yes,yes,ld; mi,NA,NA,NA,no
+st031x,2022-02-11,08:30:00,50.2,6,08:56:00,clr,5.2,0.88,27.85,11.24,2.7,NA,80.1,8.1,08:50:00,08:56:00,no,yes,yes,rb; rv,NA,NA,NA,no
+st031x,2022-02-12,08:15:00,49.9,0,08:24:00,clr,3.76,1.3,26.94,11.47,1.9,NA,87.5,3.8,08:20:00,08:25:00,no,yes,yes,bs; rv,NA,NA,NA,no
+st031x,2022-02-13,11:30:00,58.5,0,11:43:00,clr,3.6,0.64,29.21/14.46,11.42,1.8,NA,71.9,4.8/18.2,11:40:00,11:45:00,no,yes,yes,ih; rv,backup camera connected,NA,NA,no
+st031x,2022-02-14,10:00:00,50.9,0,10:05:00,cld,3.55,2.69,29.48,11.04,2.1,NA,73.3,11.2,10:00:00,10:05:00,no,yes,yes,rb; ld,NA,NA,NA,no
+st031x,2022-02-15,08:30:00,50.9,0,08:37:00,clr,3.6,1.06,27.49/12.7,10.4,2.2,NA,66.4,3.9/1.0,08:28:00,08:38:00,no,yes,yes,mi/rv,back up camera ok; pit tag reader ok,NA,NA,no
+st031x,2022-02-17,08:30:00,48.9,0,08:47:00,clr,3.6,1.56,28/13.10,11.06,2,NA,78.3,7.2/1.6,08:36:00,08:48:00,no,yes,yes,mi/rv,NA,NA,NA,no
+st031x,2022-02-18,08:30:00,49.4,0,08:40:00,cld,3.35,1.86,27.34,11.45,2.3,NA,76,3.6,08:35:00,08:40:00,no,yes,yes,rb; rv,NA,NA,NA,no
+st031x,2022-02-19,13:15:00,50.2,0,13:25:00,clr,3.36,1.64,26.84,11.81,2.3,NA,90.1,1.5,13:20:00,13:25:00,no,yes,yes,ld; rb,NA,NA,NA,no
+st031x,2022-02-20,11:00:00,51.2,0,11:22:00,cld,3.4,2.84,29.56/13.49,12.19,2.6,NA,76.8,4.9/6.4,11:17:00,11:23:00,no,yes,yes,ih; mi,back up camera ok; pit tag reader ok,NA,NA,no
+st031x,2022-02-16,08:30:00,49.4,0,08:29:00,clr,3.6,1.32,27.50/12.74,10.81,2,NA,74.8,1.2/12.71,08:23:00,08:31:00,no,yes,yes,mi; rv,back up camera ok; pit tag reader ok,NA,NA,no
+st031x,2022-02-21,12:15:00,51.9,0,12:48:00,clr,3.34,2.44,29.45,12.25,1.3,NA,86.2,4.4,12:25:00,12:48:00,no,yes,yes,bs; bc,NA,NA,NA,no
+st031x,2022-02-22,12:15:00,51.3,0,12:56:00,cld,3.32,1.13,29.01,12.15,2.3,NA,82.8,4,12:48:00,12:56:00,no,yes,yes,bs; bc,NA,NA,NA,no
+st031x,2022-02-23,10:00:00,49,0,10:14:00,clr,3.32,1,29.96,12.03,2.5,NA,81,6.7,10:10:00,10:15:00,no,yes,yes,bs; bc,NA,NA,NA,no
+st031x,2022-02-24,10:00:00,48.1,0,10:09:00,clr,3.32,0.82,29.95/13.98,12.3,2.3,NA,77.9,6.2/10.1,10:00:00,10:10:00,no,yes,yes,mi; bc,back up camera ok; pit tag reader ok,NA,NA,no
+st031x,2022-02-25,07:45:00,47.2,0,07:49:00,clr,2.52,4.62,25.39,11.22,1.4,NA,82.6,2,07:45:00,07:50:00,no,yes,yes,sc; ji; ef,tuned pit tag antenna,NA,NA,no
+st031x,2022-02-26,09:00:00,48.3,0,09:00:00,clr,3.35,3.92,28.25,12.18,2.7,NA,35.5,8.4,08:55:00,09:01:00,no,yes,yes,bs; rv,NA,NA,NA,no
+st031x,2022-02-27,09:45:00,50,0,09:47:00,clr,3.35,2.72,29.75,12.07,2.3,NA,78.1,10.1,09:44:00,09:50:00,no,yes,yes,bs; bc,NA,NA,NA,no
+st031x,2022-02-28,08:00:00,50.7,0,08:20:00,clr,3.3,2.19,27.57/12.78,10.82,2.6,NA,52.9,5.6/1.2,08:10:00,08:21:00,no,yes,yes,mi; bc,backup camera and pit tag reader ok,NA,NA,no
+st031x,2022-03-02,10:30:00,51.9,0,10:47:00,cld,3.38,4.26,29.36/14,12.21,2.2,NA,64.4,6.2/13.8,10:42:00,10:48:00,no,yes,yes,mi; bs,backup camera and pit tag reader ok,NA,NA,no
+st031x,2022-03-04,11:30:00,53.4,0,11:41:00,cld,3.08,1.04,28.45/13.84,12.41,2.1,NA,65.8,4.6/8.2,11:34:00,11:42:00,no,yes,yes,bs; mi,backup camera and pit tag reader ok,NA,NA,no
+st031x,2022-03-07,11:15:00,52.7,0,11:31:00,clr,3.1,2.32,29.55,NA,NA,NA,59.3,3.3,11:25:00,11:32:00,no,yes,yes,ld; mi,computer was off upon arrival; vaki still connected,NA,NA,no
+st031x,2022-03-09,11:45:00,54.6,0,11:58:00,clr,3.12,0.78,29.23/14.5,12.55,2.6,NA,83.3,3.4,11:49:00,12:00:00,no,yes,yes,mi; bc,backup camera and pit tag reader ok,NA,NA,no
+st031x,2022-03-10,08:45:00,51.9,0,09:23:00,clr,2.85,1.77,28.7,11.42,NA,NA,64.2,11.8,09:20:00,09:25:00,no,yes,yes,jp; gj,replaced 5mph buoy downstream of weir,NA,NA,no
+st031x,2022-03-11,11:00:00,52,0,NA,clr,2.66,NA,NA,12.47,NA,NA,65.7,NA,NA,NA,no,NA,yes,bs; bc,set trap; flow meter not working,11:15:00,NA,yes
+st031x,2022-03-12,08:30:00,51.2,0,NA,clr,2.65,1.38,NA,10.92,2.4,NA,64.1,NA,NA,NA,no,NA,yes,mi; rv,NA,NA,NA,yes
+st031x,2022-03-13,12:00:00,55.4,0,13:04:00,clr,2.6,0.7,29.21/14.48,12.56,2.3,NA,80.9,5.3/22.8,12:50:00,13:05:00,no,yes,yes,ih; rv,backup camera and pit tag reader ok; white sturgeon seen above weir,NA,NA,yes
+st031x,2022-03-14,08:15:00,52.9,0,08:48:00,clr,2.58,1.74,12.79,9.88,1.4,NA,75.7,1.5,08:38:00,08:50:00,no,yes,yes,nd; sd,backup camera and pit tag reader ok,NA,NA,yes
+st031x,2022-03-15,08:30:00,54.4,0,08:42:00,ran,2.36,NA,25.28/12.53,9.88,0.3,NA,65,.2/.6,08:30:00,08:45:00,no,yes,yes,ih; ld,backup camera and pit tag reader ok,NA,NA,yes
+st031x,2022-03-16,08:45:00,53.1,0,08:53:00,cld,2.3,1.07,1.9,10.37,2.1,NA,58.9,26.18,08:48:00,08:54:00,no,yes,yes,ld; ch,NA,NA,NA,yes
+st031x,2022-03-17,08:00:00,54.5,0,07:55:00,clr,2.1,1.24,12.79,9.31,2.2,NA,65.5,1.4,07:48:00,07:56:00,no,yes,yes,sd; bc,green button on computer is stuck,NA,NA,yes
+st031x,2022-03-18,07:45:00,54.3,0,07:56:00,clr,NA,1.17,25.34,9.26,2.4,NA,63.7,0.5,07:45:00,07:56:00,no,yes,yes,bs; bc,NA,NA,NA,yes
+st031x,2022-03-19,08:15:00,55.2,0,08:07:00,cld,2.08,2.73,25.48/12.57,9.66,2.2,NA,60.3,0.7/1.1,07:58:00,08:10:00,no,yes,yes,ch; bc,backup camera ok; attached red boat light,NA,NA,yes
+st031x,2022-03-20,07:45:00,52.5,0,07:43:00,clr,2.1,0.94,12.47,9.52,1,NA,67.8,0.6,07:35:00,07:44:00,no,yes,yes,nd; sd,NA,NA,NA,yes
+st031x,2022-03-21,09:00:00,55.6,0,NA,clr,2.08,2.85,NA,NA,2.1,NA,49.1,NA,NA,NA,no,NA,yes,tl; sd,no download - locked out of box. no d.o. meter,NA,NA,yes
+st031x,2022-03-22,08:45:00,56.7,0,08:45:00,clr,2.09,1.38,12.84,NA,2.3,NA,51.8,3.4,08:43:00,08:48:00,no,yes,yes,tl; sd,no d.o. meter. square post poking through weir rl. lowered bulk heads; secured front boat passage and rail cover,NA,NA,yes
+st031x,2022-03-23,09:45:00,57.2,0,09:47:00,clr,2.09,0.58,13.4,10.05,1.4,NA,70.5,9.8,09:43:00,09:48:00,no,yes,yes,tl; sd,back up camera ok,NA,NA,yes
+st031x,2022-03-24,09:45:00,57.8,0,09:39:00,clr,2.08,1.3,27.58/13.39,9.83,NA,NA,68.3,7.7/2.6/8.5,09:32:00,09:39:00,no,yes,yes,sd; ch,NA,NA,NA,yes
+st031x,2022-03-25,09:45:00,58.2,0,09:51:00,clr,1.98,1.62,27.89,9.81,2.5,NA,67.6,9.6,09:39:00,09:58:00,no,yes,yes,bs; nd,removed the boat passage barrels,NA,NA,yes
+st031x,2022-03-26,11:15:00,59.6,0,11:06:00,clr,2.1,0.93,13.8,10.9,1.4,NA,62.5,12.2,10:58:00,11:17:00,no,yes,yes,nd; bc,NA,NA,NA,yes
+st031x,2022-03-27,10:30:00,58.5,0,10:30:00,clr,2.14,1.25,25.37/28.39,10.22,2,NA,135.6,11.8/8.4/13.6,10:22:00,10:31:00,no,yes,yes,jp; sd,NA,NA,NA,yes
+st031x,2022-03-28,09:00:00,57.3,0,09:11:00,ran,2.15,0.8,26.3,9.09,NA,NA,134.6,2.5,09:00:00,09:15:00,no,yes,yes,bs; bc,no fish in trap,NA,NA,yes
+st031x,2022-03-29,11:00:00,56.2,0,11:19:00,clr,2.14,0.57,29.48,11.4,1.5,NA,NA,6.8,11:12:00,11:19:00,no,yes,yes,bs; nd,conductivity meter not working,NA,NA,yes
+st031x,2022-03-30,11:15:00,56.6,0,11:28:00,cld,2.11,0.74,29.6,11.47,2.1,NA,NA,6.3,11:23:00,11:29:00,no,yes,yes,bs; mi,conductivity meter not working; no fish in trap,NA,NA,yes
+st031x,2022-03-31,09:00:00,55,0,09:11:00,cld,2.13,0.41,27.15,10.4,1.6,NA,68.2,3.8,09:08:00,09:12:00,no,yes,yes,bs; nd,NA,NA,NA,yes
+st031x,2022-04-01,09:45:00,56.1,0,09:57:00,clr,2.13,0.89,28.16,10.6,2.7,NA,76,9.6,09:50:00,09:58:00,no,yes,yes,bs; rv,NA,NA,NA,yes
+st031x,2022-04-02,11:15:00,58,0,11:33:00,clr,2.16,2.37,30.2,11.56,2.1,NA,66.9,10,11:22:00,11:34:00,no,yes,yes,ld; rv,NA,NA,NA,yes
+st031x,2022-04-03,10:30:00,57.9,0,10:35:00,clr,2.12,0.91,29.41,10.74,2.4,NA,64.4,10.5,10:30:00,10:35:00,no,yes,yes,bs; mi,NA,NA,NA,yes
+st031x,2022-04-04,09:00:00,56.8,0,08:56:00,cld,2.13,1.81,12.72,9.71,1.9,NA,73.3,3,08:52:00,08:59:00,no,yes,yes,ih; nd,no flashdrive; saved file to backup folder,NA,NA,yes
+st031x,2022-04-05,09:00:00,56.8,0,08:54:00,clr,2.05,2.68,27.26,9.78,1.6,NA,71.6,4.8,08:44:00,08:59:00,no,yes,yes,nd; sd,NA,NA,13:30:00,no
+st031x,2022-04-08,13:00:00,64.5,0,13:03:00,clr,1.92,1.99,28.8,11.93,2.5,NA,72.5,4.7,12:50:00,13:05:00,no,yes,yes,nd; sd,NA,NA,NA,no
+st031x,2022-04-11,10:15:00,NA,0,10:16:00,cld,1.88,2.29,13.24,NA,2.7,NA,NA,3.4,10:04:00,10:18:00,no,yes,yes,sd; bc,no meters,NA,NA,no
+st031x,2022-04-12,09:30:00,NA,0,NA,clr,1.9,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,NA,yes,bs; nd,no download- missing key for center lock on box,09:45:00,NA,yes
+st031x,2022-04-13,08:00:00,54.7,0,08:30:00,clr,1.82,6.15,26.72,10.68,1.3,0.6,62.6,2.4,08:15:00,08:32:00,no,yes,yes,ld; ih,backup camera and pit tag reader connected,NA,NA,yes
+st031x,2022-04-14,08:30:00,57.2,0,08:32:00,cld,1.88,1.95,27.04,9.42,NA,NA,47.9,3.4,08:30:00,08:32:00,no,yes,yes,gj; bs,no fish in trap,NA,NA,yes
+st031x,2022-04-15,08:30:00,57.4,0,08:33:00,clr,1.9,1.96,26.67,9.84,NA,NA,66,4.1,08:25:00,08:32:00,no,yes,yes,jp; ef,NA,NA,NA,yes
+st031x,2022-04-16,09:30:00,59.7,0,09:31:00,cld,1.9,2.29,28,9.47,2.2,NA,72.5,12.9,09:26:00,09:32:00,no,yes,yes,nd; sd,NA,NA,NA,yes
+st031x,2022-04-17,10:00:00,59.1,0,09:57:00,clr,1.89,1.7,28.6,10.12,2.7,NA,74.5,10.6,09:53:00,09:58:00,no,yes,yes,nd; sd,NA,NA,NA,yes
+st031x,2022-04-18,11:30:00,60.8,0,11:29:00,clr,1.9,1.38,29.4,10.93,1.8,NA,67,5.8,11:23:00,11:30:00,no,yes,yes,bs; nd,installed additional barrels,NA,NA,yes
+st031x,2022-04-19,10:00:00,59.2,0,10:14:00,cld,2.1,3.6,27.9,9.45,NA,NA,60.9,3.1,10:08:00,10:30:00,no,yes,yes,bs; bc,NA,NA,10:35:00,yes
+st031x,2022-04-20,11:00:00,56.7,0,11:24:00,clr,2.52,2.56,14.51,10.66,NA,NA,60,1.4,11:15:00,11:28:00,no,yes,yes,pc; rf,no flow meter,NA,NA,no
+st031x,2022-04-20,20:30:00,58.8,0,NA,nit,2.76,4.52,25.85,11.43,NA,NA,67.1,0,NA,NA,no,yes,yes,ld; bc,NA,NA,NA,no
+st031x,2022-04-21,03:30:00,NA,0,NA,nit,3,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,yes,yes,ld; bc,NA,NA,NA,no
+st031x,2022-04-21,10:30:00,56.6,0,NA,cld,3.04,4.26,NA,10.22,NA,NA,60.6,NA,NA,NA,no,yes,yes,mi; ih,green sturgeon washed up on weir - moved manually downstream,NA,NA,no
+st031x,2022-04-21,17:00:00,NA,0,17:29:00,cld,3.16,NA,29.47/14.68,NA,NA,NA,NA,4.5/19.2,17:19:00,17:30:00,no,yes,yes,ih; mi,backup camera and pit tag reader connected,NA,NA,no
+st031x,2022-04-21,20:00:00,56,0,NA,nit,3.38,2.23,25.84,11.09,NA,NA,61.5,NA,NA,NA,no,yes,yes,ld; bc,NA,NA,NA,no
+st031x,2022-04-22,09:30:00,53.9,1,09:45:00,cld,3.7,2.46,28.14,10.26,2.5,NA,59.4,4.7,09:40:00,09:50:00,no,yes,yes,mk; bg,barrel off by boat passage,NA,NA,no
+st031x,2022-04-22,15:00:00,NA,0,NA,cld,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no,yes,yes,jp; mk,cleaned weir and reinstalled missing barrel,NA,NA,no
+st031x,2022-04-22,19:30:00,56.1,0,NA,nit,4.16,NA,12.84/25.81,10.82,NA,NA,61.4,0,NA,NA,no,yes,yes,ld; ih,NA,NA,NA,no
+st031x,2022-04-23,07:30:00,53.3,0,07:36:00,clr,4.38,3.9,25.61,10.44,3.6,NA,58.3,0.9,07:31:00,07:36:00,no,yes,yes,ld; ih,NA,NA,NA,no
+st031x,2022-04-23,19:00:00,56.3,0,NA,cld,4.26,2.9,12.97/26.01,11.72,3.6,NA,65.7,1.0/0.1,NA,NA,no,yes,yes,ld; ih,backup camera and pit tag reader connected,NA,NA,no
+st031x,2022-04-24,08:45:00,54.6,0,08:53:00,clr,3.81,1.93,27.54,10.51,2.3,NA,63.8,1.8,08:42:00,08:55:00,no,yes,yes,sc; bs,upstream no wake. bouy floated onto weir - removed,NA,NA,no
+st031x,2022-04-24,19:30:00,58.2,0,NA,nit,3.64,1.62,13.00/26.06,11.21,2.9,NA,68.6,1.2/0.2,NA,NA,no,yes,yes,ld; ih,backup camera and pit tag reader connected,NA,NA,no
+st031x,2022-04-25,12:15:00,57.8,0,12:11:00,clr,3.18,1.52,29.18,11.05,2.3,NA,71.5,4.4,12:04:00,12:13:00,no,yes,yes,bs; nd,downstream fyke installed,NA,NA,no
+st031x,2022-04-26,10:45:00,59.1,0,11:00:00,cld,2.54,2.35,29.31,10.33,2.9,2.5,70.8,9.4,10:54:00,11:02:00,no,yes,yes,ld; bs,NA,NA,NA,no
+st031x,2022-04-27,10:15:00,57.4,0,10:16:00,cld,2.6,2.3,29.5,10.44,3.2,2.7,65.2,10.5,10:12:00,10:18:00,no,yes,yes,ld; sd,NA,NA,NA,no
+st031x,2022-04-28,09:00:00,55.7,0,09:06:00,clr,2.8,1.77,27.81,10.4,2.8,2.7,67.1,3.1,09:00:00,09:07:00,no,yes,yes,ld; sd,NA,NA,NA,no
+st031x,2022-04-29,09:15:00,54.9,0,09:20:00,clr,3.3,3.11,27.99,10.68,2.9,2.7,68.1,8,09:14:00,09:22:00,no,yes,yes,ld; bs,NA,NA,NA,no
+st031x,2022-04-29,20:00:00,57.9,0,NA,nit,3.54,2.8,25.89,11.51,2.9,NA,61.9,0,NA,NA,no,yes,yes,ld; bs,NA,NA,NA,no
+st031x,2022-04-30,09:00:00,55,0,NA,clr,3.8,3.14,27.77,10.71,1.4,NA,66.6,4.2,09:12:00,10:15:00,no,yes,yes,bs; bc,vaki won't connect- trouble with camera. backup camera and pit tag reader ok. camera replaced,NA,NA,no
+st031x,2022-05-01,08:45:00,55.7,0,08:42:00,clr,3.32,2.09,27.28,10.31,2.1,NA,64.4,4.4,08:39:00,08:44:00,no,yes,yes,bs; nd,NA,NA,NA,no
+st031x,2022-05-02,11:00:00,57.8,0,11:12:00,clr,2.95,1.97,29.33,10.91,2.5,NA,67.8,5.9,11:05:00,11:55:00,no,yes,yes,bs; nd,NA,NA,NA,no
+st031x,2022-05-03,11:30:00,58.7,0,11:41:00,clr,2.55,1.7,29.25,11.14,2.5,NA,69.1,4.8,11:37:00,11:43:00,no,yes,yes,bs; nd,NA,NA,NA,no
+st031x,2022-05-04,11:15:00,59.6,0,11:20:00,clr,2.52,1.89,29.18,11.07,2.4,NA,68.7,5.8,11:10:00,11:22:00,no,yes,yes,bs; nd,NA,NA,NA,no
+st031x,2022-05-05,12:00:00,59.3,0,11:55:00,clr,3.08,1.33,14.71,11.37,2.3,2.5,69.5,10.5,11:51:00,11:56:00,no,yes,yes,bs; sd,NA,NA,NA,no
+st031x,2022-05-05,20:30:00,59.5,0,NA,nit,4.32,2.36,25.87,11.93,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,no
+st031x,2022-05-06,10:45:00,57.2,0,10:47:00,cld,2.79,1.6,9.1,10.9,1.9,NA,65.8,13.6,10:41:00,10:52:00,no,NA,yes,bs; tl,back up camera was off on arrival. turn on and cleaned,NA,NA,no
+st031x,2022-05-06,20:00:00,59.4,0,NA,nit,3.1,3.55,25.88/12.86,11.36,NA,NA,48.7,0,NA,NA,no,yes,yes,bs; ih,NA,NA,NA,no
+st031x,2022-05-07,10:30:00,56.3,10,10:40:00,clr,4.44,3.77,29.63,10.64,3.8,3.6,66.2,8.7,10:33:00,10:43:00,no,yes,yes,ld; rb,NA,NA,NA,no
+st031x,2022-05-07,07:30:00,58.2,2,NA,nit,4.18,1.82,25.88,11.22,NA,NA,64.9,0,NA,NA,no,yes,yes,ld; rb,NA,NA,NA,no
+st031x,2022-05-08,09:00:00,55.2,0,09:10:00,clr,3.84,3.12,27.92,10.57,2.5,NA,61.9,7.3,09:05:00,09:11:00,no,yes,yes,mi; nd,NA,NA,NA,no
+st031x,2022-05-09,11:30:00,55.3,1,11:27:00,clr,3.28,1.55,10.3,11.35,1.9,NA,68.6,14.7,11:26:00,11:30:00,no,yes,yes,tl; bs,backup camera & pit tag reader ok. bulkheads need to be lowered and reattached,NA,NA,no
+st031x,2022-05-10,12:00:00,55.8,0,12:00:00,cld,2.6,3.05,29.49,11.61,2.6,2.5,77.7,4.3,11:55:00,12:01:00,no,yes,yes,ld; bs,NA,NA,NA,no
+st031x,2022-05-11,12:00:00,57.4,0,12:18:00,clr,2.56,4.6,29.39,11.28,2.8,NA,73.6,4,12:14:00,12:18:00,no,yes,yes,ld; bs,NA,NA,NA,no
+st031x,2022-05-12,11:00:00,56.4,0,10:57:00,cld,2.92,2.18,29.44,11.39,2.1,NA,82.7,5.3,10:50:00,10:59:00,no,yes,yes,ld; bs,NA,NA,NA,no
+st031x,2022-05-13,13:00:00,58.2,0,13:32:00,clr,3.46,6.91,14.4/29.03,11.84,3.3,NA,98.3,13.5/3.6,13:03:00,13:35:00,no,yes,yes,ih; bs,backup camera & pit tag reader ok.,NA,NA,no
+st031x,2022-05-16,10:30:00,61.6,0,10:50:00,clr,NA,3.76,29.21/14.07,10.37,1.3,NA,79.8,9.2/11.9,10:45:00,10:52:00,no,yes,yes,bs; ih,NA,NA,NA,no
+st031x,2022-05-18,13:00:00,65.4,0,13:28:00,clr,2.54,8.32,4.4/28.79,11.53,2.1,NA,114.2,0.0/14.4,13:18:00,13:30:00,no,yes,yes,bs; ih,NA,NA,NA,no
+st031x,2022-05-20,10:30:00,61.2,0,10:40:00,clr,2.54,2.67,29.21/13.99,10.01,2.4,NA,68.6,9.9/12.7,10:35:00,10:43:00,no,yes,yes,ih; bs,NA,NA,NA,no
+st031x,2022-05-23,07:30:00,60.1,0,07:30:00,clr,2.6,2.25,25.6/12.74,9.31,NA,NA,74.1,1.2,NA,NA,no,yes,yes,gj; rb; ld; bs; ih; mi,weir removed,NA,NA,no
+NA,2022-09-16,09:45:00,64.7,0,10:02:00,clr,NA,3.35,28.75/13.55,8.57,2.5,0.4,58.4,14.1/12.4,NA,NA,yes,NA,no,NA,NA,NA,NA,no
+NA,2022-09-15,12:00:00,NA,NA,15:00:00,clr,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,no,NA,weir install; vaki install; started vaki @ ~15:00,NA,NA,no
+NA,2022-09-19,08:30:00,63.7,0,08:45:00,cld,1.72,2.54,26.50/12.47,8.54,3,0.4,66.6,4.4/4.5,08:40:00,08:46:00,yes,yes,no,NA,NA,NA,NA,no
+NA,2022-09-21,08:15:00,64.8,0,08:43:00,cld,1.68,3.52,26.72,7.94,3.4,0.2,61.6,0.8,NA,NA,yes,yes,no,NA,reset time on the computer,NA,NA,no
+NA,2022-09-23,09:00:00,64.3,0,09:05:00,clr,1.54,1.31,27.09,8.13,3.6,0.2,66.8,9.3,09:00:00,09:07:00,yes,yes,no,NA,changed red boat passage light; added clamps to bulkhead,NA,NA,no
+NA,2022-09-26,08:45:00,66.5,0,08:30:00,clr,1.58,1.78,26.36,7.82,2.6,0.5,65,2.3/5.2,NA,NA,yes,yes,no,NA,no fyke board,NA,NA,no
+NA,2022-09-28,08:45:00,65.5,0,08:35:00,clr,1.58,2.47,25.58/12.56,8.05,2.7,0.5,62.6,5.6/1.9,08:30:00,08:37:00,yes,no,no,NA,backup camera not working. vaki wasn't connected on arrival; don't think it was connected for most of yesterday,NA,NA,no
+NA,2022-09-30,08:30:00,65,0,08:25:00,clr,1.6,2.09,12.50/26.15,8.17,2.5,0.4,63,4.6/3.1,08:20:00,08:26:00,yes,yes,no,NA,vaki camera and backup camera removed for repair,NA,NA,no
+NA,2022-10-01,08:30:00,64.5,0,08:15:00,clr,1.58,1.93,12.60/25.35,8.05,2.1,0.3,63.2,3.2/3.6,08:10:00,08:17:00,yes,yes,no,NA,vaki camera looks too close/zoomed in. backup camera still not operating,NA,NA,no
+NA,2022-10-02,08:15:00,64.4,0,08:28:00,clr,1.59,2.92,26.29,8.23,3,0,65.5,0.8,08:21:00,08:30:00,yes,yes,no,NA,pit tag ok; back up camera not connecting,NA,NA,no
+NA,2022-10-03,09:00:00,64.3,0,09:13:00,clr,1.61,3.05,27.3,8.49,NA,NA,64.1,9.6,09:00:00,NA,yes,yes,no,NA,flow meter not working; camera repositioned @ 9am; pit tag reader ok; back up camera not working,NA,NA,no
+NA,2022-10-04,09:00:00,64.5,0,09:12:00,clr,1.57,1.49,27.27,8.58,3.1,0.5,65.4,0.1,09:10:00,09:15:00,yes,yes,no,NA,pit tag reader ok,NA,NA,no
+NA,2022-10-05,08:30:00,64.3,0,08:40:00,clr,1.61,1.61,26.87,8.28,2.9,0.9,64.2,5.9,08:36:00,09:05:00,yes,yes,no,NA,pit tag reader ok; back up camera not connected,NA,NA,no
+NA,2022-10-05,11:45:00,NA,NA,NA,clr,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,NA,no,NA,installed upstream fyke in the live box @ 11:45,NA,NA,no
+NA,2022-10-06,08:45:00,64.6,0,08:46:00,clr,1.71,1.16,27,8.35,1.3,0.5,61.5,6.3,08:43:00,09:15:00,yes,yes,no,NA,pit tag reader ok; back up camera ok,NA,NA,no
+NA,2022-10-07,08:30:00,64.4,0,08:36:00,clr,1.71,1.27,26.67,8.39,1.8,0.9,60.4,0.2,08:33:00,08:38:00,yes,yes,no,NA,pit tag reader ok; back up camera ok,NA,NA,no
+NA,2022-10-08,08:30:00,64.4,0,08:43:00,clr,1.7,1.33,26.98/12.27,8.6,2.8,0.4,59.3,5.5/1.,08:34:00,08:44:00,yes,yes,no,NA,pit tag reader ok,NA,NA,no
+NA,2022-10-09,08:00:00,63.8,0,08:12:00,clr,1.7,1.49,25.28/12.23,8.44,2.8,0.2,59.3,2.0/0.8,08:06:00,08:13:00,yes,yes,no,NA,pit tag reader ok; back up camera ok,NA,NA,no
+NA,2022-10-10,08:30:00,63.6,0,08:30:00,clr,1.72,1.77,12.24/26.50,8.52,2.1,0.5,57.7,1.9/4.4,08:26:00,08:31:00,yes,yes,no,NA,back up camera ok,NA,NA,no
+NA,2022-10-11,08:30:00,63.1,0,08:39:00,clr,1.7,1.04,26.9,8.61,2.9,0.9,60.3,0.3,08:33:00,08:43:00,yes,yes,no,NA,pit tag reader ok; back up camera ok,NA,NA,no
+NA,2022-10-12,09:45:00,63,0,09:47:00,clr,1.74,1.52,28.28,9.19,2.8,0.2,55.4,12.8,09:43:00,09:50:00,yes,yes,no,NA,installed barrels,NA,NA,no
+NA,2022-10-12,11:30:00,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,NA,NA,NA,NA,installed fyke @ 11:30,NA,NA,no
+NA,2022-10-12,20:30:00,NA,NA,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,NA,yes,NA,weir cleaned at 2045,NA,NA,no
+NA,2022-10-13,09:00:00,61.1,8,09:10:00,clr,2.52,2.29,27.21,9.13,2.1,NA,68.4,0.2,09:00:00,09:15:00,no,yes,yes,NA,remove fyke inside of livebox and removed bars on the south side of the trapping box,NA,NA,no
+NA,2022-10-13,19:00:00,62.4,0,NA,nit,3.12,6.35,NA,9.96,3.3,NA,66.1,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-13,23:30:00,NA,0,NA,nit,3.22,NA,25.32/12.17,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,vaki disconnected at 23:24pm; would not reconnect.,NA,NA,no
+NA,2022-10-14,10:30:00,60.1,10,10:35:00,clr,3.34,2.29,29.22,9.6,1.7,NA,68.3,9.6,10:31:00,10:40:00,no,yes,yes,NA,vaki reconnected around 09:30am; no backup footage saved.,NA,NA,no
+NA,2022-10-14,15:30:00,NA,5,NA,clr,3.74,NA,26.49,9.2,NA,NA,NA,n/a,NA,NA,NA,NA,NA,NA,NA,NA,NA,no
+NA,2022-10-14,18:30:00,NA,29,NA,nit,4,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,yes,yes,NA,large amounts of elodea floating down river; cleaned weir every 2 hrs until 0630,NA,NA,no
+NA,2022-10-15,09:30:00,59.3,5,09:40:00,clr,4.4,1.87,27.93,9.52,2.1,NA,63.1,n/a,09:35:00,09:45:00,no,yes,yes,NA,cleaned weir at @ 11am; stream guage 4.42,NA,NA,no
+NA,2022-10-15,19:00:00,NA,18,NA,nit,4.4,NA,25.45/12.32,NA,NA,NA,NA,0,NA,NA,no,yes,yes,NA,cleaned weir every two hrs unitl 0600,NA,NA,no
+NA,2022-10-16,09:30:00,59.4,0,09:34:00,cld,4.42,4.59,27.07,9.57,1.7,NA,61.2,0.1,09:28:00,09:40:00,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-16,18:00:00,59.5,0,NA,nit,4,2.83,25.25/11.97,9.75,1.9,NA,52.5,n/a,NA,NA,no,yes,yes,NA,cleaned weir every 3  hrs unitl 0600,NA,NA,no
+NA,2022-10-17,08:30:00,58.8,0,08:40:00,clr,3.56,1.85,25.97/12.01,9.73,1.9,NA,62.4,0.1,08:30:00,08:35:00,no,yes,yes,NA,replaced hard drive,NA,NA,no
+NA,2022-10-17,19:00:00,61.7,0,NA,nit,2.78,2.53,25.50/12.25,10.09,NA,NA,61.5,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-18,08:45:00,59.6,0,09:03:00,cld,2.35,3.21,25.39,9.29,2.5,1.5,62.9,1.6/1.8,08:43:00,09:05:00,no,yes,yes,NA,backup camera ok; pit tag reader ok. side of passage open. stream gauge @ 3.41.,NA,NA,no
+NA,2022-10-19,08:45:00,60.1,0,08:54:00,clr,2.17,2.89,26.68,9.48,3.3,2.3,67.6,3.9/1.7,08:48:00,08:56:00,no,yes,yes,NA,backup camera not plugged in on arrival; connected at 9am; pit tag reader ok,NA,NA,no
+NA,2022-10-18,16:00:00,NA,NA,NA,cld,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,yes,yes,NA,cleaned weir,NA,NA,no
+NA,2022-10-19,19:15:00,63.8,0,NA,nit,2.64,4.05,25.46/12.17,9.95,NA,NA,66.2,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-19,13:30:00,NA,NA,NA,clr,2.2,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,yes,yes,NA,cleaned weir,NA,NA,no
+NA,2022-10-20,08:45:00,60.1,0,08:52:00,clr,2.98,3.04,26.67,9.61,2.3,NA,67.5,3.6,08:47:00,08:55:00,no,yes,yes,NA,upstream pipe spilling,NA,NA,no
+NA,2022-10-20,18:30:00,62.1,0,NA,nit,3.4,6.05,12.33/25.44,10.22,NA,NA,70.5,0,NA,NA,no,yes,yes,NA,cleaned weir at 1830 and 0230,NA,NA,no
+NA,2022-10-21,08:30:00,59.5,0,08:37:00,clr,3.46,3.12,25.95,9.58,2.1,NA,59.3,2.9,08:32:00,08:40:00,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-21,18:30:00,60.1,0,NA,nit,4.36,NA,12.24/25.16,9.59,NA,NA,61,n/a,NA,NA,no,yes,yes,NA,cleaned weir at 0000 and 0500 - stream gauge @ 4.6,NA,NA,no
+NA,2022-10-22,08:00:00,59.7,0,12:00:00,cld,4.52,1.78,25.17,9.63,2.3,NA,59.8,0.6,08:30:00,12:30:00,no,yes,yes,NA,connection issue; but connection was restored,NA,NA,no
+NA,2022-10-22,18:30:00,58.3,0,NA,nit,4.6,4.19,25.01/12.00,9.78,NA,NA,60.6,n/a,NA,NA,no,yes,yes,NA,cleaned every 4 hours,NA,NA,no
+NA,2022-10-23,08:15:00,57.7,0,08:37:00,clr,4.55,4.06,26.07,9.78,2.3,NA,59.5,4.4,08:29:00,08:55:00,no,yes,yes,NA,vaki connected upon arrival. unable to get vaki computer to connect; tried restarting still not connecting. backup camera is on and recording,NA,NA,no
+NA,2022-10-23,16:00:00,NA,0,NA,clr,4.22,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,vaki still not connecting; monitored weir 0800-1600,NA,NA,no
+NA,2022-10-23,18:30:00,58.7,0,NA,nit,4.1,2.6,12.25/25.55,10.46,NA,NA,68,n/a,NA,NA,no,no,yes,NA,vaki not connected upon arrival. backup camera battery bank running low; recharged with generator from 2030 to 0000. last weir clean @ 2300,NA,NA,no
+NA,2022-10-24,09:00:00,56.1,0,NA,clr,3.72,2.33,12.06/27.23,10.12,2.8,NA,64.8,4.7/5.8,NA,NA,no,no,yes,NA,backup camera ok. vaki reconnected @ 1026,NA,NA,no
+NA,2022-10-25,08:30:00,55.9,0,09:30:00,clr,2.4,5.6,26.13,9.88,2.6,2.8,69.5,0.0/3.9,08:40:00,09:40:00,no,no,yes,NA,beaver cuts vaki cable @ 10:40 pm; backup camera dies @ 3:12 am 10/25. pit tag reader ok; no 10/24 vaki file.,NA,NA,no
+NA,2022-10-26,08:15:00,56.4,0,08:32:00,clr,2.1,2.14,25.13,9.85,3.3,2.1,71,0.9/0.7,08:28:00,08:38:00,no,yes,yes,NA,backup camera ok; pit tag reader ok,NA,NA,no
+NA,2022-10-26,19:00:00,58.9,0,NA,nit,2.5,3.4,12.39/25.47,10.66,NA,NA,70.9,n/a,NA,NA,no,yes,yes,NA,backup camera connected,NA,NA,no
+NA,2022-10-27,08:45:00,55.7,0,09:18:00,clr,2.8,2.45,12.43/27.44,10.08,2.1,NA,62.8,5.4/6.5,09:10:00,09:21:00,no,yes,yes,NA,backup camera ok; pit tag reader ok,NA,NA,no
+NA,2022-10-27,18:45:00,57.7,0,NA,nit,3.22,2.1,25.47/12.51,10.72,NA,NA,64.4,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-28,08:00:00,56.2,0,08:25:00,clr,3.32,1.76,25,10.02,2.5,NA,71,0.4,08:00:00,08:25:00,no,yes,yes,NA,backup camera ok; pit tag reader ok; upstream pipe spilling,NA,NA,no
+NA,2022-10-28,19:00:00,57.7,0,NA,nit,4.14,3.53,25.49/12.48,10.74,NA,NA,63.8,n/a,NA,NA,no,yes,yes,NA,cleaned weir at 1900;0100;0500,NA,NA,no
+NA,2022-10-29,07:45:00,57,0,07:57:00,clr,4.38,1.9,25.13,10.02,2.5,4.1,67.1,0.2,07:50:00,07:57:00,no,yes,yes,NA,cleaned weir at 1045;1530,NA,NA,no
+NA,2022-10-29,19:30:00,58.2,0,NA,nit,3.94,3.44,25.48/12.55,10.55,NA,NA,62.6,n/a,NA,NA,no,yes,yes,NA,cleaned weir at 2000; 0500,NA,NA,no
+NA,2022-10-30,08:15:00,56.4,0,08:32:00,clr,3.86,4.55,NA,10.13,2.5,3.6,61.5,n/a,08:26:00,08:34:00,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-30,19:00:00,58.3,0,NA,nit,3.42,4.66,25.49/12.66,10.66,NA,NA,64,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-10-31,09:00:00,57.2,0,10:45:00,cld,3.24,1.75,27.52/12.94,10.04,2.5,NA,65.1,5.5/6.6,10:40:00,10:45:00,no,yes,yes,NA,backup camera ok; pit tag reader ok,NA,NA,yes
+NA,2022-11-01,09:00:00,56.2,0,09:40:00,cld,2.25,4.81,26.33,9.79,2.3,0.8,65.9,2.5,NA,NA,no,yes,yes,NA,last trap check at 1200; no fish,09:30:00,NA,yes
+NA,2022-11-01,16:15:00,57.7,0,NA,clr,2.25,2.06,26.17/12.97,10.59,2.7,NA,69.5,.6/6.8,NA,NA,no,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-02,03:45:00,NA,0,NA,nit/ran,1.85,NA,NA,NA,NA,NA,NA,n/a,03:48:00,04:30:00,no,yes,yes,NA,checked trap @ 4:00; 6:45,NA,NA,yes
+NA,2022-11-02,08:45:00,55.1,0,08:56:00,clr,1.87,4.33,26.8,9.34,3.3,2.1,71.8,5.3/1.8,08:50:00,09:36:00,no,yes,yes,NA,backup camera ok; pit tag reader ok; last trap check at 12:00,NA,NA,yes
+NA,2022-11-02,16:15:00,56.6,0,NA,clr,1.76,2.12,12.55,10.97,3,0.2,70.1,.5/.6,NA,NA,no,yes,yes,NA,installed plastic fingers on first fyke,NA,NA,yes
+NA,2022-11-02,20:15:00,NA,0,NA,nit,1.76,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-03,00:00:00,NA,0,NA,nit,1.76,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-03,04:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,04:00:00,04:10:00,no,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-03,07:15:00,53.6,0,07:30:00,clr,1.74,2.3,25.1,9.73,2.9,0.2,77.1,0.0/1.7,07:21:00,07:33:00,no,yes,yes,NA,backup camera ok; pit tag reader ok,NA,07:43:00,yes
+NA,2022-11-04,08:15:00,52.7,0,08:50:00,clr,1.72,1.66,26.36,10.35,1.3,0.4,68.3,0,08:45:00,08:52:00,yes,yes,yes,NA,installed downstream live box,08:15:00,NA,yes
+NA,2022-11-04,12:00:00,NA,0,NA,cld,1.72,NA,NA,NA,NA,NA,NA,n/a,12:00:00,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-04,16:00:00,55,0,NA,clr,1.73,1.02,12.7/25.71,11.83,1.4,NA,75.4,.3/.1,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-04,20:00:00,NA,0,NA,nit,1.73,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-05,00:00:00,NA,0,NA,nit,1.73,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-05,07:45:00,52.9,0,07:50:00,cld,1.71,0.84,25.12,10.52,1.5,0.2,85.9,0.0/1.7,07:47:00,07:53:00,yes,yes,yes,NA,backup camera ok; pit tag reader ok,NA,NA,yes
+NA,2022-11-05,03:30:00,NA,NA,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,03:54:00,04:16:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-05,11:30:00,NA,NA,NA,clr,1.71,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,check trap and weir for fish,NA,NA,yes
+NA,2022-11-05,16:00:00,55.4,0,NA,cld,1.72,1.22,25.87/12.53,11.67,NA,NA,72.1,.6/.6,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-05,19:00:00,NA,NA,NA,nit,1.72,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-05,22:00:00,NA,NA,NA,nit,1.72,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-06,01:00:00,NA,NA,NA,nit,1.7,NA,25.39/12.22,NA,NA,NA,NA,0/0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-06,04:00:00,NA,NA,NA,nit,1.71,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,clock on vaki adjusted for day light savings,NA,NA,no
+NA,2022-11-06,07:15:00,55.9,0,NA,cld,1.71,0.69,25.12,9.9,2.5,0,68,0.3,07:20:00,07:26:00,yes,yes,yes,NA,solar batteries have a yellow/red light indicating low reserve; smolt spy 12.15 volts,NA,08:00:00,yes
+NA,2022-11-07,10:00:00,56.3,0,10:38:00,cld,1.73,1.96,27.26/12.61,10,1.5,0.3,67.9,6.1/4.9,NA,NA,yes,yes,yes,NA,two non-vaki passages observed - two chn (male and female) went through primary rigid fyke; installed plastic mesh to prevent any further non-vaki passages,08:20:00,NA,yes
+NA,2022-11-07,12:00:00,NA,0,NA,cld,1.73,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-07,16:00:00,57.1,0,NA,cld,1.75,1.49,25.63/12.44,11.04,1.3,0.2,80.6,0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-07,20:00:00,NA,NA,NA,nit,1.76,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,00:00:00,NA,NA,NA,nit,1.76,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,04:00:00,56.8,0,NA,nit,1.78,NA,NA,9.52,1.6,0.4,71.6,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,08:00:00,NA,0,NA,ran,1.82,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,09:30:00,54.2,0,09:55:00,ran,1.86,NA,12.03/25.57,10,1.8,0.4,62.7,1.3/1.7,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,11:00:00,NA,0,NA,cld,1.84,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,12:00:00,NA,0,NA,cld,1.8,NA,12.67/27.46,NA,NA,NA,NA,5.2/6.5,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,16:00:00,55.7,0,NA,cld,1.84,1.76,25.71/12.18,10.3,2.1,0.4,83.2,0.21,16:15:00,16:50:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-09,00:00:00,NA,NA,NA,nit,1.82,1.99,NA,NA,NA,NA,NA,n/a,00:01:00,00:03:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-08,20:00:00,NA,0,NA,nit,1.82,1.57,NA,NA,NA,NA,NA,n/a,20:01:00,20:19:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-09,04:00:00,NA,0,NA,nit,1.78,NA,NA,NA,NA,NA,NA,n/a,04:05:00,04:16:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-09,08:00:00,53.9,0,08:09:00,clr,1.78,3.71,26.26,9.95,2.7,0.2,71.7,0,08:04:00,08:10:00,yes,yes,yes,NA,opened trap @ 8:10,NA,08:10:00,yes
+NA,2022-11-10,08:30:00,52.4,0,08:34:00,cld,1.72,0.53,25.78,10.7,2.1,0.2,64.2,2.4,08:26:00,08:50:00,yes,yes,yes,NA,closed trap,08:26:00,NA,yes
+NA,2022-11-10,12:00:00,NA,0,NA,clr,1.72,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-10,16:00:00,54.5,0,NA,clr,1.72,0.21,25.96,11.55,2.25,0.4,70.9,0.5,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-10,20:00:00,NA,NA,NA,nit,1.72,0.82,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-11,00:00:00,NA,NA,NA,nit,1.72,0.37,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-11,04:00:00,NA,NA,NA,nit,1.71,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-11,08:00:00,51.2,0,08:19:00,clr,1.71,0.94,27.14,11.06,2.3,0.2,64.3,6.2,08:10:00,08:19:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-11,12:00:00,NA,0,NA,clr,1.71,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-11,16:00:00,53.4,0,NA,cld,1.73,0.49,26.33,12.16,2.4,0.5,62.6,1,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-11,20:00:00,NA,0,NA,nit,1.73,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-12,00:00:00,NA,0,NA,nit,1.73,0.34,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-12,04:00:00,NA,0,NA,NA,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-12,07:30:00,NA,0,07:44:00,cld,1.68,0.59,25.34/12.17,NA,1.8,0.6,62.7,1.1/1,NA,NA,yes,yes,yes,NA,d.o/temp meter batteries are dead,NA,NA,no
+NA,2022-11-12,08:00:00,NA,0,NA,cld,1.68,NA,NA,NA,1.8,0.6,NA,n/a,NA,NA,yes,yes,yes,NA,opened trap @ 8am,NA,08:00:00,yes
+NA,2022-11-13,08:15:00,51.4,0,08:54:00,clr,1.7,0.51,27.7,10.8,2.2,0,67.7,10.4,NA,NA,yes,yes,yes,NA,closed trap @ 8:09am,08:09:00,NA,yes
+NA,2022-11-13,16:00:00,53.8,0,NA,clr,1.7,1.09,25.68/12.78,11.69,2.1,0.6,69.3,.4/.4,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-13,20:00:00,NA,0,NA,nit,1.7,1.11,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-14,00:00:00,NA,0,NA,nit,1.7,0.59,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-14,04:00:00,NA,0,NA,nit,1.68,2.78,NA,NA,NA,NA,NA,n/a,04:00:00,04:17:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-14,08:00:00,49.2,0,08:05:00,clr,1.68,0.97,25.84,11.1,NA,NA,70.4,0.8,08:02:00,08:05:00,yes,yes,yes,NA,flow meter not working,NA,NA,yes
+NA,2022-11-14,12:00:00,NA,0,NA,clr,1.68,0.76,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-14,16:00:00,53.6,0,NA,clr,1.68,0.71,25.84/12.86,11.84,NA,0.5,75,.5/.6,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-14,20:00:00,NA,0,NA,nit,1.68,1.06,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-15,00:00:00,NA,0,NA,nit,1.68,1.28,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-15,04:00:00,NA,0,NA,nit,1.68,1.47,NA,NA,NA,NA,NA,n/a,04:00:00,04:23:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-15,08:00:00,49.7,0,08:01:00,clr,1.68,2.58,25.66,11.06,3.6,0.2,71.1,0.5,07:57:00,08:15:00,yes,yes,yes,NA,opened trap @ 8:15,NA,08:15:00,yes
+NA,2022-11-16,08:00:00,50.3,0,08:44:00,clr,1.7,0.74,27.03/13.26,11.42,3.6,0.4,75.9,5.7/8.6,08:40:00,08:45:00,yes,yes,yes,NA,closed trap @ 9:00,09:00:00,NA,yes
+NA,2022-11-16,12:00:00,NA,0,NA,clr,1.7,NA,29.42/14.76,NA,NA,NA,NA,4.5/15.2,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-16,16:00:00,52.7,0,NA,clr,NA,1.34,NA,11.73,1,0,68,n/a,NA,NA,yes,yes,yes,NA,backup camera ok,NA,NA,yes
+NA,2022-11-16,20:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-17,00:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-17,04:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,04:05:00,05:00:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-17,08:00:00,49.3,0,NA,clr,1.7,2.11,NA,11.17,2.9,0.2,71.3,n/a,08:00:00,08:15:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-17,09:15:00,NA,0,09:45:00,clr,1.7,2.11,29.37/13.87,NA,2.9,0.2,NA,13.3/14.3,09:35:00,09:50:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-17,12:00:00,NA,0,NA,clr,1.7,2.11,NA,NA,2.8,0.2,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-17,16:00:00,51.6,0,NA,clr,1.7,1.39,NA,12.29,3,NA,75.4,n/a,NA,NA,yes,yes,yes,NA,opened trap @ 15:45,NA,15:45:00,no
+NA,2022-11-18,08:00:00,49.4,0,08:23:00,clr,1.7,1.54,25.45,10.97,3.8,0.2,66.1,1.4,08:02:00,08:24:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-19,08:00:00,49.4,0,09:17:00,clr,1.7,1.21,28.32/13.56,11.34,3.5,0.4,67,11/10.3,09:15:00,09:20:00,yes,yes,yes,NA,NA,08:00:00,NA,yes
+NA,2022-11-19,12:00:00,50.7,0,NA,clr,1.7,1.65,NA,11.86,3.5,0.4,69.4,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-19,15:45:00,51.6,0,NA,clr,NA,0.73,26.3,11.89,2.7,0.1,65.2,0.7/1.7,NA,NA,yes,yes,yes,NA,backup camera ok,NA,NA,yes
+NA,2022-11-19,20:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-20,00:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,23:15:00,23:30:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-20,04:00:00,NA,0,NA,nit,1.69,NA,NA,NA,NA,NA,NA,n/a,04:06:00,04:20:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-20,08:00:00,47.8,0,08:25:00,clr,1.69,1.46,25.58/13.00,11.52,2.9,0.5,56.6,1.7/6.2,08:02:00,08:27:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-20,12:00:00,NA,0,NA,clr,1.69,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-20,15:45:00,51.2,0,NA,clr,1.7,0.84,26.6,11.95,2.5,0.1,74.3,0.8/1.6,NA,NA,yes,yes,yes,NA,backup camera ok,NA,NA,yes
+NA,2022-11-20,19:45:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,19:55:00,20:03:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-21,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-21,04:00:00,NA,0,NA,nit,1.69,NA,NA,NA,NA,NA,NA,n/a,03:56:00,04:37:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-21,08:00:00,47.7,0,08:27:00,clr,1.69,1.06,25.6/13.21,11.37,2.3,0.3,63.2,2.2/6.4,08:18:00,08:30:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-21,12:00:00,NA,0,NA,clr,1.69,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-21,16:00:00,51,0,NA,nit,1.7,1.01,25.60/12.65,11.97,2.5,0.2,71.2,0.0/0.0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-21,20:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,19:58:00,20:33:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-22,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-22,04:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,04:07:00,04:23:00,yes,NA,yes,NA,NA,NA,NA,yes
+NA,2022-11-22,08:00:00,47.9,0,08:14:00,clr,1.7,NA,23.36/12.61,11.43,2.3,0.2,75.7,1.2/3.2,08:04:00,08:15:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-22,12:00:00,NA,0,NA,clr,1.7,NA,NA,NA,NA,NA,NA,n/a,12:00:00,12:10:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-22,16:00:00,50.5,0,NA,cld,1.7,1.96,13.35/27.23,12.18,2.5,0.2,70.9,1.6/1.9,15:48:00,16:02:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-22,20:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,19:58:00,20:25:00,yes,yes,yes,NA,fat meter battery dead,NA,NA,yes
+NA,2022-11-23,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,23:40:00,23:50:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-23,04:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,04:09:00,04:35:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-23,08:00:00,48.1,0,08:36:00,clr,1.7,1.11,26.1,11.46,2.5,0.2,69.1,1.5,08:00:00,08:36:00,yes,yes,yes,NA,fat meter battery dead,NA,08:36:00,no
+NA,2022-11-24,10:00:00,49.1,0,09:44:00,clr,1.7,0.6,28.67/13.54,11.5,3.8,0.2,73.7,11.3,09:36:00,09:46:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-25,09:30:00,49.4,0,09:47:00,clr,1.7,1.21,13.37/28.08,11.54,2.7,0.2,71.6,9.9/11.0,09:34:00,09:48:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-26,08:00:00,49.7,0,08:30:00,cld,1.7,2.52,25.56,11.08,2.2,NA,69.5,1.8,NA,NA,yes,yes,yes,NA,backup camera not connected,08:00:00,NA,yes
+NA,2022-11-26,12:00:00,51.3,0,NA,clr,1.7,NA,NA,11.62,2.7,NA,71.2,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-26,16:00:00,52.4,0,NA,clr,1.7,1.05,26.49/13.20,11.64,2.6,0.2,71.2,1.6/0.8,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-26,20:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,20:01:00,20:05:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-27,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,00:00:00,00:20:01,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-27,16:00:00,51.1,0,NA,clr,1.7,1.1,26.43/13.18,11.83,2.5,0.2,83.3,0.6/0.7,NA,NA,yes,yes,yes,NA,backup camera ok,NA,NA,yes
+NA,2022-11-27,20:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,19:57:00,20:20:00,yes,yes,yes,NA,fat meter dead,NA,NA,yes
+NA,2022-11-27,03:35:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,03:35:00,03:42:00,yes,yes,yes,NA,fat meter not working. backup camera on and working.,NA,NA,yes
+NA,2022-11-27,08:00:00,49.4,0,07:09:00,clr,1.7,0.94,25.09/12.35,10.86,NA,NA,64.6,1.7,07:00:00,07:15:00,yes,yes,yes,NA,flow meter not working.,NA,NA,yes
+NA,2022-11-27,12:00:00,50.2,0,NA,clr,1.7,NA,29.6/13.87,11.32,NA,NA,75,6.6,11:45:00,11:55:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-28,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,00:00:00,00:20:01,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-11-28,08:00:00,49,0,08:28:00,clr,1.73,1.05,25.92,10.98,3.4,0.2,71.5,1.8,08:04:00,08:37:00,yes,yes,yes,NA,NA,NA,08:49:00,no
+NA,2022-11-28,04:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-29,08:15:00,48.3,0,08:33:00,clr,1.72,1.2,25.48,11.06,3.7,0.2,70.2,1.7,08:25:00,08:35:00,yes,yes,yes,NA,set trap at 8:17am,08:17:00,NA,yes
+NA,2022-11-29,15:45:00,50.2,0,NA,clr,1.7,0.93,25.54/12.63,11.62,2.3,2.3,74.7,11.10/1.8,NA,NA,yes,yes,yes,NA,no fish in the trap,NA,NA,yes
+NA,2022-11-29,12:00:00,NA,0,NA,clr,1.72,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-29,20:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-30,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,00:00:00,00:14:59,yes,yes,yes,NA,fat meter not working,NA,NA,yes
+NA,2022-11-30,04:00:00,NA,0,NA,nit,1.72,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-30,08:00:00,46.4,0,08:10:00,clr,1.72,1.25,25.24,11.89,2.1,0.3,66.5,1.4,07:58:00,08:13:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-30,12:00:00,NA,0,NA,clr,1.7,NA,29.33,NA,NA,NA,NA,5.3,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-30,16:00:00,49.3,0,NA,clr,1.7,1.19,12.85/26.33,11.87,2.7,0.2,68.5,1.1/.7,15:55:00,16:44:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-11-30,20:00:00,NA,0,NA,nit,NA,NA,23.53,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-01,00:00:00,NA,0,NA,nit,1.7,NA,NA,NA,NA,NA,NA,n/a,23:50:00,00:05:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-01,04:00:00,NA,0,NA,ran,1.7,NA,29.18,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-01,08:00:00,48.7,0,08:25:00,ran,1.7,1.9,24.91,10.98,2.7,0.2,74.4,0,08:15:00,08:30:00,yes,yes,yes,NA,NA,NA,08:30:00,yes
+NA,2022-12-02,08:15:00,47.8,0,08:45:00,clr,1.82,3.48,26.49,10.51,3.2,0.4,76.6,3.9,08:30:00,08:50:00,yes,yes,yes,NA,NA,08:30:00,NA,yes
+NA,2022-12-02,12:00:00,NA,0,NA,clr,1.78,NA,29.57,NA,NA,NA,NA,0.4,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-02,16:00:00,49.8,0,NA,clr,1.74,2.56,26.37/12.84,11.19,1.9,0.2,78.5,1,16:26:00,16:36:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-02,20:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,19:45:00,20:09:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-03,00:00:00,NA,0,NA,nit,1.74,NA,25.5,NA,NA,NA,NA,n/a,23:55:00,00:01:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-03,04:00:00,NA,0,NA,nit,1.7,NA,25.43,NA,NA,NA,NA,0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-03,08:00:00,49.4,0,08:30:00,cld,1.7,1.02,25.49,10.72,2.8,0.2,71.4,0.6,08:15:00,08:35:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-03,12:00:00,NA,0,NA,ran,1.7,NA,25.69,NA,NA,NA,NA,0.6,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-03,16:00:00,50.7,0,NA,ran,1.78,2.08,25.63/12.28,11.42,1.9,0.2,72.1,0,NA,NA,yes,yes,yes,NA,barrel to right of boat passage popped off. secured passage light with new hose clamp.,NA,NA,yes
+NA,2022-12-03,20:00:00,NA,0,NA,nit,1.82,NA,23.35,NA,NA,NA,NA,n/a,19:55:00,20:07:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-04,04:00:00,NA,0,NA,nit,1.94,NA,NA,NA,NA,NA,NA,n/a,04:00:00,04:12:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-04,08:00:00,52.1,0,08:34:00,fog,1.98,9,25.47/12.17,9.87,1.5,0.2,93.5,3.4/2.6,08:01:00,08:36:00,yes,yes,yes,NA,backup camera ok; pit tag reader ok.,NA,NA,yes
+NA,2022-12-04,12:00:00,NA,0,NA,clr,2.6,19.6,NA,NA,NA,NA,NA,n/a,12:20:00,14:00:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-04,16:00:00,53.2,0,NA,clr,2.1,12.99,25.90/12.51,10.78,2.3,1.2,113.8,0.2,15:40:00,16:13:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-04,20:00:00,NA,0,NA,nit,2.14,11.33,25.65,NA,NA,NA,NA,n/a,19:45:00,20:00:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-05,00:00:00,NA,0,NA,nit,2.08,7.83,25.49/12.29,NA,NA,NA,NA,0,23:52:00,00:07:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-05,04:00:00,NA,0,NA,nit,1.91,NA,NA,NA,NA,NA,NA,n/a,04:00:00,04:20:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-05,08:00:00,51.9,0,08:28:00,cld,1.91,3.32,25.75,9.88,2.3,0.8,83,2.3,08:00:00,08:28:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-04,00:00:00,NA,0,NA,ran,1.92,NA,25.27,NA,NA,NA,NA,n/a,23:48:00,00:08:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-05,12:00:00,NA,0,NA,cld,1.85,NA,NA,NA,NA,NA,NA,n/a,12:00:00,12:45:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-14,07:45:00,49.6,0,07:56:00,clr,1.77,4.6,12.63/13.07,10.88,1.7,NA,149.8,2.9,07:52:00,07:57:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-15,08:00:00,46.8,0,08:02:00,clr,1.76,4.88,25.57/13.63,11.37,1.7,NA,142,2.9,07:56:00,08:03:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-16,07:50:00,46.6,0,08:23:00,clr,1.75,3.95,26.86/12.61,11.58,1.6,NA,144.8,4.2,08:18:00,08:24:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-17,08:00:00,46.4,0,07:56:00,clr,1.78,3.77,25.15,11.52,2,NA,138.8,2.3/1.6,07:53:00,08:00:00,yes,yes,no,NA,need new lock and flags on solar panel,NA,NA,yes
+NA,2023-02-18,07:45:00,46.3,0,07:58:00,clr,1.75,6.87,25.41,11.56,0.6,NA,147,1.9,07:55:00,08:10:00,yes,yes,no,NA,NA,NA,NA,yes
+NA,2023-02-19,07:45:00,47,1,07:52:00,clr,1.76,3.78,25.75/13.39,11.24,1,0.2,146.9,1.8,07:47:00,07:53:00,yes,yes,no,NA,NA,NA,NA,yes
+NA,2023-02-20,07:45:00,48.3,0,07:55:00,clr,1.76,4.61,13.07/25.44,11.09,1.5,NA,151.1,1.3,07:50:00,07:56:00,yes,yes,no,NA,NA,NA,NA,yes
+NA,2023-02-21,08:00:00,48.9,0,07:54:00,cld,1.75,3.26,13.10/25.76,10.97,1.2,NA,149.7,1.7,07:49:00,07:55:00,yes,yes,no,NA,NA,NA,NA,yes
+NA,2023-02-22,07:45:00,48.2,0,07:38:00,clr,1.73,5.07,25.26,10.53,1.2,NA,148,0.5,07:32:00,07:49:00,yes,yes,no,NA,NA,NA,NA,yes
+NA,2023-02-23,07:30:00,47.8,0,07:37:00,clr,1.78,3.6,25.29,10.88,1.1,NA,145.5,0.8,07:30:00,07:45:00,yes,yes,no,NA,NA,NA,NA,yes
+NA,2023-02-24,10:00:00,47.5,0,10:00:00,ran,NA,8.27,26.37,11.55,1.5,1,151.2,1.5,10:00:00,10:05:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-25,12:00:00,48.2,0,12:30:00,cld,3.2,15.97,26.83/14.25,11.34,NA,NA,132.8,2.9/2.4,12:25:00,12:35:00,yes,yes,yes,NA,cleaned weir every 4 hrs,NA,NA,yes
+NA,2023-02-26,08:00:00,NA,0,08:06:00,cld,2.56,NA,13.15/25.38,NA,NA,NA,NA,1.1/1.1,08:04:00,08:08:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-27,07:45:00,47.8,0,07:56:00,cld,2.28,9.53,12.90/25.17,10.63,0.8,NA,325,0.8,07:50:00,07:57:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-28,08:00:00,46.6,0,08:03:00,cld,3.1,19.2,25.02,10.88,0.7,NA,292,.5/1.8,08:00:00,08:08:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2023-02-28,14:00:00,47.9,0,NA,cld,3.6,NA,NA,11.1,1.8,NA,NA,n/a,NA,NA,yes,NA,yes,NA,stopped trapping at 1830; stream gauge at 4.4,NA,18:30:00,yes
+NA,2023-03-03,15:30:00,51.8,30,15:40:00,clr,2.8,9.05,27.03/13.52,NA,2.7,NA,NA,2.6/1.0,15:30:00,NA,no,NA,yes,NA,NA,15:30:00,NA,yes
+NA,2023-03-04,07:30:00,50.6,0,07:37:00,cld,2.72,8.12,25.46,10.47,0.8,NA,NA,0.1,07:32:00,07:44:00,no,yes,yes,NA,need new lock on trap,NA,NA,yes
+NA,2023-03-05,07:30:00,48.9,0,07:38:00,ran,2.7,6.39,25.48,10.68,1.4,NA,395,0.9,07:30:00,08:50:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-03-06,08:00:00,48,0,08:47:00,clr,3.1,11.93,28.32/15.23,11.01,0.8,NA,450,7,08:41:00,08:50:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-03-07,07:45:00,48.4,0,08:04:00,clr,2.72,7,27.8,10.97,1.1,NA,303,8.1,07:56:00,08:46:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-03-08,08:30:00,NA,0,08:35:00,ran,2.75,6.09,25.47,NA,0.9,NA,390,2.2,08:30:00,08:35:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-03-09,08:00:00,48.5,0,08:18:00,cld,3.3,6.3,26.2,11.08,1,NA,345,2.7,08:11:00,08:45:00,no,yes,yes,NA,NA,NA,NA,no
+NA,2023-03-09,14:30:00,49.3,0,14:50:00,ran,3.3,NA,13.59/25.98,11.24,NA,NA,269,.7/.8,14:45:00,15:00:00,no,yes,yes,NA,remove vaki system for high flows,NA,15:00:00,yes
+NA,2022-12-05,16:00:00,54,0,NA,cld,1.8,1.96,25.77/12.52,10.91,2.9,0.2,77.5,0.0/0.2,16:04:00,16:20:00,yes,yes,yes,NA,backup camera ok; pit tag reader ok.,NA,NA,yes
+NA,2022-12-05,20:00:00,NA,0,NA,nit,1.8,NA,NA,NA,NA,NA,NA,n/a,19:20:00,19:30:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-06,00:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-06,04:00:00,NA,0,NA,nit,1.77,NA,NA,NA,NA,NA,NA,n/a,04:00:00,05:00:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-06,08:00:00,51.5,0,08:17:00,cld,1.77,1.41,25.4,10,2.7,0.8,73,0.9,NA,NA,yes,yes,yes,NA,backup camera ok; pit tag reader ok.,NA,NA,yes
+NA,2022-12-06,12:00:00,NA,0,NA,ran,1.77,NA,NA,NA,NA,NA,NA,n/a,12:00:00,12:10:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-06,16:00:00,52.6,0,NA,cld,1.78,2,25.98/12.46,10.93,3,0.2,70.8,0.2/0.4,16:00:00,16:14:00,yes,yes,yes,NA,backup camera ok; pit tag reader ok.,NA,NA,yes
+NA,2022-12-06,20:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,20:00:00,20:04:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-07,00:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,22:40:00,22:45:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-07,04:00:00,NA,0,NA,nit,1.77,NA,NA,NA,NA,NA,NA,n/a,04:00:00,04:30:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-07,08:00:00,NA,0,08:16:00,clr,1.77,1.21,25.39,10.53,NA,0.8,65.9,1.3,08:00:00,08:45:00,yes,yes,yes,NA,NA,NA,08:45:00,no
+NA,2022-12-08,09:00:00,48.6,0,09:10:00,clr,1.76,1.16,27.25,11.04,3.6,0.3,68.9,6.6,09:04:00,09:12:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-09,09:45:00,50.8,0,09:59:00,clr,1.79,1.17,28.02,11.18,2.9,0.4,69.4,12.1,09:52:00,10:00:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-10,04:00:00,NA,0,NA,nit,1.75,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,04:00:00,NA,yes
+NA,2022-12-10,08:00:00,52.3,0,08:19:00,ran,1.75,4.05,25.19,10.13,2.8,0.3,72.7,0.1,08:00:00,08:20:00,yes,yes,yes,NA,backup camera ok; pit tag reader ok.,NA,NA,yes
+NA,2022-12-10,12:00:00,NA,0,NA,ran,1.76,NA,NA,NA,NA,NA,NA,n/a,12:00:00,12:20:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-10,16:00:00,52.9,0,NA,ran,2.02,9.62,25.13/11.81,10.8,1.1,0.2,68,0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-10,20:00:00,NA,0,NA,nit,2.06,NA,NA,NA,NA,NA,NA,n/a,19:00:00,19:10:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-11,00:00:00,NA,1,NA,nit,2.22,NA,NA,NA,NA,NA,NA,n/a,23:45:00,23:50:00,yes,yes,yes,NA,NA,NA,00:00:00,no
+NA,2022-12-11,11:30:00,52.8,NA,11:35:00,cld,3.55,50.4,24.87,10.31,2.3,2.9,108.8,4,11:30:00,11:40:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-11,14:00:00,NA,0,NA,cld,3.04,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,14:00:00,NA,yes
+NA,2022-12-11,16:00:00,52.9,0,NA,cld,2.9,82.3,25.91/12.11,10.17,1.7,0.6,112.3,0.9/0.8,NA,NA,yes,yes,yes,NA,backup camera ok; pit tag reader ok.,NA,NA,yes
+NA,2022-12-11,20:00:00,NA,0,NA,nit,2.6,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-12,00:00:00,NA,0,NA,nit,2.44,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-12,04:00:00,52.1,0,NA,nit,2.3,49.2,NA,9.63,2,NA,106,n/a,04:05:00,04:20:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-12,08:00:00,55.1,0,08:35:00,clr,2.4,49.2,25.71/12.47,9.58,1.9,NA,95.7,3.0/6.5,08:32:00,08:37:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-12,12:00:00,NA,0,NA,cld,2.1,NA,NA,12.91,NA,NA,NA,n/a,12:05:00,12:10:00,yes,yes,yes,NA,backup camera not connected; battery bank too low,NA,NA,yes
+NA,2022-12-12,16:00:00,52,2,NA,clr,2.02,22.9,NA,9.88,1.5,0.6,96.4,n/a,15:50:00,16:00:00,yes,yes,yes,NA,water spilling over 2 panels on arrival; 2 barrels re-secured,NA,NA,yes
+NA,2022-12-12,20:00:00,NA,0,NA,nit,2,18.11,NA,NA,NA,NA,NA,n/a,19:52:00,20:03:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-13,00:00:00,NA,0,NA,nit,1.96,16.59,25.51,NA,NA,NA,NA,n/a,23:50:00,00:02:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2023-01-09,13:13:00,NA,NA,13:13:00,cld,5.8,17.38,NA,NA,NA,NA,117.2,n/a,NA,NA,no,yes,yes,NA,removed vaki computer from box,NA,NA,yes
+NA,2023-01-12,10:45:00,52,3,10:30:00,clr,3.46,15.5,28.8,9.68,0.9,NA,123.9,10.6,NA,NA,no,yes,yes,NA,cleaned weir and installed vaki. closed livebox,10:45:00,NA,yes
+NA,2023-01-12,17:45:00,52.9,3,NA,nit,2.9,17.48,NA,NA,1.4,NA,118.8,n/a,NA,NA,no,yes,yes,NA,no fish in trap,NA,NA,yes
+NA,2023-01-13,09:15:00,52.6,2,09:20:00,cld,2.71,14.73,25.8,9.42,1.4,NA,115.5,2.2,09:15:00,09:25:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-13,20:00:00,53.2,0,NA,nit,2.68,13.88,NA,9.82,1.8,NA,107.2,n/a,NA,NA,no,yes,yes,NA,vaki system removed; computer still needs to be downloaded,NA,20:22:00,yes
+NA,2023-01-20,11:15:00,NA,0,NA,clr,2.68,14.14,29.27,NA,NA,NA,NA,0.4,NA,NA,no,yes,yes,NA,cleaned weir; closed trap,11:00:00,NA,yes
+NA,2023-01-20,19:00:00,49.7,0,NA,nit,2.6,12.92,25.74,10.15,1.8,NA,112.9,n/a,19:03:00,19:07:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-21,08:00:00,47,0,NA,clr,2.5,9.36,NA,10.65,1.2,NA,109.1,n/a,08:10:00,08:13:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-01-21,19:25:00,49.2,0,NA,nit,2.45,11.88,25.59,10.61,1,1.2,106.5,n/a,19:25:00,19:27:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-22,07:30:00,46.8,0,07:45:00,fog,2.42,10.29,25.18,11.11,1.2,NA,104.7,0.4,07:42:00,08:20:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-01-22,19:30:00,49.3,0,NA,nit,2.4,12.06,25.57,10.6,1.3,NA,103.3,n/a,19:30:00,19:33:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-23,08:00:00,46.6,0,07:45:00,clr,2.39,12.57,25.9,10.93,1,NA,107.6,0.1,08:15:00,08:20:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-01-23,22:00:00,49.1,0,NA,nit,2.36,16.16,NA,10.6,1.1,NA,107.1,n/a,22:00:00,22:01:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-23,07:45:00,46.8,0,07:47:00,clr,2.35,6.48,25.6,10.86,NA,NA,102.3,0.5,07:43:00,07:50:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-25,08:00:00,47.1,0,08:26:00,clr,2.32,5.45,26.11,11,0.4,NA,97.6,3.9,NA,NA,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-01-25,22:00:00,48.9,0,NA,nit,2.32,6.87,25.51/12.76,11.14,1.2,NA,96.5,0,22:00:00,22:03:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-26,08:00:00,47.9,0,07:52:00,clr,2.3,5.48,25.22,10.76,0.5,1.6,101.2,0.9,07:49:00,07:54:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-01-27,08:30:00,47.8,0,08:22:00,clr,1.9,3.95,26.2,10.6,NA,NA,109.7,4.3/1.6,08:33:00,08:38:00,no,yes,yes,NA,no stacking survey due to high turbidity. flow meter not working. 2 holes in mesh- replace bulkhead mesh & missing bar on passage,NA,NA,yes
+NA,2023-01-28,08:00:00,48,0,07:52:00,fog,1.84,4.28,25.2,10.42,NA,NA,112.6,0.6,07:50:00,07:54:00,no,yes,yes,NA,flow meter not working,NA,NA,yes
+NA,2023-01-29,07:30:00,48,0,07:39:00,cld,1.82,4.6,12.83,10.42,NA,NA,119.2,0.3,07:32:00,07:40:00,no,yes,yes,NA,flow meter not working,NA,NA,yes
+NA,2023-01-30,07:30:00,47.1,0,07:39:00,clr,1.84,8.15,12.82/12.58,10.54,1.3,NA,117.2,0.4,07:34:00,07:40:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-01-31,07:45:00,NA,1,07:48:00,clr,1.8,7.48,25.31,NA,NA,NA,NA,0.8,07:45:00,07:58:00,no,yes,yes,NA,no meters available for environmentals,NA,NA,yes
+NA,2023-02-01,07:30:00,44.9,NA,08:08:00,clr,1.8,4.81,25.25,11.38,1.5,NA,160,2.6,NA,NA,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-03-30,16:00:00,52.7,0,NA,cld,3.46,25.2,NA,11.12,NA,NA,115,n/a,NA,NA,no,yes,yes,NA,cleaned weir; and set trap,15:00:00,NA,yes
+NA,2023-03-31,09:00:00,NA,0,09:06:00,clr,2.85,NA,28.36/15.15,NA,1.2,NA,98,10.3/0.0,09:02:00,09:30:00,no,yes,yes,NA,ysi not working; installed second livebox on south bank,NA,NA,yes
+NA,2023-04-01,08:45:00,52.8,4,09:10:00,clr,3.88,12.32,27.37,10.96,1.2,NA,81.1,6.5,09:00:00,09:12:00,no,yes,yes,NA,11:30 cleaned weir; put fyke board in and turned off computer,NA,NA,yes
+NA,2023-04-01,19:00:00,53.8,0,NA,nit,5.6,27.2,24,11.34,NA,NA,75.2,n/a,NA,NA,no,yes,yes,NA,cleaned at 19:00; 23:00; 0300,NA,NA,yes
+NA,2023-04-02,08:30:00,51.1,2,NA,cld,5.72,7.74,NA,11.17,NA,NA,77.4,n/a,08:35:00,08:45:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-04-03,00:00:00,NA,0,NA,nit,5.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-02,18:00:00,52.3,0,NA,nit,5.7,7.49,NA,11.55,NA,NA,81.2,n/a,NA,NA,no,no,yes,NA,found dead on weir,NA,NA,yes
+NA,2023-04-03,06:00:00,NA,2,NA,nit,5.68,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,cleaned weir of debris,NA,NA,yes
+NA,2023-04-03,13:00:00,51.6,2,NA,clr,5.68,16.62,NA,11.04,NA,NA,71.9,n/a,12:30:00,12:45:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-03,18:00:00,NA,0,NA,nit,5.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-04,00:00:00,51.8,0,NA,nit,5.7,8.91,24,11.62,NA,NA,72.9,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-04,06:00:00,NA,2,NA,nit,5.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-04,14:00:00,51.6,2,NA,clr,5.7,8.51,NA,11.58,NA,NA,81.7,n/a,13:58:00,14:05:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-04,18:00:00,NA,0,NA,nit,5.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-05,00:00:00,NA,0,NA,nit,5.7,7.04,NA,11.75,NA,NA,76.6,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-05,06:00:00,NA,2,NA,nit,5.8,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-05,12:00:00,51.1,2,NA,clr,5.8,7.34,NA,11.45,NA,NA,81.4,n/a,11:55:00,12:00:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-05,18:30:00,53.1,0,NA,clr,5.8,7.26,NA,11.81,NA,NA,76.7,n/a,18:30:00,18:35:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-06,06:00:00,NA,2,NA,nit,5.8,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-06,20:00:00,49.3,0,NA,nit,5.76,4.47,NA,11.46,NA,NA,77.1,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-07,10:00:00,51.7,2,NA,ran,5.8,4.08,NA,11.05,NA,NA,79.7,n/a,10:00:00,10:10:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-07-07,19:00:00,53,2,NA,nit,5.85,5.1,NA,10.96,NA,NA,71.9,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-08,19:30:00,54.4,2,NA,nit,5.85,5.37,NA,11.39,NA,NA,69.8,n/a,19:40:00,19:45:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-09,07:45:00,51.2,0,NA,clr,5.8,3.7,NA,NA,NA,NA,76.2,n/a,07:45:00,07:49:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2022-12-14,04:00:00,NA,0,NA,nit,NA,NA,NA,NA,NA,NA,NA,n/a,03:55:00,04:05:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-14,08:00:00,46,0,08:21:00,clr,1.77,3.52,25.83,11.1,2.3,0.4,70.4,2,08:05:00,08:21:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-14,12:00:00,NA,0,NA,clr,1.77,NA,NA,NA,NA,NA,NA,n/a,11:54:00,11:58:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-14,16:00:00,49.4,0,NA,clr,1.78,4.59,27.46,11.82,2.3,0.2,73.2,2.1,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-14,20:00:00,NA,0,NA,nit,1.78,NA,NA,NA,NA,NA,NA,n/a,19:50:00,20:05:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-15,00:00:00,NA,0,NA,nit,1.76,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-15,04:00:00,NA,0,NA,nit,1.76,NA,24.93,NA,NA,NA,NA,0,04:00:00,04:20:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-15,08:15:00,46,0,09:15:00,fog,1.76,2.58,26.72,11.59,3.8,0.3,64.6,3.8,08:25:00,09:20:00,yes,yes,yes,NA,NA,NA,09:20:00,no
+NA,2022-12-16,07:45:00,45.7,0,07:55:00,fog,1.72,2.31,25.26,11.3,2.7,0.3,81.1,0.5,07:48:00,07:57:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-17,08:00:00,45.3,0,08:35:00,fog,1.74,2.19,25.61,11.54,1.9,0.3,78,2,08:10:00,08:40:00,yes,yes,yes,NA,NA,08:10:00,NA,yes
+NA,2022-12-17,12:00:00,NA,0,NA,clr,1.72,NA,29.79,NA,NA,NA,NA,7.1,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-17,16:00:00,47.5,0,NA,clr,1.74,1.86,27.09/13.47,12.59,1.3,0.4,79.3,1.9/1.1,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-17,20:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,20:05:00,20:06:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-18,00:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-18,04:00:00,NA,0,NA,nit,1.72,NA,25.23,NA,NA,NA,NA,0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-18,08:00:00,46.2,0,08:16:00,fog,1.72,2.1,25.22,11.49,2.5,0.3,77.8,0.3,08:10:00,08:17:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-18,12:00:00,NA,0,NA,cld,1.72,NA,25.74,NA,NA,NA,NA,0.6,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-18,16:00:00,47.4,0,NA,cld,1.74,1.64,25.32/12.69,12.29,1.2,0.2,88,0.6/0.6,NA,NA,yes,yes,yes,NA,pit tag reader ok,NA,NA,yes
+NA,2022-12-18,20:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-19,00:00:00,NA,0,NA,nit,1.74,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,00:00:00,no
+NA,2022-12-19,08:45:00,46.7,0,08:45:00,cld,1.73,7.13,25.2,11.57,3.6,0.5,80.7,0.9,08:40:00,08:45:00,yes,yes,yes,NA,scanner plate visibility adjusted,NA,NA,yes
+NA,2022-12-20,08:15:00,46.9,0,08:24:00,cld,1.71,2.09,24.98,11.34,2.5,0.3,76.4,1,08:19:00,08:24:00,yes,yes,yes,NA,NA,08:40:00,NA,yes
+NA,2022-12-20,20:00:00,48.2,0,NA,nit,1.72,1.34,25.66/12.77,12.54,1.4,0.2,75.5,0.0/0.0,19:50:00,19:52:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-21,08:00:00,47.3,0,08:16:00,fog,1.71,1.53,25.38,11.39,2.7,0.4,78.8,0.4,08:00:00,08:17:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-21,19:45:00,48.1,0,NA,nit,1.71,1.46,25.24/12.54,12.21,2.6,0.4,72.2,0.0/0.0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-22,08:00:00,47.8,0,09:07:00,cld,1.72,1.41,25.03,11.14,2.4,0.5,74.4,0.6,08:00:00,09:14:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-22,19:30:00,48.8,0,NA,nit,1.72,NA,25.50/12.71,12.39,2.7,0.2,75.4,0.0/0.0,19:35:00,19:40:00,yes,yes,yes,NA,NA,NA,NA,no
+NA,2022-12-23,08:00:00,47.5,0,08:17:00,fog,1.72,1.33,25,11.35,2.5,0.4,76.2,0.5,08:13:00,08:17:00,yes,yes,yes,NA,NA,NA,08:17:00,yes
+NA,2022-12-26,11:45:00,48.8,0,11:27:00,cld,1.72,1.99,26.41/13.11,12.67,3,0.3,80.8,4.1,11:20:00,11:28:00,yes,yes,yes,NA,NA,10:55:00,NA,yes
+NA,2022-12-26,20:00:00,49.4,0,NA,nit,1.74,1.4,25.10/12.55,12.76,1.8,0.4,78.4,0.0/0.0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-27,08:00:00,49.8,0,07:54:00,ran,1.95,5.18,24.77,10.82,2.5,NA,77.6,0,07:44:00,07:54:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-27,17:30:00,NA,4,NA,ran,3.08,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-27,20:00:00,50.2,0,NA,nit,3.08,51.8,25.36/12.42,11.35,0.8,2.3,120.6,0.0/0.0,NA,NA,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-28,08:30:00,49.3,NA,08:46:00,clr,4.1,54.7,26.26,10.79,1.4,NA,125.1,4.6,08:09:00,08:47:00,yes,yes,yes,NA,scanner visability diodes blacked out. photos camera #6. water flowing over top of weir panels.,NA,NA,yes
+NA,2022-12-28,20:00:00,50.3,NA,NA,nit,3.4,37.4,25.66/12.76,10.68,0.8,NA,105.1,0.0/0.0,19:55:00,19:55:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-29,08:30:00,50.5,NA,08:35:00,ran,3.32,19.2,25.37,10.64,1.5,NA,104.3,0.2,08:29:00,08:35:00,no,yes,yes,NA,no passages recorded. 90% of scanner diodes black on arrival; returned to yellow before leaving. cleaned weir panels; now 100% above water.,NA,NA,yes
+NA,2022-12-29,20:00:00,51.2,0,NA,nit,3.36,97.2,25.60/12.58,10.82,1,2.6,90,0.0/0.0,NA,NA,no,yes,yes,NA,cleaned weir at 23:30.,NA,NA,yes
+NA,2022-12-30,08:30:00,51.7,0,08:55:00,cld,3.95,14.44,25.45,10.66,1.1,NA,104.6,1.4,08:20:00,09:00:00,no,yes,yes,NA,NA,NA,09:00:00,no
+NA,2022-12-30,15:00:00,NA,NA,NA,ran,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,NA,NA,NA,NA,removed the vaki system due to increase in flows,NA,NA,no
+NA,2023-01-05,09:00:00,52,NA,09:30:00,ran,3.12,NA,25.67,9.82,NA,NA,202,1.5,NA,NA,no,yes,yes,NA,downloaded vaki; weir is still submerged due to high flows.,NA,NA,no
+NA,2023-01-05,16:00:00,52.3,34,NA,ran,4.04,26.8,NA,10.26,3.8,4.4,140.2,n/a,NA,16:00:00,NA,yes,yes,NA,weir is cleaned and fishing as of 1600,NA,NA,no
+NA,2023-01-06,12:30:00,52,NA,12:28:00,cld,3.9,33.8,28.33,9.92,1.5,NA,123.8,8.2/1.1,NA,NA,no,yes,yes,NA,NA,NA,NA,no
+NA,2023-01-04,10:45:00,NA,NA,10:45:00,NA,NA,NA,NA,NA,NA,NA,NA,n/a,NA,NA,NA,NA,NA,NA,vaki installed and is recording.,NA,NA,no
+NA,2023-01-07,10:45:00,51.3,2,10:55:00,cld,2.75,9.48,26.82/13.44,9.75,NA,NA,102.8,2.0/3.8,10:50:00,10:55:00,NA,NA,NA,NA,NA,NA,NA,no
+NA,2023-01-08,12:00:00,52.8,1,13:15:00,cld,2.88,12,29.53/14.86,9.87,2.2,NA,160.9,5.7/8.7,NA,NA,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-01-24,22:00:00,48.9,0,NA,nit,2.3,9.41,12.74/12.82,10.78,1.2,NA,105.8,0,NA,NA,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-02,07:30:00,45.8,0,07:36:00,clr,1.8,4.17,25.24,11.22,1.3,NA,164.5,0.6,07:30:00,08:30:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-02-03,07:45:00,47.7,0,08:05:00,ran,1.84,5.15,25.14,10.99,1.3,NA,167.1,0.1,07:43:00,08:13:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-02-04,07:45:00,48.6,0,08:06:00,fog,1.8,5.51,25.21,10.82,1,NA,151,0.2,08:00:00,08:08:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-02-05,07:30:00,50,0,07:37:00,cld,1.8,6.23,25.41,10.65,1.4,NA,157.2,0.4,07:35:00,07:58:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-02-06,08:00:00,48.7,0,08:10:00,clr,1.82,7.19,12.63,10.8,1.7,NA,140.2,4.1,08:05:00,08:11:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-02-07,08:00:00,48.4,0,08:25:00,clr,1.82,4.95,12.61,11.09,1.5,NA,149.8,5.1,08:20:00,08:26:00,no,yes,yes,NA,no stacking survey due to high turbidity.,NA,NA,yes
+NA,2023-02-08,08:15:00,47.8,0,08:14:00,fog,1.8,4.02,25.78,11.35,1.2,NA,147.3,2,08:12:00,08:30:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-09,07:45:00,48.4,2,08:44:00,clr,1.78,4.66,27.5/14.34,11.08,2.5,NA,153.2,6.5/6.4,08:41:00,08:45:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-10,08:00:00,49.2,0,08:07:00,clr,1.78,7.95,12.62/13.52,11.13,1.9,NA,159.8,3,08:02:00,08:08:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-11,07:30:00,48.9,0,07:39:00,clr,1.75,3.01,25.26/12.76,11.5,1.7,NA,15.7,.4/1.2,07:35:00,07:40:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-12,07:30:00,48.2,0,07:52:00,clr,NA,4.39,25.37/13.09,11.27,2.1,NA,155.6,0.5,07:46:00,07:52:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-02-13,08:00:00,48.9,2,07:55:00,clr,1.78,4.25,25.4,11.11,2.1,NA,152.7,1.6/1.3,07:50:00,08:05:00,no,yes,yes,NA,boat passage lights; d.s buoys missing. vaki lights not working; boat passage needs barrels; large holes in mesh. moved light,NA,NA,yes
+NA,2023-04-06,12:30:00,51.7,2,NA,clr,5.8,5.3,NA,11.49,NA,NA,82.9,n/a,12:30:00,12:35:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-08,07:45:00,50.9,0,NA,clr,5.8,3.6,NA,11.23,NA,NA,75.1,n/a,07:45:00,07:49:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-09,19:45:00,54.7,2,NA,nit,5.74,6.59,NA,11.53,NA,NA,71.9,n/a,19:45:00,19:50:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-10,06:00:00,NA,0,NA,nit,5.8,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-10,22:00:00,NA,2,NA,nit,5.9,8.9,NA,NA,NA,NA,78.8,n/a,22:00:00,22:05:00,no,no,yes,NA,ysi had dead batteries,NA,NA,yes
+NA,2023-04-10,14:30:00,54.1,0,NA,clr,5.8,NA,24,11.65,NA,NA,74.6,n/a,NA,NA,no,no,yes,NA,clean weir. checked south bank live box.,NA,NA,yes
+NA,2023-04-11,06:15:00,53.1,2,NA,clr,5.84,12.17,NA,10.98,NA,NA,74.1,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-11,17:00:00,56.3,0,NA,clr,5.75,7.37,NA,11.34,NA,NA,64.3,n/a,17:10:00,17:15:00,no,no,yes,NA,added a barrel to raise boat passage. attached boat passage lights and green boat passage buoys,NA,NA,yes
+NA,2023-04-12,14:30:00,NA,0,NA,clr,5.88,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-12,22:15:00,53.5,0,NA,nit,5.7,6.33,NA,11.6,NA,NA,71.7,n/a,22:15:00,22:20:00,no,no,yes,NA,backed up boat passage barrels with hose clamps,NA,NA,yes
+NA,2023-04-13,06:00:00,NA,0,NA,nit,5.8,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-13,22:00:00,52.6,0,NA,nit,5.75,7.12,NA,11.65,NA,NA,76.6,n/a,22:00:00,22:05:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-14,14:30:00,NA,0,NA,clr,5.8,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-15,20:00:00,NA,1,NA,nit,5.7,NA,NA,NA,NA,NA,NA,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-16,08:00:00,52.1,0,NA,clr,5.68,6.79,NA,11,NA,NA,71.8,n/a,08:15:00,08:20:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-17,15:00:00,55.9,0,15:30:00,cld,3.2,8.88,27.22/13.64,11.56,NA,NA,68.6,1.7/0.3,NA,NA,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-04-18,08:30:00,54.3,0,09:53:00,clr,2.56,9.47,27.34/15.05,10.64,0.9,NA,68.9,7.1/3.3,08:43:00,09:55:00,no,yes,yes,NA,NA,NA,NA,yes
+NA,2023-04-11,22:00:00,53.7,0,NA,nit,5.75,8.9,NA,11.55,NA,NA,65.3,n/a,22:10:00,22:15:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-12,06:15:00,51.8,0,NA,clr,5.8,6.11,NA,11.01,NA,NA,76.1,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-13,15:10:00,53.5,0,NA,clr,5.8,6.45,NA,11.86,NA,NA,74,n/a,15:10:00,15:15:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-14,10:00:00,51,0,NA,clr,5.8,7.52,NA,11.1,NA,NA,73.2,n/a,10:00:00,10:05:00,no,no,yes,NA,NA,NA,NA,no
+NA,2023-04-19,09:00:00,52.9,0,09:15:00,clr,2.15,3.44,27.48,9.93,1.1,NA,77.6,8.3,09:00:00,09:05:00,no,yes,yes,NA,vaki connected but camera cannot connect; disconnected battery wire was reconnected but camera still would not connect. barrel reattached on north side.,NA,NA,yes
+NA,2023-04-20,08:00:00,53.2,0,NA,clr,2.9,6.03,25.48,10.53,1.5,NA,79.9,0,08:00:00,08:30:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-20,19:00:00,52.3,0,NA,nit,5,3.65,NA,10.33,NA,NA,74,n/a,19:00:00,19:05:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-21,08:00:00,50.7,0,NA,cld,5.1,4.15,NA,10.99,NA,NA,74.4,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-21,19:30:00,54.5,0,NA,nit,5.15,8.13,NA,11.85,NA,NA,85.4,n/a,19:30:00,19:35:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-22,12:15:00,52.8,3,NA,clr,5.1,4.39,NA,10.71,NA,NA,53.5,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-22,20:00:00,55,0,NA,nit,5.2,10.18,NA,11.44,NA,NA,69,n/a,20:10:00,20:15:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-23,09:00:00,52.2,NA,NA,clr,5.2,3.91,NA,10.63,NA,NA,68,n/a,09:00:00,09:05:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-23,20:30:00,54.5,0,NA,nit,5.3,10.37,NA,11.58,NA,NA,75.7,n/a,20:35:00,20:40:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-24,08:00:00,52.7,0,NA,clr,5.2,3.65,NA,10.5,NA,NA,63.6,n/a,08:05:00,08:08:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-25,09:00:00,52,0,NA,clr,5.25,4.75,NA,10.63,NA,NA,73.5,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-26,09:00:00,52.4,0,NA,clr,5.26,6.71,NA,10.42,NA,NA,138,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-27,09:00:00,52.8,2,NA,clr,5.2,5.02,NA,10.62,NA,NA,138.3,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-28,08:30:00,52.9,0,NA,clr,5.24,4.99,NA,10.48,0.8,NA,62.7,n/a,08:40:00,08:50:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-29,08:15:00,53,0,NA,clr,5.2,4.22,NA,10.51,NA,NA,69.4,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-30,08:15:00,52.8,2,NA,clr,5.3,9.84,NA,10.51,NA,NA,66.9,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-05-01,09:30:00,51.6,4,NA,cld,5.2,3.32,NA,10.78,NA,NA,67.8,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-05-02,08:30:00,50.9,0,NA,ran,5.32,10.17,NA,10.69,NA,NA,66.3,n/a,NA,NA,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-05-03,09:45:00,51.1,0,NA,cld,2.9,2.17,NA,10.53,NA,NA,75.1,n/a,NA,NA,no,no,yes,NA,begin removing weir,NA,NA,yes
+NA,2022-12-13,04:00:00,NA,0,NA,nit,1.88,NA,NA,NA,NA,NA,NA,n/a,NA,NA,yes,yes,yes,NA,back-up camera not connected,NA,NA,yes
+NA,2022-12-13,08:00:00,48.1,0,09:48:00,cld,1.86,8.83,29.0/13.08,10.64,2.3,1.4,85.5,11.9/11.4,09:40:00,09:50:00,yes,yes,yes,NA,back-up camera not connected,NA,NA,yes
+NA,2022-12-13,12:00:00,NA,0,NA,clr,1.84,NA,NA,NA,NA,NA,NA,n/a,12:05:00,12:20:00,yes,yes,yes,NA,back-up camera not connected,NA,NA,yes
+NA,2022-12-13,16:00:00,49.7,0,NA,clr,1.82,8.31,28.65,11.13,2.3,0.2,84.1,4.8,15:43:00,16:13:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-13,20:00:00,NA,0,NA,nit,1.82,6.55,25.62,NA,NA,NA,NA,n/a,19:50:00,19:58:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2022-12-14,00:00:00,NA,0,NA,nit,1.8,5.3,25.47,NA,NA,NA,NA,n/a,23:50:00,00:02:00,yes,yes,yes,NA,NA,NA,NA,yes
+NA,2023-04-14,20:00:00,54,0,NA,nit,5.7,7.83,NA,11.68,NA,NA,71.4,n/a,20:00:00,20:05:00,no,no,yes,NA,NA,NA,NA,yes
+NA,2023-04-15,09:15:00,51.8,0,NA,clr,5.68,7.32,NA,11,NA,NA,71.8,n/a,09:15:00,09:20:00,no,no,yes,NA,NA,NA,NA,yes

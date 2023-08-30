@@ -1,0 +1,39 @@
+date,operational_mode,description
+2021-09-09T00:00:00Z,installed,NA
+2021-09-17T00:00:00Z,stopped,power issues
+2021-09-21T00:00:00Z,started,reinstalled firmware; running
+2021-09-27T00:00:00Z,stopped/started,power issues
+2021-09-29T00:00:00Z,stopped/started,NA
+2021-09-30T00:00:00Z,stopped/started,NA
+2021-10-01T00:00:00Z,stopped/started,NA
+2021-10-02T00:00:00Z,stopped/started,NA
+2021-10-03T00:00:00Z,stopped/started,NA
+2021-10-04T00:00:00Z,stopped,reader error
+2021-10-05T00:00:00Z,stopped,reader error
+2021-10-06T00:00:00Z,started,reinstalled firmware
+2021-10-15T00:00:00Z,stopped,error; power issues
+2021-10-19T00:00:00Z,started,error; power issues; reinstalled firmware; now runnng
+2021-10-21T00:00:00Z,stopped,NA
+2021-10-30T00:00:00Z,started,error; unknow reason was not notified for 9 days that there was an issue. updated firmwater with new version.
+2021-11-23T00:00:00Z,NA,download; no detections. no marker tag; malfunctioned
+2022-02-14T00:00:00Z,NA,offload; no detections; reader shutting down and starting on nearly daily basis due to low power. not marker tag; no detection but antenna shows that it is tuned.
+2022-02-25T00:00:00Z,NA,tried tuning antenna; not working correctly; not sure why
+2022-03-21T00:00:00Z,NA,installed new antenna; but would not tune so had to bring it back to the shop with reader and tuner
+2022-03-24T00:00:00Z,NA,reinstalled new antenna; the reader was the issue; swapped with a different reader. now tuned well and added a new marker tag.
+2022-04-05T00:00:00Z,NA,checked on reader; functioning properly
+2022-05-06T00:00:00Z,NA,offload reader; working properly
+2022-05-23T00:00:00Z,NA,antenna and weir removed
+2022-09-16T00:00:00Z,started,antenna installed
+2022-09-21T00:00:00Z,running,downloaded data
+2022-10-03T00:00:00Z,running,downloaded data; swap reader
+2022-10-20T00:00:00Z,running,downloaded data; pickets removed from side of livebox so fish can swim upstream out of the livebox without passing through the antenna.
+2022-11-03T00:00:00Z,running,downloaded reader; trapping initiated this week. seems to be a problem with the solar charge controller.
+2022-11-11T00:00:00Z,stopped,antenna removed to see if it is interfering with salmon passage
+2022-11-21T00:00:00Z,started,antenna reinstalled; determined that it is not interfering with salmon passage
+2022-12-30T00:00:00Z,stopped,reader; tuner removed due to anticipated high flow event
+2023-01-27T00:00:00Z,started,antenna returned to upstream live-box
+2023-02-28T00:00:00Z,stopped,antenna damaged by debris
+2023-03-02T00:00:00Z,removed,antenna removed
+2023-03-30T00:00:00Z,started,antenna repaired and reinstalled at weir.
+2023-04-01T00:00:00Z,stopped,antenna stopped working; unknown reason
+2023-04-18T00:00:00Z,removed,antenna not working; was damaged during high flow. antenna removed; no data; tuner housing failed.

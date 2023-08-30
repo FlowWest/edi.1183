@@ -1,0 +1,1783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="edi.1183.2" system="EDI" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication" order="allowFirst" scope="document">
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>cvpia</principal>
+      <permission>write</permission>
+    </allow>
+  </access>
+  <dataset>
+    <shortName>O. mykiss passages 2005-2020</shortName>
+    <title>O. mykiss passages at the Stanislaus River weir, 2005-2020</title>
+    <creator>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Hellmair</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
+    </creator>
+    <associatedParty>
+      <individualName>
+        <givenName>Matt</givenName>
+        <surName>Peterson</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>mattpeterson@fishbio.com</electronicMailAddress>
+      <role>researcher</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Andrea</givenName>
+        <surName>Fuller</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>andreafuller@fishbio.com</electronicMailAddress>
+      <role>principal investigator</role>
+    </associatedParty>
+    <pubDate>2023-08-28</pubDate>
+    <abstract>
+      <para>
+    The Central Valley Project Improvement Act (CVPIA) provides funds to
+    aid the San Joaquin Basin Steelhead Collaborative and initiate a
+    Steelhead Life-Cycle Monitoring Program. This dataset includes
+    observations of O. mykiss in the Stanislaus River during the
+    steelhead spawning migration period, September through May. Fish are
+    observed at an Alaskan-style weir outfitted with a VAKI Riverwatcher
+    fish counting device. The counting device provides visual records of
+    upstream passing individuals that are later reviewed by an
+    experienced biologist. During times when the counting device is
+    offline, a continuous video feed is reviewed to provide counts and
+    identifications of passing fish. The length of passing fish is
+    estimated using a known body depth to length ratio derived from
+    individuals trapped and measured at the weir. The weir also has a
+    trap box that, when closed, allows investigators to physically
+    capture fish for measurements, biological sample collection, and
+    injection of a PIT tag. There is also a PIT tag antenna affixed to
+    the weir allowing detection of PIT tagged fish. There are three
+    datasets currently associated with this project, 1) passage data for
+    all O. mykiss from 2005 through 2020, 2) O. mykiss that were
+    captured and processed from the trap, and 3) PIT tag detections from
+    the PIT antenna.
+  </para>
+    </abstract>
+    <keywordSet>
+      <keyword>Stanislaus River</keyword>
+      <keyword>VAKI Riverwatcher</keyword>
+      <keyword>Alaskan-style weir</keyword>
+      <keyword>O. mykiss</keyword>
+      <keyword>Steelhead</keyword>
+      <keyword>CVPIA</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>This information is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <licensed>
+      <licenseName>Creative Commons Attribution 4.0 International</licenseName>
+      <url>https://spdx.org/licenses/CC-BY-4.0.html</url>
+      <identifier>CC-BY-4.0</identifier>
+    </licensed>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Stanislaus River approximately 53 km upstream of the San Joaquin River confluence</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-120.9718</westBoundingCoordinate>
+          <eastBoundingCoordinate>-120.9718</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.7473</northBoundingCoordinate>
+          <southBoundingCoordinate>37.7473</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2005-01-09</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2020-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>kingdom</taxonRankName>
+          <taxonRankValue>Animalia</taxonRankValue>
+          <taxonomicClassification>
+            <taxonRankName>phylum</taxonRankName>
+            <taxonRankValue>Chordata</taxonRankValue>
+            <taxonomicClassification>
+              <taxonRankName>class</taxonRankName>
+              <taxonRankValue>Teleostei</taxonRankValue>
+              <taxonomicClassification>
+                <taxonRankName>order</taxonRankName>
+                <taxonRankValue>Salmoniformes</taxonRankValue>
+                <taxonomicClassification>
+                  <taxonRankName>family</taxonRankName>
+                  <taxonRankValue>Salmonidae</taxonRankValue>
+                  <taxonomicClassification>
+                    <taxonRankName>genus</taxonRankName>
+                    <taxonRankValue>Oncorhynchus</taxonRankValue>
+                    <taxonomicClassification>
+                      <taxonRankName>species</taxonRankName>
+                      <taxonRankValue>Oncorhynchus mykiss</taxonRankValue>
+                      <commonName>Steelhead Trout</commonName>
+                      <taxonId provider="https://itis.gov">161989</taxonId>
+                    </taxonomicClassification>
+                  </taxonomicClassification>
+                </taxonomicClassification>
+              </taxonomicClassification>
+            </taxonomicClassification>
+          </taxonomicClassification>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>ongoing</description>
+      <maintenanceUpdateFrequency>annually</maintenanceUpdateFrequency>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Michael</givenName>
+        <surName>Hellmair</surName>
+      </individualName>
+      <organizationName>FISHBIO</organizationName>
+      <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Weir Methods</title>
+            <para>
+      Specific details regarding the Alaskan-style weir, VAKI
+      Riverwatcher, and counting device sources of error are provided in
+      the Stanislaus River Adult Steelhead Monitoring Plan submitted to
+      USBR by FISHBIO.
+    </para>
+            <para>
+      Data from the VAKI Riverwatcher are downloaded and reviewed daily
+      during the peak Chinook passage (1 Oct to 15 Dec) in order to
+      reduce possibility of missing steelhead passages.
+    </para>
+          </section>
+          <section>
+            <title>Biological Sample Collection</title>
+            <para>
+      Individual <emphasis>O. mykiss</emphasis> whether steelhead or
+      freshwater resident captured when operating the weir trap will be
+      processed according to details described in the monitoring plan.
+      All individuals will be scanned for a previous PIT tag, and if not
+      present, a tag will be implanted in the individuals. Biological
+      samples collected from all <emphasis>O. mykiss</emphasis> include
+      scales and a small amount of caudal fin tissue (&lt;1
+      cm<superscript>2</superscript>). Scales will be pulled from the
+      dorsum near the base of the caudal fin, placed on square piece of
+      plain white copy paper and placed in a labeled specimen envelope.
+      Caudal fin tissue will be placed in a sample tube with 95%
+      ethanol.
+    </para>
+          </section>
+          <section>
+            <title>PIT Tag detections</title>
+            <para>
+      The operational status of the PIT tag antenna will be checked
+      daily during regular weir checks. Data from the antenna will be
+      downloaded monthly and processed to remove indicator tag numbers.
+    </para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>O. mykiss passages at the Stanislaus River weir, 2005-2020</title>
+      <personnel>
+        <individualName>
+          <givenName>Michael</givenName>
+          <surName>Hellmair</surName>
+        </individualName>
+        <organizationName>FISHBIO</organizationName>
+        <electronicMailAddress>michaelhellmair@fishbio.com</electronicMailAddress>
+        <role>Project Lead</role>
+      </personnel>
+      <award>
+        <funderName>Tri Dam Project</funderName>
+        <title>Lifecycle monitoring: Stanislaus River Weir</title>
+      </award>
+      <award>
+        <funderName>United States Bureau of Reclamation</funderName>
+        <funderIdentifier>https://www.wikidata.org/wiki/Q1010548</funderIdentifier>
+        <title>Monitoring Adult Anadromous O. mykiss in the Lower San Joaquin and Stanislaus River</title>
+      </award>
+    </project>
+    <dataTable>
+      <entityName>FISHBIO_RBT_weir_passages_2005_2023.csv</entityName>
+      <entityDescription>Weir Passage Data</entityDescription>
+      <physical>
+        <objectName>FISHBIO_RBT_weir_passages_2005_2023.csv</objectName>
+        <size unit="bytes">52637</size>
+        <authentication method="MD5">0200bf425534c4a983fff95f8b45a948</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>passage_date</attributeName>
+          <attributeDefinition>Date when individual was counted as passing</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">38361</minimum>
+                  <maximum exclusive="false">44196</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>passage_time</attributeName>
+          <attributeDefinition>Time when passing fish was recorded</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>passage_direction</attributeName>
+          <attributeDefinition>The direction that a fish moved through the weir</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>up</code>
+                    <definition>Upstream passage</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>down</code>
+                    <definition>Downstream passage</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Species of fish recorded passing the weir</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>rbt</code>
+                    <definition>Rainbow trout/Steelhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no fish</code>
+                    <definition>Counting device was triggered by object that was not a fish</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>body_depth</attributeName>
+          <attributeDefinition>Depth of the body measured at insertion of the dorsal fin</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length_coefficient</attributeName>
+          <attributeDefinition>Emperical coefficient used to estimate fish length</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.01</minimum>
+                  <maximum exclusive="false">10</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_length</attributeName>
+          <attributeDefinition>Estimated total length of fish passing through the weir</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">10000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>life_stage</attributeName>
+          <attributeDefinition>Degree of maturity of recoded fish</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>j</code>
+                    <definition>Juvenile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1+</code>
+                    <definition>Age 1+</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>a</code>
+                    <definition>Adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>k</code>
+                    <definition>Kelt</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>Count of fish passing through the weir</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">-1</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeDefinition>Sex of individual if applicable</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>m</code>
+                    <definition>Male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>Female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>unk</code>
+                    <definition>Sex undetermined</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ad_clip</attributeName>
+          <attributeDefinition>Whether or not the adipose fin has been clipped</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>Adipose fin present, not clipped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>y</code>
+                    <definition>Adipose fin clipped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>unk</code>
+                    <definition>Status of adipose fin unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_condition</attributeName>
+          <attributeDefinition>Condition used to indicate health of passing individual</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>good</code>
+                    <definition>Individual was in good condition upon passage or release</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ab</code>
+                    <definition>Individual had abrasions upon passage or release</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>id_certainty</attributeName>
+          <attributeDefinition>Level of certainty in species identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>p</code>
+                    <definition>Positive identification</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>vl</code>
+                    <definition>Identification very likely</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>l</code>
+                    <definition>Identification likely</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>silhouette_quality</attributeName>
+          <attributeDefinition>Indicator of quality of counting device silhouette based identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>good</code>
+                    <definition>Vaki sillouette clearly shows fish outline</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>fair</code>
+                    <definition>Vaki sillouette partially shows fish outline</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>poor</code>
+                    <definition>Vaki sillouette is very distorted</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>none</code>
+                    <definition>No Vaki sillouette available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>video_quality</attributeName>
+          <attributeDefinition>Indicator of quality of video image used for identification</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>good</code>
+                    <definition>Video image clear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>fair</code>
+                    <definition>Video image partially obscured or low light</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>poor</code>
+                    <definition>Video image cloud and obscured or insufficient light</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>none</code>
+                    <definition>No video image available</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>video_problems</attributeName>
+          <attributeDefinition>Indicator of problems with video monitoring</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>db</code>
+                    <definition>Debris obscuring the frame</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>em</code>
+                    <definition>Equipment malfunctioning</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mp</code>
+                    <definition>Multiple individuals passing at the same time</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>n/a</code>
+                    <definition>Not applicable, no problem</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>No passage in frame</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>or</code>
+                    <definition>Orientation of frame is misaligned</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ss</code>
+                    <definition>Split screen problem</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>tb</code>
+                    <definition>Turbidity obscuring the frame</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vaki_trap</attributeName>
+          <attributeDefinition>Whether individual was counted using counting device, trap, or temporary video</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Whether individual was counted using counting device, trap, or temporary video</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeDefinition>Any additional comments describing the passage record</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any additional comments describing the passage record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>588</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>FISHBIO_PIT_tag_detections_2021_2023.csv</entityName>
+      <entityDescription>Pit Tag Detections</entityDescription>
+      <physical>
+        <objectName>FISHBIO_PIT_tag_detections_2021_2023.csv</objectName>
+        <size unit="bytes">395</size>
+        <authentication method="MD5">5758016a9fb295a0fd9565d34f7d8b60</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of PIT tag detection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">44650</minimum>
+                  <maximum exclusive="false">44656</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Time of PIT tag detection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pit_number</attributeName>
+          <attributeDefinition>PIT tag number detected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>PIT tag number detected</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>detected_on_multiple_days</attributeName>
+          <attributeDefinition>If species detected on multiple days</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>If species detected on multiple days</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>If species detected on multiple days</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag_source</attributeName>
+          <attributeDefinition>Source of origional tag</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Source of origional tag</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Species of fish recorded passing the weir</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>rbt</code>
+                    <definition>Rainbow trout/Steelhead</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no fish</code>
+                    <definition>Counting device was triggered by object that was not a fish</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>tag_date</attributeName>
+          <attributeDefinition>date that tag was applied to fish</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">44550</minimum>
+                  <maximum exclusive="false">44550</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_code</attributeName>
+          <attributeDefinition>unique fish code of each tagged fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique fish code of each tagged fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>length_when_tagged</attributeName>
+          <attributeDefinition>length of fish when tag was applied</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">480</minimum>
+                  <maximum exclusive="false">480</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments</attributeName>
+          <attributeDefinition>Any additional comments describing the passage record</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any additional comments describing the passage record</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>3</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>FISHBIO_trapping_2023.csv</entityName>
+      <entityDescription>Fish Trapping Info</entityDescription>
+      <physical>
+        <objectName>FISHBIO_trapping_2023.csv</objectName>
+        <size unit="bytes">1011</size>
+        <authentication method="MD5">42a0867aa5848750c30e6f8878021f11</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>station</attributeName>
+          <attributeDefinition>Station identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Station identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date when individual was captured</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">44543</minimum>
+                  <maximum exclusive="false">44550</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>time</attributeName>
+          <attributeDefinition>Time when trap was checked</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">21:30:00 PM</minimum>
+                  <maximum exclusive="false">0.3438</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Species of captured fish</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species of captured fish</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>count</attributeName>
+          <attributeDefinition>Count of individuals</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dead</attributeName>
+          <attributeDefinition>Whether or not the fish is dead</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>n</code>
+                    <definition>Whether a fish is dead</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sex</attributeName>
+          <attributeDefinition>Sex of individual if applicable</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>m</code>
+                    <definition>Male</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>f</code>
+                    <definition>Female</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>unk</code>
+                    <definition>Sex undetermined</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fork_length</attributeName>
+          <attributeDefinition>Body length from tip of snout to fork of caudal fin</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">100000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>total_length</attributeName>
+          <attributeDefinition>Body length from tip of snout to tip of caudal fin</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">100000000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Body depth as measured by a biologist or technician (which may be used to define the custom length coefficient to estimate fish length from the body depth measurement collected by the VAKI infrared scanner)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ratio</attributeName>
+          <attributeDefinition>Total length to body depth ratio</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1000</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>lifestage</attributeName>
+          <attributeDefinition>Degree of maturity of captured fish</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>j</code>
+                    <definition>Juvenile</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1+</code>
+                    <definition>Age 1+</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>a</code>
+                    <definition>Adult</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>k</code>
+                    <definition>Kelt</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ad_clip</attributeName>
+          <attributeDefinition>Whether or not the adipose fin has been clipped</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Adipose fin present, not clipped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Adipose fin clipped</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>unk</code>
+                    <definition>Status of adipose fin unknown</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>scales</attributeName>
+          <attributeDefinition>Indicator if scale sample was collected from individual</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Scale sample collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Scale sample NOT collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>genetic</attributeName>
+          <attributeDefinition>Indicator if genetic sample was collected from individual</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Genetic sample collected</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Genetic sample NOT collected</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>recapture</attributeName>
+          <attributeDefinition>Indicator of whether or not individual was already tagged</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Individual already possess a PIT tag</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>Individual did not already possess a PIT tag</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fish_condition</attributeName>
+          <attributeDefinition>Condition used to indicate health of individual on release</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>good</code>
+                    <definition>Individual was in good condition upon passage or release</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_number</attributeName>
+          <attributeDefinition>Unique sample number assigned to collected scale and tissue samples</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique sample number assigned to collected scale and tissue samples</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>life_history</attributeName>
+          <attributeDefinition>Life history of the sampled fish, as determined by the biologist or technician, if unambiguous.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Life history of the sampled fish, as determined by the biologist or technician, if unambiguous.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weight</attributeName>
+          <attributeDefinition>Wet weight of captured fish</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>pound</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.5</minimum>
+                  <maximum exclusive="false">2.66</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>floy_tag</attributeName>
+          <attributeDefinition>Unique floy tag number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique floy tag number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>pit_tag</attributeName>
+          <attributeDefinition>Unique pit tag number</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique pit tag number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>7</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>FISHBIO_Weir_operations_log_2021_2023.csv</entityName>
+      <entityDescription>Weir Operations</entityDescription>
+      <physical>
+        <objectName>FISHBIO_Weir_operations_log_2021_2023.csv</objectName>
+        <size unit="bytes">109044</size>
+        <authentication method="MD5">e45c482de8c1a4eb1c974243e925be6f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>station</attributeName>
+          <attributeDefinition>Station identifier</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Station identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_date</attributeName>
+          <attributeDefinition>Date</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">44447</minimum>
+                  <maximum exclusive="false">44704</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_time</attributeName>
+          <attributeDefinition>Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.9896</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>water_temperature</attributeName>
+          <attributeDefinition>Water Temperature in Degrees F</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>fahrenheit</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">45</minimum>
+                  <maximum exclusive="false">65.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>number_of_submerged_panels</attributeName>
+          <attributeDefinition>Number of weir panels overtopped</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <customUnit>panels</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">34</maximum>
+                </bounds>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>reset_restart_comp</attributeName>
+          <attributeDefinition>Time of computer reset/restart. The computer is rebooted after data download during most weir checks to clear the cache and prevent malfunction.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>weather</attributeName>
+          <attributeDefinition>Weather conditions</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>clr</code>
+                    <definition>Clear</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>cld</code>
+                    <definition>Cloudy</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>nit</code>
+                    <definition>Night</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ran</code>
+                    <definition>Raining</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>fog</code>
+                    <definition>Foggy</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>stream_gauge</attributeName>
+          <attributeDefinition>Water level, in feet, at the weir stream gage</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>foot</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.8</minimum>
+                  <maximum exclusive="false">5.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>turbidity</attributeName>
+          <attributeDefinition>Instantaneous Turbidity in NTU</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>NTU</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.41</minimum>
+                  <maximum exclusive="false">105</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>battery_voltage</attributeName>
+          <attributeDefinition>Electronics Battery Voltage</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>volt</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.9</minimum>
+                  <maximum exclusive="false">9.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>dissolved_oxygen</attributeName>
+          <attributeDefinition>Instantaneous Dissolved Oxygen in mg/l</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">8.59</minimum>
+                  <maximum exclusive="false">12.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>velocity_upstream</attributeName>
+          <attributeDefinition>Instantaneous Current Velocity in Feet per Second Upstream of the Trap Box</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>feetPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.3</minimum>
+                  <maximum exclusive="false">4.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>velocity_downstream</attributeName>
+          <attributeDefinition>Instantaneous Current Velocity in Feet per Second Downstream of the Trap Box</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>feetPerSecond</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">3.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>conductivity</attributeName>
+          <attributeDefinition>Instantaneous Conductivity in microsiemens per centimeter</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>microsiemensPerCentimeter</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">35.5</minimum>
+                  <maximum exclusive="false">163.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>solar_voltage</attributeName>
+          <attributeDefinition>Solar System Voltage</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Solar System Voltage</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fyke_closed</attributeName>
+          <attributeDefinition>Time of Fyke Closing</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0.1458</minimum>
+                  <maximum exclusive="false">0.9792</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>fyke_open</attributeName>
+          <attributeDefinition>Time of Fyke Opening</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0.1562</minimum>
+                  <maximum exclusive="false">0.9896</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>downstream_livebox_installed</attributeName>
+          <attributeDefinition>Presence of Downstream Livebox</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>No</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>vaki</attributeName>
+          <attributeDefinition>Operational Status of VAKI Riverwatcher</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>No</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>barrels</attributeName>
+          <attributeDefinition>Barrels installed on Weir for Additional Floatation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>No</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>crew_initials</attributeName>
+          <attributeDefinition>The sampling crew initials</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The sampling crew initials</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>comments1</attributeName>
+          <attributeDefinition>Comments about sampling</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments about sampling</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_closed</attributeName>
+          <attributeDefinition>Time the trap door was closed, meaning the weir is actively trapping</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0.0312</minimum>
+                  <maximum exclusive="false">0.8438</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trap_open</attributeName>
+          <attributeDefinition>Time the trap door was open, meaming the volitional passage past the weir was possible (only camera monitoring)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+              <dateTimePrecision>hh:mm:ss</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">0.9965</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>trapping</attributeName>
+          <attributeDefinition>Indicator of trap operation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>yes</code>
+                    <definition>Yes</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>no</code>
+                    <definition>No</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>793</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>FISHBIO_Pit_operations_log_2021_2023.csv</entityName>
+      <entityDescription>Pit Operations</entityDescription>
+      <physical>
+        <objectName>FISHBIO_Pit_operations_log_2021_2023.csv</objectName>
+        <size unit="bytes">2819</size>
+        <authentication method="MD5">b955a151b16d15cff5df545e7bd31a9a</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download"/>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>date</attributeName>
+          <attributeDefinition>Date of operation action</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>YYYY-MM-DD</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2021-09-09</minimum>
+                  <maximum exclusive="false">2022-05-03</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>operational_mode</attributeName>
+          <attributeDefinition>Operation action</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Operation action</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>description</attributeName>
+          <attributeDefinition>Comments describing nature of operation action</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comments describing nature of operation action</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>38</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="panels" name="panels" unitType="dimensionless">
+          <description>number of panels</description>
+        </unit>
+        <unit id="NTU" name="NTU" unitType="dimensionless">
+          <description>Nephlometric Turbidity Unit</description>
+        </unit>
+        <unit id="microsiemensPerCentimeter" name="microsiemensPerCentimeter" unitType="density">
+          <description>Unit of electric conductivity</description>
+        </unit>
+        <unit id="millimeter" name="millimeter" unitType="dimensionless">
+          <description>TODO weight of fish</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

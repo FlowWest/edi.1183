@@ -14,11 +14,11 @@ names(metadata) <- sheets
 abstract_docx <- "data-raw/FISHBIO_submission/FISHBIO_abstract.docx"
 methods_docx <- "data-raw/FISHBIO_submission/FISHBIO_methods.docx"
 
-datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_2022.csv",
-                                         "data/FISHBIO_PIT_tag_detections_2021_2022.csv",
-                                          "data/FISHBIO_trapping_2021.csv",
-                                          "data/FISHBIO_Weir_operations_log_2021_2022.csv",
-                                         "data/FISHBIO_Pit_operations_log_2021_2022.csv"
+datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_2023.csv",
+                                         "data/FISHBIO_PIT_tag_detections_2021_2023.csv",
+                                          "data/FISHBIO_trapping_2023.csv",
+                                          "data/FISHBIO_Weir_operations_log_2021_2023.csv",
+                                         "data/FISHBIO_Pit_operations_log_2021_2023.csv"
                                          ),
                            attribute_info = c("data-raw/FISHBIO_submission/FISHBIO_passage_metadata.xlsx",
                                               "data-raw/FISHBIO_submission/FISHBIO_PIT_detection_metadata.xlsx",
@@ -47,7 +47,7 @@ datatable_metadata <- list(filepath =  c("data/FISHBIO_RBT_weir_passages_2005_20
 #                password = Sys.getenv("edi_password"),
 #                environment = "production") # when ready to post change to production
 
-edi_number <- "edi.1183.1"
+edi_number <- "edi.1183.2"
 
 # Create dataset list and pipe on metadata elements ----------------------------
 dataset <- list() %>%
@@ -85,12 +85,12 @@ eml <- list(packageId = edi_number,
 
 edi_number
 # Write and validate EML
-EML::write_eml(eml, "edi.1183.1.xml")
-EML::eml_validate("edi.1183.1.xml")
+EML::write_eml(eml, "edi.1183.2.xml")
+EML::eml_validate("edi.1183.2.xml")
 
 evaluate_edi_package(user_id = Sys.getenv("edi_user_id"),
                      password = Sys.getenv("edi_password"),
-                     eml_file_path = "edi.1183.1.xml",
+                     eml_file_path = "edi.1183.2.xml",
                      environment = "staging")
 
 update_edi_package(user_id = Sys.getenv("edi_user_id"),

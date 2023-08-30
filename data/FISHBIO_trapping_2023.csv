@@ -1,0 +1,8 @@
+station,date,time,species,count,dead,sex,fork_length,total_length,depth,ratio,lifestage,ad_clip,scales,genetic,recapture,fish_condition,sample_number,life_history,weight,floy_tag,pit_tag
+st031u,2021-12-13,21:30:00,rbt,1,n,f,470,480,120,4,a,yes,yes,yes,no,good,weir-2021-5,NA,2.5,floy tag #001,pit tag #982091062594309
+st031u,2021-12-20,08:15:00,rbt,1,n,m,480,495,105,4.7,a,yes,yes,yes,no,good,weir-2021-6,NA,2.6,floy tag #002,pit tag #982091062594274
+st031u,2022-12-05,12:00:00,rbt,1,n,m,695,705,165,4.3,a,yes,yes,yes,no,good,weir-2022-1,NA,3.64,floy tag #004,NA
+st031u,2023-01-22,07:30:00,rbt,1,n,f,690,720,170,4.2,a,yes,yes,yes,no,good,weir-2022-2,NA,3.44,floy tag #006,NA
+st031u,2023-02-02,07:30:00,rbt,1,n,f,665,698,165,4.2,a,yes,yes,yes,no,fair,weir-2022-3,NA,3.02,floy tag #007,NA
+st031u,2023-03-05,07:30:00,rbt,1,n,m,720,755,175,4.3,a,yes,yes,yes,no,good,weir-2022-4,NA,3.86,floy tag #009,NA
+st031u,2023-03-05,07:30:00,rbt,1,n,m,675,705,150,4.7,a,yes,yes,yes,no,good,weir-2022-5,NA,2.75,floy tag #010,NA
